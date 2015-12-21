@@ -1,0 +1,23 @@
+{
+  "name": "particles",
+  "version": "1.0.0",
+  "homepage": "https://github.com/PressLabs/particles",
+  "authors": [
+    "Presslabs <ping@presslabs.com>"
+  ],
+  "description": "Icons set",
+  "main": "bower.json",
+  "moduleType": [],
+  "keywords": [
+    "icons",
+    "font"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
