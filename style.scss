@@ -1,19 +1,19 @@
 @import "variables";
 
 @font-face {
-    font-family: 'Presslabs-Particles-V42';
-    src:    url('#{$icomoon-font-path}/Presslabs-Particles-V42.eot?rkbhr');
-    src:    url('#{$icomoon-font-path}/Presslabs-Particles-V42.eot?rkbhr#iefix') format('embedded-opentype'),
-        url('#{$icomoon-font-path}/Presslabs-Particles-V42.ttf?rkbhr') format('truetype'),
-        url('#{$icomoon-font-path}/Presslabs-Particles-V42.woff?rkbhr') format('woff'),
-        url('#{$icomoon-font-path}/Presslabs-Particles-V42.svg?rkbhr#Presslabs-Particles-V42') format('svg');
+    font-family: 'Presslabs-Particles';
+    src:    url('#{$icomoon-font-path}/Presslabs-Particles.eot?hubb84');
+    src:    url('#{$icomoon-font-path}/Presslabs-Particles.eot?hubb84#iefix') format('embedded-opentype'),
+        url('#{$icomoon-font-path}/Presslabs-Particles.ttf?hubb84') format('truetype'),
+        url('#{$icomoon-font-path}/Presslabs-Particles.woff?hubb84') format('woff'),
+        url('#{$icomoon-font-path}/Presslabs-Particles.svg?hubb84#Presslabs-Particles') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 .icon {
     /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'Presslabs-Particles-V42' !important;
+    font-family: 'Presslabs-Particles' !important;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -35,1059 +35,1074 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.pl-arrow-up {
+.24h {
     &:before {
-        content: $pl-arrow-up;
+        content: $24h;
     }
 }
-.pl-arrow-ne {
+.Zipa {
     &:before {
-        content: $pl-arrow-ne;
+        content: $Zipa;
     }
 }
-.pl-arrow-right {
+.admin {
     &:before {
-        content: $pl-arrow-right;
+        content: $admin;
     }
 }
-.pl-arrow-se {
+.agenda {
     &:before {
-        content: $pl-arrow-se;
+        content: $agenda;
     }
 }
-.pl-arrow-down {
+.america {
     &:before {
-        content: $pl-arrow-down;
+        content: $america;
     }
 }
-.pl-arrow-sw {
+.antenna {
     &:before {
-        content: $pl-arrow-sw;
+        content: $antenna;
     }
 }
-.pl-arrow-left {
+.arrow {
     &:before {
-        content: $pl-arrow-left;
+        content: $arrow;
     }
 }
-.pl-arrow-nw {
+.arrow-down {
     &:before {
-        content: $pl-arrow-nw;
+        content: $arrow-down;
     }
 }
-.pl-return {
+.arrow-left {
     &:before {
-        content: $pl-return;
+        content: $arrow-left;
     }
 }
-.pl-concentric {
+.arrow-ne {
     &:before {
-        content: $pl-concentric;
+        content: $arrow-ne;
     }
 }
-.pl-eccentric {
+.arrow-nw {
     &:before {
-        content: $pl-eccentric;
+        content: $arrow-nw;
     }
 }
-.pl-cicle {
+.arrow-right {
     &:before {
-        content: $pl-cicle;
+        content: $arrow-right;
     }
 }
-.pl-contract {
+.arrow-se {
     &:before {
-        content: $pl-contract;
+        content: $arrow-se;
     }
 }
-.pl-expand {
+.arrow-sw {
     &:before {
-        content: $pl-expand;
+        content: $arrow-sw;
     }
 }
-.pl-meeting {
+.arrow-up {
     &:before {
-        content: $pl-meeting;
+        content: $arrow-up;
     }
 }
-.pl-departing {
+.asia {
     &:before {
-        content: $pl-departing;
+        content: $asia;
     }
 }
-.pl-pointer {
+.at {
     &:before {
-        content: $pl-pointer;
+        content: $at;
     }
 }
-.pl-arrow {
+.autover {
     &:before {
-        content: $pl-arrow;
+        content: $autover;
     }
 }
-.pl-right {
+.bill {
     &:before {
-        content: $pl-right;
+        content: $bill;
     }
 }
-.pl-down {
+.bin {
     &:before {
-        content: $pl-down;
+        content: $bin;
     }
 }
-.pl-left {
+.board {
     &:before {
-        content: $pl-left;
+        content: $board;
     }
 }
-.pl-up {
+.book {
     &:before {
-        content: $pl-up;
+        content: $book;
     }
 }
-.pl-rewind {
+.bookmark {
     &:before {
-        content: $pl-rewind;
+        content: $bookmark;
     }
 }
-.pl-forward {
+.boss {
     &:before {
-        content: $pl-forward;
+        content: $boss;
     }
 }
-.pl-pause {
+.box {
     &:before {
-        content: $pl-pause;
+        content: $box;
     }
 }
-.pl-stop {
+.branch {
     &:before {
-        content: $pl-stop;
+        content: $branch;
     }
 }
-.pl-rec {
+.breifcase {
     &:before {
-        content: $pl-rec;
+        content: $breifcase;
     }
 }
-.pl-plus {
+.bug {
     &:before {
-        content: $pl-plus;
+        content: $bug;
     }
 }
-.pl-minus {
+.bulb {
     &:before {
-        content: $pl-minus;
+        content: $bulb;
     }
 }
-.pl-times {
+.bullseye {
     &:before {
-        content: $pl-times;
+        content: $bullseye;
     }
 }
-.pl-divide {
+.buoy {
     &:before {
-        content: $pl-divide;
+        content: $buoy;
     }
 }
-.pl-equal {
+.calculator {
     &:before {
-        content: $pl-equal;
+        content: $calculator;
     }
 }
-.pl-calculator {
+.calendar {
     &:before {
-        content: $pl-calculator;
+        content: $calendar;
     }
 }
-.pl-curve {
+.camera {
     &:before {
-        content: $pl-curve;
+        content: $camera;
     }
 }
-.pl-graphic {
+.card {
     &:before {
-        content: $pl-graphic;
+        content: $card;
     }
 }
-.pl-pie {
+.caret {
     &:before {
-        content: $pl-pie;
+        content: $caret;
     }
 }
-.pl-upload {
+.cart {
     &:before {
-        content: $pl-upload;
+        content: $cart;
     }
 }
-.pl-upload2 {
+.caution {
     &:before {
-        content: $pl-upload2;
+        content: $caution;
     }
 }
-.pl-download {
+.cc {
     &:before {
-        content: $pl-download;
+        content: $cc;
     }
 }
-.pl-download2 {
+.cd {
     &:before {
-        content: $pl-download2;
+        content: $cd;
     }
 }
-.pl-login {
+.cdn {
     &:before {
-        content: $pl-login;
+        content: $cdn;
     }
 }
-.pl-logout {
+.check {
     &:before {
-        content: $pl-logout;
+        content: $check;
     }
 }
-.pl-mark {
+.chip {
     &:before {
-        content: $pl-mark;
+        content: $chip;
     }
 }
-.pl-validate {
+.cicle {
     &:before {
-        content: $pl-validate;
+        content: $cicle;
     }
 }
-.pl-deny {
+.clone {
     &:before {
-        content: $pl-deny;
+        content: $clone;
     }
 }
-.pl-edit {
+.close {
     &:before {
-        content: $pl-edit;
+        content: $close;
     }
 }
-.pl-write {
+.cloud {
     &:before {
-        content: $pl-write;
+        content: $cloud;
     }
 }
-.pl-look {
+.code {
     &:before {
-        content: $pl-look;
+        content: $code;
     }
 }
-.pl-time {
+.code2 {
     &:before {
-        content: $pl-time;
+        content: $code2;
     }
 }
-.pl-search {
+.code3 {
     &:before {
-        content: $pl-search;
+        content: $code3;
     }
 }
-.pl-zoom-in {
+.coffee {
     &:before {
-        content: $pl-zoom-in;
+        content: $coffee;
     }
 }
-.pl-zoom-out {
+.comment {
     &:before {
-        content: $pl-zoom-out;
+        content: $comment;
     }
 }
-.pl-bullseye {
+.comment-empty {
     &:before {
-        content: $pl-bullseye;
+        content: $comment-empty;
     }
 }
-.pl-forbidden {
+.concentric {
     &:before {
-        content: $pl-forbidden;
+        content: $concentric;
     }
 }
-.pl-info {
+.contract {
     &:before {
-        content: $pl-info;
+        content: $contract;
     }
 }
-.pl-caution {
+.creditcard {
     &:before {
-        content: $pl-caution;
+        content: $creditcard;
     }
 }
-.pl-question {
+.curve {
     &:before {
-        content: $pl-question;
+        content: $curve;
     }
 }
-.pl-check {
+.denied {
     &:before {
-        content: $pl-check;
+        content: $denied;
     }
 }
-.pl-denied {
+.deny {
     &:before {
-        content: $pl-denied;
+        content: $deny;
     }
 }
-.pl-users {
+.departing {
     &:before {
-        content: $pl-users;
+        content: $departing;
     }
 }
-.pl-user {
+.diamond {
     &:before {
-        content: $pl-user;
+        content: $diamond;
     }
 }
-.pl-employee {
+.disk {
     &:before {
-        content: $pl-employee;
+        content: $disk;
     }
 }
-.pl-boss {
+.disk2 {
     &:before {
-        content: $pl-boss;
+        content: $disk2;
     }
 }
-.pl-admin {
+.dislike {
     &:before {
-        content: $pl-admin;
+        content: $dislike;
     }
 }
-.pl-heart {
+.divide {
     &:before {
-        content: $pl-heart;
+        content: $divide;
     }
 }
-.pl-heart-full {
+.down {
     &:before {
-        content: $pl-heart-full;
+        content: $down;
     }
 }
-.pl-star {
+.download {
     &:before {
-        content: $pl-star;
+        content: $download;
     }
 }
-.pl-star-full {
+.download2 {
     &:before {
-        content: $pl-star-full;
+        content: $download2;
     }
 }
-.pl-book {
+.eccentric {
     &:before {
-        content: $pl-book;
+        content: $eccentric;
     }
 }
-.pl-bookmark {
+.edit {
     &:before {
-        content: $pl-bookmark;
+        content: $edit;
     }
 }
-.pl-calendar {
+.ehternet-socket {
     &:before {
-        content: $pl-calendar;
+        content: $ehternet-socket;
     }
 }
-.pl-power-plug {
+.employee {
     &:before {
-        content: $pl-power-plug;
+        content: $employee;
     }
 }
-.pl-power-socket {
+.envelope {
     &:before {
-        content: $pl-power-socket;
+        content: $envelope;
     }
 }
-.pl-ethernet-plug {
+.envelope-open {
     &:before {
-        content: $pl-ethernet-plug;
+        content: $envelope-open;
     }
 }
-.pl-ehternet-socket {
+.equal {
     &:before {
-        content: $pl-ehternet-socket;
+        content: $equal;
     }
 }
-.pl-usb-plug {
+.ethernet-plug {
     &:before {
-        content: $pl-usb-plug;
+        content: $ethernet-plug;
     }
 }
-.pl-usb-socket {
+.europe {
     &:before {
-        content: $pl-usb-socket;
+        content: $europe;
     }
 }
-.pl-media {
+.exclamation {
     &:before {
-        content: $pl-media;
+        content: $exclamation;
     }
 }
-.pl-image {
+.expand {
     &:before {
-        content: $pl-image;
+        content: $expand;
     }
 }
-.pl-camera {
+.facebook {
     &:before {
-        content: $pl-camera;
+        content: $facebook;
     }
 }
-.pl-music {
+.facebook-full {
     &:before {
-        content: $pl-music;
+        content: $facebook-full;
     }
 }
-.pl-phones {
+.facebook-hair {
     &:before {
-        content: $pl-phones;
+        content: $facebook-hair;
     }
 }
-.pl-speaker {
+.file {
     &:before {
-        content: $pl-speaker;
+        content: $file;
     }
 }
-.pl-cd {
+.folder {
     &:before {
-        content: $pl-cd;
+        content: $folder;
     }
 }
-.pl-glasses {
+.forbidden {
     &:before {
-        content: $pl-glasses;
+        content: $forbidden;
     }
 }
-.pl-coffee {
+.forward {
     &:before {
-        content: $pl-coffee;
+        content: $forward;
     }
 }
-.pl-suitcase {
+.gauge {
     &:before {
-        content: $pl-suitcase;
+        content: $gauge;
     }
 }
-.pl-breifcase {
+.gears {
     &:before {
-        content: $pl-breifcase;
+        content: $gears;
     }
 }
-.pl-map {
+.git {
     &:before {
-        content: $pl-map;
+        content: $git;
     }
 }
-.pl-key {
+.gitfs {
     &:before {
-        content: $pl-key;
+        content: $gitfs;
     }
 }
-.pl-shirt {
+.github {
     &:before {
-        content: $pl-shirt;
+        content: $github;
     }
 }
-.pl-bin {
+.gitium {
     &:before {
-        content: $pl-bin;
+        content: $gitium;
     }
 }
-.pl-disk {
+.glasses {
     &:before {
-        content: $pl-disk;
+        content: $glasses;
     }
 }
-.pl-disk2 {
+.globe {
     &:before {
-        content: $pl-disk2;
+        content: $globe;
     }
 }
-.pl-diamond {
+.globestand {
     &:before {
-        content: $pl-diamond;
+        content: $globestand;
     }
 }
-.pl-cloud {
+.google {
     &:before {
-        content: $pl-cloud;
+        content: $google;
     }
 }
-.pl-layout {
+.google-full {
     &:before {
-        content: $pl-layout;
+        content: $google-full;
     }
 }
-.pl-bulb {
+.google-hair {
     &:before {
-        content: $pl-bulb;
+        content: $google-hair;
     }
 }
-.pl-gauge {
+.graphic {
     &:before {
-        content: $pl-gauge;
+        content: $graphic;
     }
 }
-.pl-home {
+.headset {
     &:before {
-        content: $pl-home;
+        content: $headset;
     }
 }
-.pl-impulse {
+.heart {
     &:before {
-        content: $pl-impulse;
+        content: $heart;
     }
 }
-.pl-keyboard {
+.heart-full {
     &:before {
-        content: $pl-keyboard;
+        content: $heart-full;
     }
 }
-.pl-mouse {
+.home {
     &:before {
-        content: $pl-mouse;
+        content: $home;
     }
 }
-.pl-laptop {
+.image {
     &:before {
-        content: $pl-laptop;
+        content: $image;
     }
 }
-.pl-mobile {
+.impulse {
     &:before {
-        content: $pl-mobile;
+        content: $impulse;
     }
 }
-.pl-tablet {
+.info {
     &:before {
-        content: $pl-tablet;
+        content: $info;
     }
 }
-.pl-lock {
+.key {
     &:before {
-        content: $pl-lock;
+        content: $key;
     }
 }
-.pl-lock-open {
+.keyboard {
     &:before {
-        content: $pl-lock-open;
+        content: $keyboard;
     }
 }
-.pl-migration {
+.laptop {
     &:before {
-        content: $pl-migration;
+        content: $laptop;
     }
 }
-.pl-folder {
+.layout {
     &:before {
-        content: $pl-folder;
+        content: $layout;
     }
 }
-.pl-box {
+.left {
     &:before {
-        content: $pl-box;
+        content: $left;
     }
 }
-.pl-ribbon {
+.lighthouse {
     &:before {
-        content: $pl-ribbon;
+        content: $lighthouse;
     }
 }
-.pl-ruler {
+.like {
     &:before {
-        content: $pl-ruler;
+        content: $like;
     }
 }
-.pl-gears {
+.link {
     &:before {
-        content: $pl-gears;
+        content: $link;
     }
 }
-.pl-wrench {
+.link-broken {
     &:before {
-        content: $pl-wrench;
+        content: $link-broken;
     }
 }
-.pl-settings {
+.lock {
     &:before {
-        content: $pl-settings;
+        content: $lock;
     }
 }
-.pl-shield {
+.lock-open {
     &:before {
-        content: $pl-shield;
+        content: $lock-open;
     }
 }
-.pl-shield-deny {
+.login {
     &:before {
-        content: $pl-shield-deny;
+        content: $login;
     }
 }
-.pl-shield-checker {
+.logout {
     &:before {
-        content: $pl-shield-checker;
+        content: $logout;
     }
 }
-.pl-safe {
+.look {
     &:before {
-        content: $pl-safe;
+        content: $look;
     }
 }
-.pl-traffic {
+.map {
     &:before {
-        content: $pl-traffic;
+        content: $map;
     }
 }
-.pl-watch {
+.mapping {
     &:before {
-        content: $pl-watch;
+        content: $mapping;
     }
 }
-.pl-wifi {
+.mark {
     &:before {
-        content: $pl-wifi;
+        content: $mark;
     }
 }
-.pl-antenna {
+.media {
     &:before {
-        content: $pl-antenna;
+        content: $media;
     }
 }
-.pl-network {
+.meeting {
     &:before {
-        content: $pl-network;
+        content: $meeting;
     }
 }
-.pl-serving {
+.merge {
     &:before {
-        content: $pl-serving;
+        content: $merge;
     }
 }
-.pl-globestand {
+.migration {
     &:before {
-        content: $pl-globestand;
+        content: $migration;
     }
 }
-.pl-globe {
+.minus {
     &:before {
-        content: $pl-globe;
+        content: $minus;
     }
 }
-.pl-america {
+.mobile {
     &:before {
-        content: $pl-america;
+        content: $mobile;
     }
 }
-.pl-asia {
+.mouse {
     &:before {
-        content: $pl-asia;
+        content: $mouse;
     }
 }
-.pl-europe {
+.music {
     &:before {
-        content: $pl-europe;
+        content: $music;
     }
 }
-.pl-at {
+.net {
     &:before {
-        content: $pl-at;
+        content: $net;
     }
 }
-.pl-envelope {
+.network {
     &:before {
-        content: $pl-envelope;
+        content: $network;
     }
 }
-.pl-envelope-open {
+.paragraph {
     &:before {
-        content: $pl-envelope-open;
+        content: $paragraph;
     }
 }
-.pl-card {
+.pause {
     &:before {
-        content: $pl-card;
+        content: $pause;
     }
 }
-.pl-link {
+.pen {
     &:before {
-        content: $pl-link;
+        content: $pen;
     }
 }
-.pl-link-broken {
+.phone {
     &:before {
-        content: $pl-link-broken;
+        content: $phone;
     }
 }
-.pl-code {
+.phones {
     &:before {
-        content: $pl-code;
+        content: $phones;
     }
 }
-.pl-code2 {
+.pie {
     &:before {
-        content: $pl-code2;
+        content: $pie;
     }
 }
-.pl-code3 {
+.place {
     &:before {
-        content: $pl-code3;
+        content: $place;
     }
 }
-.pl-bug {
+.plugin {
     &:before {
-        content: $pl-bug;
+        content: $plugin;
     }
 }
-.pl-sheep {
+.plus {
     &:before {
-        content: $pl-sheep;
+        content: $plus;
     }
 }
-.pl-clone {
+.pointer {
     &:before {
-        content: $pl-clone;
+        content: $pointer;
     }
 }
-.pl-merge {
+.power-plug {
     &:before {
-        content: $pl-merge;
+        content: $power-plug;
     }
 }
-.pl-branch {
+.power-socket {
     &:before {
-        content: $pl-branch;
+        content: $power-socket;
     }
 }
-.pl-push {
+.presslabs {
     &:before {
-        content: $pl-push;
+        content: $presslabs;
     }
 }
-.pl-pull {
+.protection {
     &:before {
-        content: $pl-pull;
+        content: $protection;
     }
 }
-.pl-net {
+.pull {
     &:before {
-        content: $pl-net;
+        content: $pull;
     }
 }
-.pl-spike {
+.push {
     &:before {
-        content: $pl-spike;
+        content: $push;
     }
 }
-.pl-cdn {
+.pyolite {
     &:before {
-        content: $pl-cdn;
+        content: $pyolite;
     }
 }
-.pl-stack {
+.python {
     &:before {
-        content: $pl-stack;
+        content: $python;
     }
 }
-.pl-rack {
+.question {
     &:before {
-        content: $pl-rack;
+        content: $question;
     }
 }
-.pl-chip {
+.quotes {
     &:before {
-        content: $pl-chip;
+        content: $quotes;
     }
 }
-.pl-place {
+.rack {
     &:before {
-        content: $pl-place;
+        content: $rack;
     }
 }
-.pl-like {
+.rec {
     &:before {
-        content: $pl-like;
+        content: $rec;
     }
 }
-.pl-dislike {
+.return {
     &:before {
-        content: $pl-dislike;
+        content: $return;
     }
 }
-.pl-facebook-full {
+.rewind {
     &:before {
-        content: $pl-facebook-full;
+        content: $rewind;
     }
 }
-.pl-facebook {
+.ribbon {
     &:before {
-        content: $pl-facebook;
+        content: $ribbon;
     }
 }
-.pl-facebook-hair {
+.right {
     &:before {
-        content: $pl-facebook-hair;
+        content: $right;
     }
 }
-.pl-twitter-full {
+.ruler {
     &:before {
-        content: $pl-twitter-full;
+        content: $ruler;
     }
 }
-.pl-twitter {
+.safe {
     &:before {
-        content: $pl-twitter;
+        content: $safe;
     }
 }
-.pl-twitter-hair {
+.scale {
     &:before {
-        content: $pl-twitter-hair;
+        content: $scale;
     }
 }
-.pl-google-full {
+.search {
     &:before {
-        content: $pl-google-full;
+        content: $search;
     }
 }
-.pl-google {
+.serving {
     &:before {
-        content: $pl-google;
+        content: $serving;
     }
 }
-.pl-google-hair {
+.settings {
     &:before {
-        content: $pl-google-hair;
+        content: $settings;
     }
 }
-.pl-github {
+.sheep {
     &:before {
-        content: $pl-github;
+        content: $sheep;
     }
 }
-.pl-git {
+.shield {
     &:before {
-        content: $pl-git;
+        content: $shield;
     }
 }
-.pl-python {
+.shield-checker {
     &:before {
-        content: $pl-python;
+        content: $shield-checker;
     }
 }
-.pl-tux {
+.shield-deny {
     &:before {
-        content: $pl-tux;
+        content: $shield-deny;
     }
 }
-.pl-wordpress {
+.shield-help {
     &:before {
-        content: $pl-wordpress;
+        content: $shield-help;
     }
 }
-.pl-cc {
+.shirt {
     &:before {
-        content: $pl-cc;
+        content: $shirt;
     }
 }
-.pl-bill {
+.shred {
     &:before {
-        content: $pl-bill;
+        content: $shred;
     }
 }
-.pl-creditcard {
+.silver {
     &:before {
-        content: $pl-creditcard;
+        content: $silver;
     }
 }
-.pl-wallet {
+.speaker {
     &:before {
-        content: $pl-wallet;
+        content: $speaker;
     }
 }
-.pl-cart {
+.spike {
     &:before {
-        content: $pl-cart;
+        content: $spike;
     }
 }
-.pl-ticket {
+.stack {
     &:before {
-        content: $pl-ticket;
+        content: $stack;
     }
 }
-.pl-scale {
+.star {
     &:before {
-        content: $pl-scale;
+        content: $star;
     }
 }
-.pl-quotes {
+.star-full {
     &:before {
-        content: $pl-quotes;
+        content: $star-full;
     }
 }
-.pl-paragraph {
+.stop {
     &:before {
-        content: $pl-paragraph;
+        content: $stop;
     }
 }
-.pl-pen {
+.suitcase {
     &:before {
-        content: $pl-pen;
+        content: $suitcase;
     }
 }
-.pl-writing {
+.tablet {
     &:before {
-        content: $pl-writing;
+        content: $tablet;
     }
 }
-.pl-agenda {
+.tag {
     &:before {
-        content: $pl-agenda;
+        content: $tag;
     }
 }
-.pl-board {
+.text {
     &:before {
-        content: $pl-board;
+        content: $text;
     }
 }
-.pl-comment-empty {
+.theme {
     &:before {
-        content: $pl-comment-empty;
+        content: $theme;
     }
 }
-.pl-comment {
+.themeperuser {
     &:before {
-        content: $pl-comment;
+        content: $themeperuser;
     }
 }
-.pl-file {
+.ticket {
     &:before {
-        content: $pl-file;
+        content: $ticket;
     }
 }
-.pl-text {
+.time {
     &:before {
-        content: $pl-text;
+        content: $time;
     }
 }
-.pl-zip {
+.times {
     &:before {
-        content: $pl-zip;
+        content: $times;
     }
 }
-.pl-shred {
+.toplytics {
     &:before {
-        content: $pl-shred;
+        content: $toplytics;
     }
 }
-.pl-shield-help {
+.traffic {
     &:before {
-        content: $pl-shield-help;
+        content: $traffic;
     }
 }
-.pl-phone {
+.tux {
     &:before {
-        content: $pl-phone;
+        content: $tux;
     }
 }
-.pl-headset {
+.twitter {
     &:before {
-        content: $pl-headset;
+        content: $twitter;
     }
 }
-.pl-24h {
+.twitter-full {
     &:before {
-        content: $pl-24h;
+        content: $twitter-full;
     }
 }
-.pl-lighthouse {
+.twitter-hair {
     &:before {
-        content: $pl-lighthouse;
+        content: $twitter-hair;
     }
 }
-.pl-buoy {
+.up {
     &:before {
-        content: $pl-buoy;
+        content: $up;
     }
 }
-.pl-plugin {
+.upload {
     &:before {
-        content: $pl-plugin;
+        content: $upload;
     }
 }
-.pl-toplytics {
+.upload2 {
     &:before {
-        content: $pl-toplytics;
+        content: $upload2;
     }
 }
-.pl-gitium {
+.usb-plug {
     &:before {
-        content: $pl-gitium;
+        content: $usb-plug;
     }
 }
-.pl-themeperuser {
+.usb-socket {
     &:before {
-        content: $pl-themeperuser;
+        content: $usb-socket;
     }
 }
-.pl-autover {
+.user {
     &:before {
-        content: $pl-autover;
+        content: $user;
     }
 }
-.pl-protection {
+.users {
     &:before {
-        content: $pl-protection;
+        content: $users;
     }
 }
-.pl-theme {
+.utf {
     &:before {
-        content: $pl-theme;
+        content: $utf;
     }
 }
-.pl-mapping {
+.validate {
     &:before {
-        content: $pl-mapping;
+        content: $validate;
     }
 }
-.pl-utf {
+.wallet {
     &:before {
-        content: $pl-utf;
+        content: $wallet;
     }
 }
-.pl-gitfs {
+.watch {
     &:before {
-        content: $pl-gitfs;
+        content: $watch;
     }
 }
-.pl-Zipa {
+.wifi {
     &:before {
-        content: $pl-Zipa;
+        content: $wifi;
     }
 }
-.pl-tag {
+.wordpress {
     &:before {
-        content: $pl-tag;
+        content: $wordpress;
     }
 }
-.pl-silver {
+.wrench {
     &:before {
-        content: $pl-silver;
+        content: $wrench;
     }
 }
-.pl-zsync {
+.write {
     &:before {
-        content: $pl-zsync;
+        content: $write;
     }
 }
-.pl-pyolite {
+.writing {
     &:before {
-        content: $pl-pyolite;
+        content: $writing;
     }
 }
-.pl-presslabs {
+.zip {
     &:before {
-        content: $pl-presslabs;
+        content: $zip;
+    }
+}
+.zoom-in {
+    &:before {
+        content: $zoom-in;
+    }
+}
+.zoom-out {
+    &:before {
+        content: $zoom-out;
+    }
+}
+.zsync {
+    &:before {
+        content: $zsync;
     }
 }
 
