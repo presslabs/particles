@@ -25,13 +25,13 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
-            'z3': '&#xe903;',
-            'github': '&#xe904;',
             'wordpress_full': '&#xe905;',
             'wordpress_hair': '&#xe906;',
             'wordpress': '&#xe907;',
+            'github_full': '&#xe909;',
+            'z3': '&#xe903;',
+            'github': '&#xe904;',
             'github_hair': '&#xe908;',
-            'github-hair': '&#xe909;',
             'play': '&#xe90a;',
             'eu_flag': '&#xe90b;',
             'eu': '&#xe90c;',
