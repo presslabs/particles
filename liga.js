@@ -25,6 +25,16 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'z3': '&#xe903;',
+            'github': '&#xe904;',
+            'wordpress_full': '&#xe905;',
+            'wordpress_hair': '&#xe906;',
+            'wordpress': '&#xe907;',
+            'github_hair': '&#xe908;',
+            'github-hair': '&#xe909;',
+            'play': '&#xe90a;',
+            'eu_flag': '&#xe90b;',
+            'eu': '&#xe90c;',
             '24h': '&#xe6c0;',
             'zipa': '&#xe6cd;',
             'admin': '&#xe63f;',
@@ -115,7 +125,7 @@
             'gears': '&#xe671;',
             'git': '&#xe6a6;',
             'gitfs': '&#xe6cc;',
-            'github': '&#xe6a5;',
+            'github_logo': '&#xe6a5;',
             'gitium': '&#xe6c5;',
             'glasses': '&#xe654;',
             'globe': '&#xe67f;',
@@ -231,7 +241,7 @@
             'wallet': '&#xe6ad;',
             'watch': '&#xe679;',
             'wifi': '&#xe67a;',
-            'wordpress': '&#xe6a9;',
+            'wordpress_logo': '&#xe6a9;',
             'wrench': '&#xe672;',
             'write': '&#xe62e;',
             'writing': '&#xe6b4;',
@@ -258,7 +268,7 @@
                     break;
                 }
                 classes = el.className;
-                if (/icon/.test(classes)) {
+                if (/icon-/.test(classes)) {
                     innerHTML = el.innerHTML;
                     if (innerHTML && innerHTML.length > 1) {
                         for (key in icons) {
