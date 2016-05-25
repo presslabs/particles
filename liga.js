@@ -25,6 +25,7 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'pingdownload': '&#xe90e;',
             'instagram': '&#xe90d;',
             'wordpress_full': '&#xe905;',
             'wordpress_hair': '&#xe906;',
