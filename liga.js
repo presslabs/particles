@@ -25,6 +25,10 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'ram': '&#xe912;',
+            'puzzle1': '&#xe910;',
+            'puzzle2': '&#xe911;',
+            'broadcast': '&#xe90f;',
             'pingdownload': '&#xe90e;',
             'instagram': '&#xe90d;',
             'wordpress_full': '&#xe905;',
