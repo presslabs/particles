@@ -25,6 +25,21 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'superadmin': '&#xe927;',
+            'owner': '&#xe91e;',
+            'dev': '&#xe926;',
+            'add': '&#xe91a;',
+            'add2': '&#xe91b;',
+            'backup': '&#xe91c;',
+            'carrot': '&#xe91d;',
+            'cod': '&#xe935;',
+            'certificate': '&#xe919;',
+            'aid': '&#xe918;',
+            'alarm': '&#xe917;',
+            'sd': '&#xe913;',
+            'compass': '&#xe914;',
+            'lego': '&#xe915;',
+            'atom': '&#xe916;',
             'ram': '&#xe912;',
             'puzzle1': '&#xe910;',
             'puzzle2': '&#xe911;',
