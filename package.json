@@ -1,0 +1,24 @@
+{
+  "name": "presslabs-particles-icons",
+  "version": "1.0.0",
+  "description": "A set of SVG Icons from Presslabs to use with web apps",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PressLabs/particles.git"
+  },
+  "keywords": [
+    "icon",
+    "icons",
+    "svg"
+  ],
+  "main": "index.js",
+  "author": "Presslabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PressLabs/particles/issues"
+  },
+  "homepage": "https://github.com/PressLabs/particles#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
