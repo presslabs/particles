@@ -2,16 +2,16 @@
 
 @font-face {
   font-family: 'Presslabs-Particles';
-  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?gw4ov7');
-  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?gw4ov7#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.ttf?gw4ov7') format('truetype'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.woff?gw4ov7') format('woff'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.svg?gw4ov7#Presslabs-Particles') format('svg');
+  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?6j2e72');
+  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?6j2e72#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.ttf?6j2e72') format('truetype'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.woff?6j2e72') format('woff'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.svg?6j2e72#Presslabs-Particles') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+.particle {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Presslabs-Particles' !important;
   speak: none;
@@ -36,1369 +36,1369 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-facebook {
+.particle-facebook {
   &:before {
-    content: $icon-facebook;
+    content: $particle-facebook;
   }
 }
-.icon-github {
+.particle-github {
   &:before {
-    content: $icon-github;
+    content: $particle-github;
   }
 }
-.icon-google-plus {
+.particle-google-plus {
   &:before {
-    content: $icon-google-plus;
+    content: $particle-google-plus;
   }
 }
-.icon-linkedin {
+.particle-linkedin {
   &:before {
-    content: $icon-linkedin;
+    content: $particle-linkedin;
   }
 }
-.icon-twitter {
+.particle-twitter {
   &:before {
-    content: $icon-twitter;
+    content: $particle-twitter;
   }
 }
-.icon-instagram {
+.particle-instagram {
   &:before {
-    content: $icon-instagram;
+    content: $particle-instagram;
   }
 }
-.icon-wordpress {
+.particle-wordpress {
   &:before {
-    content: $icon-wordpress;
+    content: $particle-wordpress;
   }
 }
-.icon-range {
+.particle-range {
   &:before {
-    content: $icon-range;
+    content: $particle-range;
   }
 }
-.icon-bucket {
+.particle-bucket {
   &:before {
-    content: $icon-bucket;
+    content: $particle-bucket;
   }
 }
-.icon-burger {
+.particle-burger {
   &:before {
-    content: $icon-burger;
+    content: $particle-burger;
   }
 }
-.icon-pay {
+.particle-pay {
   &:before {
-    content: $icon-pay;
+    content: $particle-pay;
   }
 }
-.icon-bank {
+.particle-bank {
   &:before {
-    content: $icon-bank;
+    content: $particle-bank;
   }
 }
-.icon-wire {
+.particle-wire {
   &:before {
-    content: $icon-wire;
+    content: $particle-wire;
   }
 }
-.icon-power {
+.particle-power {
   &:before {
-    content: $icon-power;
+    content: $particle-power;
   }
 }
-.icon-paypal {
+.particle-paypal {
   &:before {
-    content: $icon-paypal;
+    content: $particle-paypal;
   }
 }
-.icon-ratio {
+.particle-ratio {
   &:before {
-    content: $icon-ratio;
+    content: $particle-ratio;
   }
 }
-.icon-hour {
+.particle-hour {
   &:before {
-    content: $icon-hour;
+    content: $particle-hour;
   }
 }
-.icon-day {
+.particle-day {
   &:before {
-    content: $icon-day;
+    content: $particle-day;
   }
 }
-.icon-elipsis {
+.particle-elipsis {
   &:before {
-    content: $icon-elipsis;
+    content: $particle-elipsis;
   }
 }
-.icon-battery-empty {
+.particle-battery-empty {
   &:before {
-    content: $icon-battery-empty;
+    content: $particle-battery-empty;
   }
 }
-.icon-battery-full {
+.particle-battery-full {
   &:before {
-    content: $icon-battery-full;
+    content: $particle-battery-full;
   }
 }
-.icon-battery {
+.particle-battery {
   &:before {
-    content: $icon-battery;
+    content: $particle-battery;
   }
 }
-.icon-bolt {
+.particle-bolt {
   &:before {
-    content: $icon-bolt;
+    content: $particle-bolt;
   }
 }
-.icon-cino {
+.particle-cino {
   &:before {
-    content: $icon-cino;
+    content: $particle-cino;
   }
 }
-.icon-codebar {
+.particle-codebar {
   &:before {
-    content: $icon-codebar;
+    content: $particle-codebar;
   }
 }
-.icon-magnet {
+.particle-magnet {
   &:before {
-    content: $icon-magnet;
+    content: $particle-magnet;
   }
 }
-.icon-ok {
+.particle-ok {
   &:before {
-    content: $icon-ok;
+    content: $particle-ok;
   }
 }
-.icon-orient {
+.particle-orient {
   &:before {
-    content: $icon-orient;
+    content: $particle-orient;
   }
 }
-.icon-print {
+.particle-print {
   &:before {
-    content: $icon-print;
+    content: $particle-print;
   }
 }
-.icon-umbrella {
+.particle-umbrella {
   &:before {
-    content: $icon-umbrella;
+    content: $particle-umbrella;
   }
 }
-.icon-vector {
+.particle-vector {
   &:before {
-    content: $icon-vector;
+    content: $particle-vector;
   }
 }
-.icon-superadmin {
+.particle-superadmin {
   &:before {
-    content: $icon-superadmin;
+    content: $particle-superadmin;
   }
 }
-.icon-admin {
+.particle-admin {
   &:before {
-    content: $icon-admin;
+    content: $particle-admin;
   }
 }
-.icon-dev {
+.particle-dev {
   &:before {
-    content: $icon-dev;
+    content: $particle-dev;
   }
 }
-.icon-add {
+.particle-add {
   &:before {
-    content: $icon-add;
+    content: $particle-add;
   }
 }
-.icon-add-hair {
+.particle-add-hair {
   &:before {
-    content: $icon-add-hair;
+    content: $particle-add-hair;
   }
 }
-.icon-backup {
+.particle-backup {
   &:before {
-    content: $icon-backup;
+    content: $particle-backup;
   }
 }
-.icon-carrot {
+.particle-carrot {
   &:before {
-    content: $icon-carrot;
+    content: $particle-carrot;
   }
 }
-.icon-code-sign {
+.particle-code-sign {
   &:before {
-    content: $icon-code-sign;
+    content: $particle-code-sign;
   }
 }
-.icon-certificate {
+.particle-certificate {
   &:before {
-    content: $icon-certificate;
+    content: $particle-certificate;
   }
 }
-.icon-aid {
+.particle-aid {
   &:before {
-    content: $icon-aid;
+    content: $particle-aid;
   }
 }
-.icon-alarm {
+.particle-alarm {
   &:before {
-    content: $icon-alarm;
+    content: $particle-alarm;
   }
 }
-.icon-sd {
+.particle-sd {
   &:before {
-    content: $icon-sd;
+    content: $particle-sd;
   }
 }
-.icon-compass {
+.particle-compass {
   &:before {
-    content: $icon-compass;
+    content: $particle-compass;
   }
 }
-.icon-lego {
+.particle-lego {
   &:before {
-    content: $icon-lego;
+    content: $particle-lego;
   }
 }
-.icon-atom {
+.particle-atom {
   &:before {
-    content: $icon-atom;
+    content: $particle-atom;
   }
 }
-.icon-ram {
+.particle-ram {
   &:before {
-    content: $icon-ram;
+    content: $particle-ram;
   }
 }
-.icon-puzzle {
+.particle-puzzle {
   &:before {
-    content: $icon-puzzle;
+    content: $particle-puzzle;
   }
 }
-.icon-puzzle_alt {
+.particle-puzzle_alt {
   &:before {
-    content: $icon-puzzle_alt;
+    content: $particle-puzzle_alt;
   }
 }
-.icon-broadcast {
+.particle-broadcast {
   &:before {
-    content: $icon-broadcast;
+    content: $particle-broadcast;
   }
 }
-.icon-pingdownload {
+.particle-pingdownload {
   &:before {
-    content: $icon-pingdownload;
+    content: $particle-pingdownload;
   }
 }
-.icon-zthree {
+.particle-zthree {
   &:before {
-    content: $icon-zthree;
+    content: $particle-zthree;
   }
 }
-.icon-play {
+.particle-play {
   &:before {
-    content: $icon-play;
+    content: $particle-play;
   }
 }
-.icon-eu-flag {
+.particle-eu-flag {
   &:before {
-    content: $icon-eu-flag;
+    content: $particle-eu-flag;
   }
 }
-.icon-eu {
+.particle-eu {
   &:before {
-    content: $icon-eu;
+    content: $particle-eu;
   }
 }
-.icon-twofour {
+.particle-twofour {
   &:before {
-    content: $icon-twofour;
+    content: $particle-twofour;
   }
 }
-.icon-zipa {
+.particle-zipa {
   &:before {
-    content: $icon-zipa;
+    content: $particle-zipa;
   }
 }
-.icon-administrator {
+.particle-administrator {
   &:before {
-    content: $icon-administrator;
+    content: $particle-administrator;
   }
 }
-.icon-agenda {
+.particle-agenda {
   &:before {
-    content: $icon-agenda;
+    content: $particle-agenda;
   }
 }
-.icon-america {
+.particle-america {
   &:before {
-    content: $icon-america;
+    content: $particle-america;
   }
 }
-.icon-antenna {
+.particle-antenna {
   &:before {
-    content: $icon-antenna;
+    content: $particle-antenna;
   }
 }
-.icon-arrow {
+.particle-arrow {
   &:before {
-    content: $icon-arrow;
+    content: $particle-arrow;
   }
 }
-.icon-arrow-alt-down {
+.particle-arrow-alt-down {
   &:before {
-    content: $icon-arrow-alt-down;
+    content: $particle-arrow-alt-down;
   }
 }
-.icon-arrow-alt-left {
+.particle-arrow-alt-left {
   &:before {
-    content: $icon-arrow-alt-left;
+    content: $particle-arrow-alt-left;
   }
 }
-.icon-arrow-alt-ne {
+.particle-arrow-alt-ne {
   &:before {
-    content: $icon-arrow-alt-ne;
+    content: $particle-arrow-alt-ne;
   }
 }
-.icon-arrow-alt-nw {
+.particle-arrow-alt-nw {
   &:before {
-    content: $icon-arrow-alt-nw;
+    content: $particle-arrow-alt-nw;
   }
 }
-.icon-arrow-alt-right {
+.particle-arrow-alt-right {
   &:before {
-    content: $icon-arrow-alt-right;
+    content: $particle-arrow-alt-right;
   }
 }
-.icon-arrow-alt-se {
+.particle-arrow-alt-se {
   &:before {
-    content: $icon-arrow-alt-se;
+    content: $particle-arrow-alt-se;
   }
 }
-.icon-arrow-alt-sw {
+.particle-arrow-alt-sw {
   &:before {
-    content: $icon-arrow-alt-sw;
+    content: $particle-arrow-alt-sw;
   }
 }
-.icon-arrow-alt-up {
+.particle-arrow-alt-up {
   &:before {
-    content: $icon-arrow-alt-up;
+    content: $particle-arrow-alt-up;
   }
 }
-.icon-arrow-down {
+.particle-arrow-down {
   &:before {
-    content: $icon-arrow-down;
+    content: $particle-arrow-down;
   }
 }
-.icon-arrow-left {
+.particle-arrow-left {
   &:before {
-    content: $icon-arrow-left;
+    content: $particle-arrow-left;
   }
 }
-.icon-arrow-ne {
+.particle-arrow-ne {
   &:before {
-    content: $icon-arrow-ne;
+    content: $particle-arrow-ne;
   }
 }
-.icon-arrow-nw {
+.particle-arrow-nw {
   &:before {
-    content: $icon-arrow-nw;
+    content: $particle-arrow-nw;
   }
 }
-.icon-arrow-right {
+.particle-arrow-right {
   &:before {
-    content: $icon-arrow-right;
+    content: $particle-arrow-right;
   }
 }
-.icon-arrow-se {
+.particle-arrow-se {
   &:before {
-    content: $icon-arrow-se;
+    content: $particle-arrow-se;
   }
 }
-.icon-arrow-sw {
+.particle-arrow-sw {
   &:before {
-    content: $icon-arrow-sw;
+    content: $particle-arrow-sw;
   }
 }
-.icon-arrow-up {
+.particle-arrow-up {
   &:before {
-    content: $icon-arrow-up;
+    content: $particle-arrow-up;
   }
 }
-.icon-lesser {
+.particle-lesser {
   &:before {
-    content: $icon-lesser;
+    content: $particle-lesser;
   }
 }
-.icon-greater {
+.particle-greater {
   &:before {
-    content: $icon-greater;
+    content: $particle-greater;
   }
 }
-.icon-circumflex {
+.particle-circumflex {
   &:before {
-    content: $icon-circumflex;
+    content: $particle-circumflex;
   }
 }
-.icon-breve {
+.particle-breve {
   &:before {
-    content: $icon-breve;
+    content: $particle-breve;
   }
 }
-.icon-caret {
+.particle-caret {
   &:before {
-    content: $icon-caret;
+    content: $particle-caret;
   }
 }
-.icon-caret-full {
+.particle-caret-full {
   &:before {
-    content: $icon-caret-full;
+    content: $particle-caret-full;
   }
 }
-.icon-asia {
+.particle-asia {
   &:before {
-    content: $icon-asia;
+    content: $particle-asia;
   }
 }
-.icon-at {
+.particle-at {
   &:before {
-    content: $icon-at;
+    content: $particle-at;
   }
 }
-.icon-autover {
+.particle-autover {
   &:before {
-    content: $icon-autover;
+    content: $particle-autover;
   }
 }
-.icon-bill {
+.particle-bill {
   &:before {
-    content: $icon-bill;
+    content: $particle-bill;
   }
 }
-.icon-bin {
+.particle-bin {
   &:before {
-    content: $icon-bin;
+    content: $particle-bin;
   }
 }
-.icon-board {
+.particle-board {
   &:before {
-    content: $icon-board;
+    content: $particle-board;
   }
 }
-.icon-book {
+.particle-book {
   &:before {
-    content: $icon-book;
+    content: $particle-book;
   }
 }
-.icon-bookmark {
+.particle-bookmark {
   &:before {
-    content: $icon-bookmark;
+    content: $particle-bookmark;
   }
 }
-.icon-boss {
+.particle-boss {
   &:before {
-    content: $icon-boss;
+    content: $particle-boss;
   }
 }
-.icon-box {
+.particle-box {
   &:before {
-    content: $icon-box;
+    content: $particle-box;
   }
 }
-.icon-branch {
+.particle-branch {
   &:before {
-    content: $icon-branch;
+    content: $particle-branch;
   }
 }
-.icon-breifcase {
+.particle-breifcase {
   &:before {
-    content: $icon-breifcase;
+    content: $particle-breifcase;
   }
 }
-.icon-bug {
+.particle-bug {
   &:before {
-    content: $icon-bug;
+    content: $particle-bug;
   }
 }
-.icon-bulb {
+.particle-bulb {
   &:before {
-    content: $icon-bulb;
+    content: $particle-bulb;
   }
 }
-.icon-bullseye {
+.particle-bullseye {
   &:before {
-    content: $icon-bullseye;
+    content: $particle-bullseye;
   }
 }
-.icon-buoy {
+.particle-buoy {
   &:before {
-    content: $icon-buoy;
+    content: $particle-buoy;
   }
 }
-.icon-calculator {
+.particle-calculator {
   &:before {
-    content: $icon-calculator;
+    content: $particle-calculator;
   }
 }
-.icon-calendar {
+.particle-calendar {
   &:before {
-    content: $icon-calendar;
+    content: $particle-calendar;
   }
 }
-.icon-camera {
+.particle-camera {
   &:before {
-    content: $icon-camera;
+    content: $particle-camera;
   }
 }
-.icon-card {
+.particle-card {
   &:before {
-    content: $icon-card;
+    content: $particle-card;
   }
 }
-.icon-caret-alt {
+.particle-caret-alt {
   &:before {
-    content: $icon-caret-alt;
+    content: $particle-caret-alt;
   }
 }
-.icon-cart {
+.particle-cart {
   &:before {
-    content: $icon-cart;
+    content: $particle-cart;
   }
 }
-.icon-caution {
+.particle-caution {
   &:before {
-    content: $icon-caution;
+    content: $particle-caution;
   }
 }
-.icon-cc {
+.particle-cc {
   &:before {
-    content: $icon-cc;
+    content: $particle-cc;
   }
 }
-.icon-cd {
+.particle-cd {
   &:before {
-    content: $icon-cd;
+    content: $particle-cd;
   }
 }
-.icon-cdn {
+.particle-cdn {
   &:before {
-    content: $icon-cdn;
+    content: $particle-cdn;
   }
 }
-.icon-check {
+.particle-check {
   &:before {
-    content: $icon-check;
+    content: $particle-check;
   }
 }
-.icon-chip {
+.particle-chip {
   &:before {
-    content: $icon-chip;
+    content: $particle-chip;
   }
 }
-.icon-cicle {
+.particle-cicle {
   &:before {
-    content: $icon-cicle;
+    content: $particle-cicle;
   }
 }
-.icon-clone {
+.particle-clone {
   &:before {
-    content: $icon-clone;
+    content: $particle-clone;
   }
 }
-.icon-close {
+.particle-close {
   &:before {
-    content: $icon-close;
+    content: $particle-close;
   }
 }
-.icon-cloud {
+.particle-cloud {
   &:before {
-    content: $icon-cloud;
+    content: $particle-cloud;
   }
 }
-.icon-code {
+.particle-code {
   &:before {
-    content: $icon-code;
+    content: $particle-code;
   }
 }
-.icon-code-hash {
+.particle-code-hash {
   &:before {
-    content: $icon-code-hash;
+    content: $particle-code-hash;
   }
 }
-.icon-code-minor {
+.particle-code-minor {
   &:before {
-    content: $icon-code-minor;
+    content: $particle-code-minor;
   }
 }
-.icon-coffee {
+.particle-coffee {
   &:before {
-    content: $icon-coffee;
+    content: $particle-coffee;
   }
 }
-.icon-comment {
+.particle-comment {
   &:before {
-    content: $icon-comment;
+    content: $particle-comment;
   }
 }
-.icon-comment-empty {
+.particle-comment-empty {
   &:before {
-    content: $icon-comment-empty;
+    content: $particle-comment-empty;
   }
 }
-.icon-concentric {
+.particle-concentric {
   &:before {
-    content: $icon-concentric;
+    content: $particle-concentric;
   }
 }
-.icon-group {
+.particle-group {
   &:before {
-    content: $icon-group;
+    content: $particle-group;
   }
 }
-.icon-creditcard {
+.particle-creditcard {
   &:before {
-    content: $icon-creditcard;
+    content: $particle-creditcard;
   }
 }
-.icon-curve {
+.particle-curve {
   &:before {
-    content: $icon-curve;
+    content: $particle-curve;
   }
 }
-.icon-denied {
+.particle-denied {
   &:before {
-    content: $icon-denied;
+    content: $particle-denied;
   }
 }
-.icon-deny {
+.particle-deny {
   &:before {
-    content: $icon-deny;
+    content: $particle-deny;
   }
 }
-.icon-departing {
+.particle-departing {
   &:before {
-    content: $icon-departing;
+    content: $particle-departing;
   }
 }
-.icon-diamond {
+.particle-diamond {
   &:before {
-    content: $icon-diamond;
+    content: $particle-diamond;
   }
 }
-.icon-disk {
+.particle-disk {
   &:before {
-    content: $icon-disk;
+    content: $particle-disk;
   }
 }
-.icon-disk-alt {
+.particle-disk-alt {
   &:before {
-    content: $icon-disk-alt;
+    content: $particle-disk-alt;
   }
 }
-.icon-dislike {
+.particle-dislike {
   &:before {
-    content: $icon-dislike;
+    content: $particle-dislike;
   }
 }
-.icon-divide {
+.particle-divide {
   &:before {
-    content: $icon-divide;
+    content: $particle-divide;
   }
 }
-.icon-down {
+.particle-down {
   &:before {
-    content: $icon-down;
+    content: $particle-down;
   }
 }
-.icon-download {
+.particle-download {
   &:before {
-    content: $icon-download;
+    content: $particle-download;
   }
 }
-.icon-download-alt {
+.particle-download-alt {
   &:before {
-    content: $icon-download-alt;
+    content: $particle-download-alt;
   }
 }
-.icon-eccentric {
+.particle-eccentric {
   &:before {
-    content: $icon-eccentric;
+    content: $particle-eccentric;
   }
 }
-.icon-edit {
+.particle-edit {
   &:before {
-    content: $icon-edit;
+    content: $particle-edit;
   }
 }
-.icon-ehternet-socket {
+.particle-ehternet-socket {
   &:before {
-    content: $icon-ehternet-socket;
+    content: $particle-ehternet-socket;
   }
 }
-.icon-employee {
+.particle-employee {
   &:before {
-    content: $icon-employee;
+    content: $particle-employee;
   }
 }
-.icon-envelope {
+.particle-envelope {
   &:before {
-    content: $icon-envelope;
+    content: $particle-envelope;
   }
 }
-.icon-envelope-open {
+.particle-envelope-open {
   &:before {
-    content: $icon-envelope-open;
+    content: $particle-envelope-open;
   }
 }
-.icon-equal {
+.particle-equal {
   &:before {
-    content: $icon-equal;
+    content: $particle-equal;
   }
 }
-.icon-ethernet-plug {
+.particle-ethernet-plug {
   &:before {
-    content: $icon-ethernet-plug;
+    content: $particle-ethernet-plug;
   }
 }
-.icon-europe {
+.particle-europe {
   &:before {
-    content: $icon-europe;
+    content: $particle-europe;
   }
 }
-.icon-exclamation {
+.particle-exclamation {
   &:before {
-    content: $icon-exclamation;
+    content: $particle-exclamation;
   }
 }
-.icon-expand {
+.particle-expand {
   &:before {
-    content: $icon-expand;
+    content: $particle-expand;
   }
 }
-.icon-file {
+.particle-file {
   &:before {
-    content: $icon-file;
+    content: $particle-file;
   }
 }
-.icon-folder {
+.particle-folder {
   &:before {
-    content: $icon-folder;
+    content: $particle-folder;
   }
 }
-.icon-forbidden {
+.particle-forbidden {
   &:before {
-    content: $icon-forbidden;
+    content: $particle-forbidden;
   }
 }
-.icon-forward {
+.particle-forward {
   &:before {
-    content: $icon-forward;
+    content: $particle-forward;
   }
 }
-.icon-gauge {
+.particle-gauge {
   &:before {
-    content: $icon-gauge;
+    content: $particle-gauge;
   }
 }
-.icon-gears {
+.particle-gears {
   &:before {
-    content: $icon-gears;
+    content: $particle-gears;
   }
 }
-.icon-git {
+.particle-git {
   &:before {
-    content: $icon-git;
+    content: $particle-git;
   }
 }
-.icon-gitfs {
+.particle-gitfs {
   &:before {
-    content: $icon-gitfs;
+    content: $particle-gitfs;
   }
 }
-.icon-gitium {
+.particle-gitium {
   &:before {
-    content: $icon-gitium;
+    content: $particle-gitium;
   }
 }
-.icon-glasses {
+.particle-glasses {
   &:before {
-    content: $icon-glasses;
+    content: $particle-glasses;
   }
 }
-.icon-globe {
+.particle-globe {
   &:before {
-    content: $icon-globe;
+    content: $particle-globe;
   }
 }
-.icon-globestand {
+.particle-globestand {
   &:before {
-    content: $icon-globestand;
+    content: $particle-globestand;
   }
 }
-.icon-graphic {
+.particle-graphic {
   &:before {
-    content: $icon-graphic;
+    content: $particle-graphic;
   }
 }
-.icon-headset {
+.particle-headset {
   &:before {
-    content: $icon-headset;
+    content: $particle-headset;
   }
 }
-.icon-heart {
+.particle-heart {
   &:before {
-    content: $icon-heart;
+    content: $particle-heart;
   }
 }
-.icon-heart-full {
+.particle-heart-full {
   &:before {
-    content: $icon-heart-full;
+    content: $particle-heart-full;
   }
 }
-.icon-home {
+.particle-home {
   &:before {
-    content: $icon-home;
+    content: $particle-home;
   }
 }
-.icon-image {
+.particle-image {
   &:before {
-    content: $icon-image;
+    content: $particle-image;
   }
 }
-.icon-impulse {
+.particle-impulse {
   &:before {
-    content: $icon-impulse;
+    content: $particle-impulse;
   }
 }
-.icon-info {
+.particle-info {
   &:before {
-    content: $icon-info;
+    content: $particle-info;
   }
 }
-.icon-key {
+.particle-key {
   &:before {
-    content: $icon-key;
+    content: $particle-key;
   }
 }
-.icon-keyboard {
+.particle-keyboard {
   &:before {
-    content: $icon-keyboard;
+    content: $particle-keyboard;
   }
 }
-.icon-laptop {
+.particle-laptop {
   &:before {
-    content: $icon-laptop;
+    content: $particle-laptop;
   }
 }
-.icon-layout {
+.particle-layout {
   &:before {
-    content: $icon-layout;
+    content: $particle-layout;
   }
 }
-.icon-left {
+.particle-left {
   &:before {
-    content: $icon-left;
+    content: $particle-left;
   }
 }
-.icon-lighthouse {
+.particle-lighthouse {
   &:before {
-    content: $icon-lighthouse;
+    content: $particle-lighthouse;
   }
 }
-.icon-like {
+.particle-like {
   &:before {
-    content: $icon-like;
+    content: $particle-like;
   }
 }
-.icon-link {
+.particle-link {
   &:before {
-    content: $icon-link;
+    content: $particle-link;
   }
 }
-.icon-link-broken {
+.particle-link-broken {
   &:before {
-    content: $icon-link-broken;
+    content: $particle-link-broken;
   }
 }
-.icon-lock {
+.particle-lock {
   &:before {
-    content: $icon-lock;
+    content: $particle-lock;
   }
 }
-.icon-lock-open {
+.particle-lock-open {
   &:before {
-    content: $icon-lock-open;
+    content: $particle-lock-open;
   }
 }
-.icon-login {
+.particle-login {
   &:before {
-    content: $icon-login;
+    content: $particle-login;
   }
 }
-.icon-logout {
+.particle-logout {
   &:before {
-    content: $icon-logout;
+    content: $particle-logout;
   }
 }
-.icon-look {
+.particle-look {
   &:before {
-    content: $icon-look;
+    content: $particle-look;
   }
 }
-.icon-map {
+.particle-map {
   &:before {
-    content: $icon-map;
+    content: $particle-map;
   }
 }
-.icon-image-mapping {
+.particle-image-mapping {
   &:before {
-    content: $icon-image-mapping;
+    content: $particle-image-mapping;
   }
 }
-.icon-mark {
+.particle-mark {
   &:before {
-    content: $icon-mark;
+    content: $particle-mark;
   }
 }
-.icon-media {
+.particle-media {
   &:before {
-    content: $icon-media;
+    content: $particle-media;
   }
 }
-.icon-meeting {
+.particle-meeting {
   &:before {
-    content: $icon-meeting;
+    content: $particle-meeting;
   }
 }
-.icon-merge {
+.particle-merge {
   &:before {
-    content: $icon-merge;
+    content: $particle-merge;
   }
 }
-.icon-migration {
+.particle-migration {
   &:before {
-    content: $icon-migration;
+    content: $particle-migration;
   }
 }
-.icon-minus {
+.particle-minus {
   &:before {
-    content: $icon-minus;
+    content: $particle-minus;
   }
 }
-.icon-mobile {
+.particle-mobile {
   &:before {
-    content: $icon-mobile;
+    content: $particle-mobile;
   }
 }
-.icon-mouse {
+.particle-mouse {
   &:before {
-    content: $icon-mouse;
+    content: $particle-mouse;
   }
 }
-.icon-music {
+.particle-music {
   &:before {
-    content: $icon-music;
+    content: $particle-music;
   }
 }
-.icon-net {
+.particle-net {
   &:before {
-    content: $icon-net;
+    content: $particle-net;
   }
 }
-.icon-network {
+.particle-network {
   &:before {
-    content: $icon-network;
+    content: $particle-network;
   }
 }
-.icon-paragraph {
+.particle-paragraph {
   &:before {
-    content: $icon-paragraph;
+    content: $particle-paragraph;
   }
 }
-.icon-pause {
+.particle-pause {
   &:before {
-    content: $icon-pause;
+    content: $particle-pause;
   }
 }
-.icon-pen {
+.particle-pen {
   &:before {
-    content: $icon-pen;
+    content: $particle-pen;
   }
 }
-.icon-phone {
+.particle-phone {
   &:before {
-    content: $icon-phone;
+    content: $particle-phone;
   }
 }
-.icon-phones {
+.particle-phones {
   &:before {
-    content: $icon-phones;
+    content: $particle-phones;
   }
 }
-.icon-pie {
+.particle-pie {
   &:before {
-    content: $icon-pie;
+    content: $particle-pie;
   }
 }
-.icon-place {
+.particle-place {
   &:before {
-    content: $icon-place;
+    content: $particle-place;
   }
 }
-.icon-plugin {
+.particle-plugin {
   &:before {
-    content: $icon-plugin;
+    content: $particle-plugin;
   }
 }
-.icon-plus {
+.particle-plus {
   &:before {
-    content: $icon-plus;
+    content: $particle-plus;
   }
 }
-.icon-pointer {
+.particle-pointer {
   &:before {
-    content: $icon-pointer;
+    content: $particle-pointer;
   }
 }
-.icon-power-plug {
+.particle-power-plug {
   &:before {
-    content: $icon-power-plug;
+    content: $particle-power-plug;
   }
 }
-.icon-power-socket {
+.particle-power-socket {
   &:before {
-    content: $icon-power-socket;
+    content: $particle-power-socket;
   }
 }
-.icon-presslabs {
+.particle-presslabs {
   &:before {
-    content: $icon-presslabs;
+    content: $particle-presslabs;
   }
 }
-.icon-site-protection {
+.particle-site-protection {
   &:before {
-    content: $icon-site-protection;
+    content: $particle-site-protection;
   }
 }
-.icon-pull {
+.particle-pull {
   &:before {
-    content: $icon-pull;
+    content: $particle-pull;
   }
 }
-.icon-push {
+.particle-push {
   &:before {
-    content: $icon-push;
+    content: $particle-push;
   }
 }
-.icon-pyolite {
+.particle-pyolite {
   &:before {
-    content: $icon-pyolite;
+    content: $particle-pyolite;
   }
 }
-.icon-python {
+.particle-python {
   &:before {
-    content: $icon-python;
+    content: $particle-python;
   }
 }
-.icon-question {
+.particle-question {
   &:before {
-    content: $icon-question;
+    content: $particle-question;
   }
 }
-.icon-quotes {
+.particle-quotes {
   &:before {
-    content: $icon-quotes;
+    content: $particle-quotes;
   }
 }
-.icon-rack {
+.particle-rack {
   &:before {
-    content: $icon-rack;
+    content: $particle-rack;
   }
 }
-.icon-rec {
+.particle-rec {
   &:before {
-    content: $icon-rec;
+    content: $particle-rec;
   }
 }
-.icon-return {
+.particle-return {
   &:before {
-    content: $icon-return;
+    content: $particle-return;
   }
 }
-.icon-rewind {
+.particle-rewind {
   &:before {
-    content: $icon-rewind;
+    content: $particle-rewind;
   }
 }
-.icon-ribbon {
+.particle-ribbon {
   &:before {
-    content: $icon-ribbon;
+    content: $particle-ribbon;
   }
 }
-.icon-right {
+.particle-right {
   &:before {
-    content: $icon-right;
+    content: $particle-right;
   }
 }
-.icon-ruler {
+.particle-ruler {
   &:before {
-    content: $icon-ruler;
+    content: $particle-ruler;
   }
 }
-.icon-safe {
+.particle-safe {
   &:before {
-    content: $icon-safe;
+    content: $particle-safe;
   }
 }
-.icon-scale {
+.particle-scale {
   &:before {
-    content: $icon-scale;
+    content: $particle-scale;
   }
 }
-.icon-search {
+.particle-search {
   &:before {
-    content: $icon-search;
+    content: $particle-search;
   }
 }
-.icon-serving {
+.particle-serving {
   &:before {
-    content: $icon-serving;
+    content: $particle-serving;
   }
 }
-.icon-settings {
+.particle-settings {
   &:before {
-    content: $icon-settings;
+    content: $particle-settings;
   }
 }
-.icon-sheep {
+.particle-sheep {
   &:before {
-    content: $icon-sheep;
+    content: $particle-sheep;
   }
 }
-.icon-shield {
+.particle-shield {
   &:before {
-    content: $icon-shield;
+    content: $particle-shield;
   }
 }
-.icon-shield-checker {
+.particle-shield-checker {
   &:before {
-    content: $icon-shield-checker;
+    content: $particle-shield-checker;
   }
 }
-.icon-shield-deny {
+.particle-shield-deny {
   &:before {
-    content: $icon-shield-deny;
+    content: $particle-shield-deny;
   }
 }
-.icon-shield-help {
+.particle-shield-help {
   &:before {
-    content: $icon-shield-help;
+    content: $particle-shield-help;
   }
 }
-.icon-shirt {
+.particle-shirt {
   &:before {
-    content: $icon-shirt;
+    content: $particle-shirt;
   }
 }
-.icon-shred {
+.particle-shred {
   &:before {
-    content: $icon-shred;
+    content: $particle-shred;
   }
 }
-.icon-silver {
+.particle-silver {
   &:before {
-    content: $icon-silver;
+    content: $particle-silver;
   }
 }
-.icon-speaker {
+.particle-speaker {
   &:before {
-    content: $icon-speaker;
+    content: $particle-speaker;
   }
 }
-.icon-spike {
+.particle-spike {
   &:before {
-    content: $icon-spike;
+    content: $particle-spike;
   }
 }
-.icon-stack {
+.particle-stack {
   &:before {
-    content: $icon-stack;
+    content: $particle-stack;
   }
 }
-.icon-star {
+.particle-star {
   &:before {
-    content: $icon-star;
+    content: $particle-star;
   }
 }
-.icon-star-full {
+.particle-star-full {
   &:before {
-    content: $icon-star-full;
+    content: $particle-star-full;
   }
 }
-.icon-stop {
+.particle-stop {
   &:before {
-    content: $icon-stop;
+    content: $particle-stop;
   }
 }
-.icon-suitcase {
+.particle-suitcase {
   &:before {
-    content: $icon-suitcase;
+    content: $particle-suitcase;
   }
 }
-.icon-tablet {
+.particle-tablet {
   &:before {
-    content: $icon-tablet;
+    content: $particle-tablet;
   }
 }
-.icon-tag {
+.particle-tag {
   &:before {
-    content: $icon-tag;
+    content: $particle-tag;
   }
 }
-.icon-text {
+.particle-text {
   &:before {
-    content: $icon-text;
+    content: $particle-text;
   }
 }
-.icon-mobile-theme {
+.particle-mobile-theme {
   &:before {
-    content: $icon-mobile-theme;
+    content: $particle-mobile-theme;
   }
 }
-.icon-themeperuser {
+.particle-themeperuser {
   &:before {
-    content: $icon-themeperuser;
+    content: $particle-themeperuser;
   }
 }
-.icon-ticket {
+.particle-ticket {
   &:before {
-    content: $icon-ticket;
+    content: $particle-ticket;
   }
 }
-.icon-time {
+.particle-time {
   &:before {
-    content: $icon-time;
+    content: $particle-time;
   }
 }
-.icon-times {
+.particle-times {
   &:before {
-    content: $icon-times;
+    content: $particle-times;
   }
 }
-.icon-toplytics {
+.particle-toplytics {
   &:before {
-    content: $icon-toplytics;
+    content: $particle-toplytics;
   }
 }
-.icon-traffic {
+.particle-traffic {
   &:before {
-    content: $icon-traffic;
+    content: $particle-traffic;
   }
 }
-.icon-tux {
+.particle-tux {
   &:before {
-    content: $icon-tux;
+    content: $particle-tux;
   }
 }
-.icon-up {
+.particle-up {
   &:before {
-    content: $icon-up;
+    content: $particle-up;
   }
 }
-.icon-upload {
+.particle-upload {
   &:before {
-    content: $icon-upload;
+    content: $particle-upload;
   }
 }
-.icon-upload-alt {
+.particle-upload-alt {
   &:before {
-    content: $icon-upload-alt;
+    content: $particle-upload-alt;
   }
 }
-.icon-usb-plug {
+.particle-usb-plug {
   &:before {
-    content: $icon-usb-plug;
+    content: $particle-usb-plug;
   }
 }
-.icon-usb-socket {
+.particle-usb-socket {
   &:before {
-    content: $icon-usb-socket;
+    content: $particle-usb-socket;
   }
 }
-.icon-user {
+.particle-user {
   &:before {
-    content: $icon-user;
+    content: $particle-user;
   }
 }
-.icon-users {
+.particle-users {
   &:before {
-    content: $icon-users;
+    content: $particle-users;
   }
 }
-.icon-utf {
+.particle-utf {
   &:before {
-    content: $icon-utf;
+    content: $particle-utf;
   }
 }
-.icon-validate {
+.particle-validate {
   &:before {
-    content: $icon-validate;
+    content: $particle-validate;
   }
 }
-.icon-wallet {
+.particle-wallet {
   &:before {
-    content: $icon-wallet;
+    content: $particle-wallet;
   }
 }
-.icon-watch {
+.particle-watch {
   &:before {
-    content: $icon-watch;
+    content: $particle-watch;
   }
 }
-.icon-wifi {
+.particle-wifi {
   &:before {
-    content: $icon-wifi;
+    content: $particle-wifi;
   }
 }
-.icon-wrench {
+.particle-wrench {
   &:before {
-    content: $icon-wrench;
+    content: $particle-wrench;
   }
 }
-.icon-write {
+.particle-write {
   &:before {
-    content: $icon-write;
+    content: $particle-write;
   }
 }
-.icon-writing {
+.particle-writing {
   &:before {
-    content: $icon-writing;
+    content: $particle-writing;
   }
 }
-.icon-zip {
+.particle-zip {
   &:before {
-    content: $icon-zip;
+    content: $particle-zip;
   }
 }
-.icon-zoom-in {
+.particle-zoom-in {
   &:before {
-    content: $icon-zoom-in;
+    content: $particle-zoom-in;
   }
 }
-.icon-zoom-out {
+.particle-zoom-out {
   &:before {
-    content: $icon-zoom-out;
+    content: $particle-zoom-out;
   }
 }
-.icon-zsync {
+.particle-zsync {
   &:before {
-    content: $icon-zsync;
+    content: $particle-zsync;
   }
 }
-.icon-contract {
+.particle-contract {
   &:before {
-    content: $icon-contract;
+    content: $particle-contract;
   }
 }
 

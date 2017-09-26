@@ -11786,11 +11786,11 @@
     "showQuickUse2": true,
     "showSVGs": true,
     "fontPref": {
-      "prefix": "icon-",
+      "prefix": "particle-",
       "metadata": {
         "fontFamily": "Presslabs-Particles",
         "majorVersion": 5,
-        "minorVersion": 2,
+        "minorVersion": 3,
         "description": "Presslabs web font, free for personal use",
         "designer": "Presslabs",
         "copyright": "Attribution-NonCommercial-NoDerivatives 4.0 International",
@@ -11805,13 +11805,15 @@
       "embed": false,
       "showSelector": false,
       "showMetrics": false,
-      "showMetadata": true,
+      "showMetadata": false,
       "showVersion": true,
       "autoHost": true,
       "resetPoint": 59648,
       "hideFormats": true,
       "cssVars": true,
-      "cssVarsFormat": "scss"
+      "cssVarsFormat": "scss",
+      "selector": "class",
+      "classSelector": ".particle"
     },
     "imagePref": {
       "prefix": "icon-",
