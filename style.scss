@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'Presslabs-Particles';
-  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?w0is3e');
-  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?w0is3e#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.ttf?w0is3e') format('truetype'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.woff?w0is3e') format('woff'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.svg?w0is3e#Presslabs-Particles') format('svg');
+  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?6c22s2');
+  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?6c22s2#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.ttf?6c22s2') format('truetype'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.woff?6c22s2') format('woff'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.svg?6c22s2#Presslabs-Particles') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,14 +36,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.particle-go {
+.particle-golang {
   &:before {
-    content: $particle-go;
+    content: $particle-golang;
   }
 }
-.particle-js {
+.particle-javascript {
   &:before {
-    content: $particle-js;
+    content: $particle-javascript;
   }
 }
 .particle-php {

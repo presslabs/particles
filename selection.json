@@ -19,7 +19,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "go"
+          "golang"
         ]
       },
       "attrs": [
@@ -31,10 +31,10 @@
       "properties": {
         "order": 4,
         "id": 276,
-        "name": "go",
+        "name": "golang",
         "prevSize": 32,
         "code": 59653,
-        "ligatures": "go, golang"
+        "ligatures": "golang"
       },
       "setIdx": 0,
       "setId": 2,
@@ -52,7 +52,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "js"
+          "javascript"
         ]
       },
       "attrs": [
@@ -61,10 +61,10 @@
       "properties": {
         "order": 5,
         "id": 275,
-        "name": "js",
+        "name": "javascript",
         "prevSize": 32,
         "code": 59654,
-        "ligatures": "js, javascript"
+        "ligatures": "javascript"
       },
       "setIdx": 0,
       "setId": 2,
