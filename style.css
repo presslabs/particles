@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Presslabs-Particles';
-  src:  url('fonts/Presslabs-Particles.eot?6j2e72');
-  src:  url('fonts/Presslabs-Particles.eot?6j2e72#iefix') format('embedded-opentype'),
-    url('fonts/Presslabs-Particles.ttf?6j2e72') format('truetype'),
-    url('fonts/Presslabs-Particles.woff?6j2e72') format('woff'),
-    url('fonts/Presslabs-Particles.svg?6j2e72#Presslabs-Particles') format('svg');
+  src:  url('fonts/Presslabs-Particles.eot?w0is3e');
+  src:  url('fonts/Presslabs-Particles.eot?w0is3e#iefix') format('embedded-opentype'),
+    url('fonts/Presslabs-Particles.ttf?w0is3e') format('truetype'),
+    url('fonts/Presslabs-Particles.woff?w0is3e') format('woff'),
+    url('fonts/Presslabs-Particles.svg?w0is3e#Presslabs-Particles') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,6 +34,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.particle-go:before {
+  content: "\e905";
+}
+.particle-js:before {
+  content: "\e906";
+}
+.particle-php:before {
+  content: "\e907";
+}
+.particle-zinc:before {
+  content: "\e908";
+}
 .particle-facebook:before {
   content: "\e948";
 }

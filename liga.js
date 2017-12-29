@@ -25,6 +25,12 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'go': '&#xe905;',
+            'golang': '&#xe905;',
+            'js': '&#xe906;',
+            'javascript': '&#xe906;',
+            'php': '&#xe907;',
+            'zinc': '&#xe908;',
             'facebook': '&#xe948;',
             'github': '&#xe949;',
             'google-plus': '&#xe94a;',
