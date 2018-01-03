@@ -25,6 +25,8 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'bitpoke': '&#xe94e;',
+            'presslabs': '&#xe94f;',
             'particles': '&#xe909;',
             'pyolite': '&#xe94d;',
             'golang': '&#xe905;',
@@ -238,7 +240,6 @@
             'pointer': '&#xe610;',
             'power_plug': '&#xe647;',
             'power_socket': '&#xe648;',
-            'presslabs': '&#xe6d2;',
             'protection': '&#xe6c8;',
             'pull': '&#xe692;',
             'push': '&#xe691;',

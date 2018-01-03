@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'Presslabs-Particles';
-  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?5shxwe');
-  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?5shxwe#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.ttf?5shxwe') format('truetype'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.woff?5shxwe') format('woff'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.svg?5shxwe#Presslabs-Particles') format('svg');
+  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?k4h65m');
+  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?k4h65m#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.ttf?k4h65m') format('truetype'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.woff?k4h65m') format('woff'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.svg?k4h65m#Presslabs-Particles') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,6 +36,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.particle-bitpoke {
+  &:before {
+    content: $particle-bitpoke;
+  }
+}
+.particle-presslabs {
+  &:before {
+    content: $particle-presslabs;
+  }
+}
 .particle-particles {
   &:before {
     content: $particle-particles;
@@ -1099,11 +1109,6 @@
 .particle-power-socket {
   &:before {
     content: $particle-power-socket;
-  }
-}
-.particle-presslabs {
-  &:before {
-    content: $particle-presslabs;
   }
 }
 .particle-site-protection {

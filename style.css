@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Presslabs-Particles';
-  src:  url('fonts/Presslabs-Particles.eot?5shxwe');
-  src:  url('fonts/Presslabs-Particles.eot?5shxwe#iefix') format('embedded-opentype'),
-    url('fonts/Presslabs-Particles.ttf?5shxwe') format('truetype'),
-    url('fonts/Presslabs-Particles.woff?5shxwe') format('woff'),
-    url('fonts/Presslabs-Particles.svg?5shxwe#Presslabs-Particles') format('svg');
+  src:  url('fonts/Presslabs-Particles.eot?k4h65m');
+  src:  url('fonts/Presslabs-Particles.eot?k4h65m#iefix') format('embedded-opentype'),
+    url('fonts/Presslabs-Particles.ttf?k4h65m') format('truetype'),
+    url('fonts/Presslabs-Particles.woff?k4h65m') format('woff'),
+    url('fonts/Presslabs-Particles.svg?k4h65m#Presslabs-Particles') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,6 +34,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.particle-bitpoke:before {
+  content: "\e94e";
+}
+.particle-presslabs:before {
+  content: "\e94f";
+}
 .particle-particles:before {
   content: "\e909";
 }
@@ -672,9 +678,6 @@
 }
 .particle-power-socket:before {
   content: "\e648";
-}
-.particle-presslabs:before {
-  content: "\e6d2";
 }
 .particle-site-protection:before {
   content: "\e6c8";
