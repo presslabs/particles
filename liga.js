@@ -25,6 +25,8 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'particles': '&#xe909;',
+            'pyolite': '&#xe94d;',
             'golang': '&#xe905;',
             'javascript': '&#xe906;',
             'php': '&#xe907;',
@@ -240,7 +242,6 @@
             'protection': '&#xe6c8;',
             'pull': '&#xe692;',
             'push': '&#xe691;',
-            'pyolite': '&#xe6d1;',
             'python': '&#xe6a7;',
             'question': '&#xe638;',
             'quotes': '&#xe6b1;',
