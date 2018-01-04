@@ -1,0 +1,19 @@
+pipeline:
+  npm:
+    image: plugins/npm
+    username: $NPM_USERNAME
+    password: $NPM_PASSWORD
+    email: support@presslabs.com
+    secrets: [ npm_username, npm_password ]
+    when:
+      branch: master
+
+  trigger:
+    image: plugins/downstream
+    server: https://drone.presslabs.net
+    fork: true
+    secrets: [ downstream_token ]
+    repositories:
+       - PressLabs/react-particles-icons
+    when:
+      branch: master
