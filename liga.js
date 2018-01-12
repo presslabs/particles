@@ -25,6 +25,13 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'docker': '&#xe950;',
+            'drone': '&#xe951;',
+            'gitea': '&#xe952;',
+            'letsencrypt': '&#xe953;',
+            'payu': '&#xe954;',
+            'react': '&#xe955;',
+            'redux': '&#xe956;',
             'bitpoke': '&#xe94e;',
             'presslabs': '&#xe94f;',
             'particles': '&#xe909;',

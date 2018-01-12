@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'Presslabs-Particles';
-  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?k4h65m');
-  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?k4h65m#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.ttf?k4h65m') format('truetype'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.woff?k4h65m') format('woff'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.svg?k4h65m#Presslabs-Particles') format('svg');
+  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?4h4m0k');
+  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?4h4m0k#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.ttf?4h4m0k') format('truetype'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.woff?4h4m0k') format('woff'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.svg?4h4m0k#Presslabs-Particles') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,6 +36,41 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.particle-docker {
+  &:before {
+    content: $particle-docker;
+  }
+}
+.particle-drone {
+  &:before {
+    content: $particle-drone;
+  }
+}
+.particle-gitea {
+  &:before {
+    content: $particle-gitea;
+  }
+}
+.particle-letsencrypt {
+  &:before {
+    content: $particle-letsencrypt;
+  }
+}
+.particle-payu {
+  &:before {
+    content: $particle-payu;
+  }
+}
+.particle-react {
+  &:before {
+    content: $particle-react;
+  }
+}
+.particle-redux {
+  &:before {
+    content: $particle-redux;
+  }
+}
 .particle-bitpoke {
   &:before {
     content: $particle-bitpoke;

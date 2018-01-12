@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Presslabs-Particles';
-  src:  url('fonts/Presslabs-Particles.eot?k4h65m');
-  src:  url('fonts/Presslabs-Particles.eot?k4h65m#iefix') format('embedded-opentype'),
-    url('fonts/Presslabs-Particles.ttf?k4h65m') format('truetype'),
-    url('fonts/Presslabs-Particles.woff?k4h65m') format('woff'),
-    url('fonts/Presslabs-Particles.svg?k4h65m#Presslabs-Particles') format('svg');
+  src:  url('fonts/Presslabs-Particles.eot?4h4m0k');
+  src:  url('fonts/Presslabs-Particles.eot?4h4m0k#iefix') format('embedded-opentype'),
+    url('fonts/Presslabs-Particles.ttf?4h4m0k') format('truetype'),
+    url('fonts/Presslabs-Particles.woff?4h4m0k') format('woff'),
+    url('fonts/Presslabs-Particles.svg?4h4m0k#Presslabs-Particles') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,6 +34,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.particle-docker:before {
+  content: "\e950";
+}
+.particle-drone:before {
+  content: "\e951";
+}
+.particle-gitea:before {
+  content: "\e952";
+}
+.particle-letsencrypt:before {
+  content: "\e953";
+}
+.particle-payu:before {
+  content: "\e954";
+}
+.particle-react:before {
+  content: "\e955";
+}
+.particle-redux:before {
+  content: "\e956";
+}
 .particle-bitpoke:before {
   content: "\e94e";
 }
