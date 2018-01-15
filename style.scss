@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'Presslabs-Particles';
-  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?4h4m0k');
-  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?4h4m0k#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.ttf?4h4m0k') format('truetype'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.woff?4h4m0k') format('woff'),
-    url('#{$icomoon-font-path}/Presslabs-Particles.svg?4h4m0k#Presslabs-Particles') format('svg');
+  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?zhijny');
+  src:  url('#{$icomoon-font-path}/Presslabs-Particles.eot?zhijny#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.ttf?zhijny') format('truetype'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.woff?zhijny') format('woff'),
+    url('#{$icomoon-font-path}/Presslabs-Particles.svg?zhijny#Presslabs-Particles') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,6 +36,141 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.particle-alpine {
+  &:before {
+    content: $particle-alpine;
+  }
+}
+.particle-ansible {
+  &:before {
+    content: $particle-ansible;
+  }
+}
+.particle-bitbucket {
+  &:before {
+    content: $particle-bitbucket;
+  }
+}
+.particle-celery {
+  &:before {
+    content: $particle-celery;
+  }
+}
+.particle-frontapp {
+  &:before {
+    content: $particle-frontapp;
+  }
+}
+.particle-gitolite {
+  &:before {
+    content: $particle-gitolite;
+  }
+}
+.particle-grafana {
+  &:before {
+    content: $particle-grafana;
+  }
+}
+.particle-graphite {
+  &:before {
+    content: $particle-graphite;
+  }
+}
+.particle-gunicorn {
+  &:before {
+    content: $particle-gunicorn;
+  }
+}
+.particle-hyperdb {
+  &:before {
+    content: $particle-hyperdb;
+  }
+}
+.particle-kibana {
+  &:before {
+    content: $particle-kibana;
+  }
+}
+.particle-mailgun {
+  &:before {
+    content: $particle-mailgun;
+  }
+}
+.particle-memcached {
+  &:before {
+    content: $particle-memcached;
+  }
+}
+.particle-nginx {
+  &:before {
+    content: $particle-nginx;
+  }
+}
+.particle-opsgenie {
+  &:before {
+    content: $particle-opsgenie;
+  }
+}
+.particle-orchestrator {
+  &:before {
+    content: $particle-orchestrator;
+  }
+}
+.particle-papertrail {
+  &:before {
+    content: $particle-papertrail;
+  }
+}
+.particle-payu {
+  &:before {
+    content: $particle-payu;
+  }
+}
+.particle-percona {
+  &:before {
+    content: $particle-percona;
+  }
+}
+.particle-redis {
+  &:before {
+    content: $particle-redis;
+  }
+}
+.particle-route53 {
+  &:before {
+    content: $particle-route53;
+  }
+}
+.particle-sendgrid {
+  &:before {
+    content: $particle-sendgrid;
+  }
+}
+.particle-sentry {
+  &:before {
+    content: $particle-sentry;
+  }
+}
+.particle-slack {
+  &:before {
+    content: $particle-slack;
+  }
+}
+.particle-statuscake {
+  &:before {
+    content: $particle-statuscake;
+  }
+}
+.particle-statuspage {
+  &:before {
+    content: $particle-statuspage;
+  }
+}
+.particle-kubernetes {
+  &:before {
+    content: $particle-kubernetes;
+  }
+}
 .particle-docker {
   &:before {
     content: $particle-docker;
@@ -54,11 +189,6 @@
 .particle-letsencrypt {
   &:before {
     content: $particle-letsencrypt;
-  }
-}
-.particle-payu {
-  &:before {
-    content: $particle-payu;
   }
 }
 .particle-react {

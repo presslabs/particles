@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Presslabs-Particles';
-  src:  url('fonts/Presslabs-Particles.eot?4h4m0k');
-  src:  url('fonts/Presslabs-Particles.eot?4h4m0k#iefix') format('embedded-opentype'),
-    url('fonts/Presslabs-Particles.ttf?4h4m0k') format('truetype'),
-    url('fonts/Presslabs-Particles.woff?4h4m0k') format('woff'),
-    url('fonts/Presslabs-Particles.svg?4h4m0k#Presslabs-Particles') format('svg');
+  src:  url('fonts/Presslabs-Particles.eot?zhijny');
+  src:  url('fonts/Presslabs-Particles.eot?zhijny#iefix') format('embedded-opentype'),
+    url('fonts/Presslabs-Particles.ttf?zhijny') format('truetype'),
+    url('fonts/Presslabs-Particles.woff?zhijny') format('woff'),
+    url('fonts/Presslabs-Particles.svg?zhijny#Presslabs-Particles') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,6 +34,87 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.particle-alpine:before {
+  content: "\e954";
+}
+.particle-ansible:before {
+  content: "\e958";
+}
+.particle-bitbucket:before {
+  content: "\e959";
+}
+.particle-celery:before {
+  content: "\e95a";
+}
+.particle-frontapp:before {
+  content: "\e95b";
+}
+.particle-gitolite:before {
+  content: "\e95c";
+}
+.particle-grafana:before {
+  content: "\e95d";
+}
+.particle-graphite:before {
+  content: "\e95e";
+}
+.particle-gunicorn:before {
+  content: "\e95f";
+}
+.particle-hyperdb:before {
+  content: "\e960";
+}
+.particle-kibana:before {
+  content: "\e961";
+}
+.particle-mailgun:before {
+  content: "\e962";
+}
+.particle-memcached:before {
+  content: "\e963";
+}
+.particle-nginx:before {
+  content: "\e964";
+}
+.particle-opsgenie:before {
+  content: "\e965";
+}
+.particle-orchestrator:before {
+  content: "\e966";
+}
+.particle-papertrail:before {
+  content: "\e967";
+}
+.particle-payu:before {
+  content: "\e968";
+}
+.particle-percona:before {
+  content: "\e969";
+}
+.particle-redis:before {
+  content: "\e96a";
+}
+.particle-route53:before {
+  content: "\e96b";
+}
+.particle-sendgrid:before {
+  content: "\e96c";
+}
+.particle-sentry:before {
+  content: "\e96d";
+}
+.particle-slack:before {
+  content: "\e96e";
+}
+.particle-statuscake:before {
+  content: "\e96f";
+}
+.particle-statuspage:before {
+  content: "\e970";
+}
+.particle-kubernetes:before {
+  content: "\e957";
+}
 .particle-docker:before {
   content: "\e950";
 }
@@ -45,9 +126,6 @@
 }
 .particle-letsencrypt:before {
   content: "\e953";
-}
-.particle-payu:before {
-  content: "\e954";
 }
 .particle-react:before {
   content: "\e955";
