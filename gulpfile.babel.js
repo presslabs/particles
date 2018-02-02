@@ -124,6 +124,11 @@ gulp.task('generate-font', () =>
         .pipe(rename({ basename: 'style' }))
         .pipe(gulp.dest(DEMO_DIR))
       gulp
+        .src(`${TEMPLATES_DIR}/_style.scss`)
+        .pipe(consolidate('lodash', options))
+        .pipe(rename({ basename: 'particles' }))
+        .pipe(gulp.dest(OUT_DIR))
+      gulp
         .src(`${TEMPLATES_DIR}/_demo.html`)
         .pipe(consolidate('lodash', options))
         .pipe(rename({ basename: 'demo' }))

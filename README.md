@@ -1,25 +1,37 @@
+# Presslabs Particles Icons Web Font
+
+## Welcome to Particles
+Open `demo/demo.html` to see a list of all the glyphs in your font along with their codes/ligatures.
+
+## Requirements
+Required packages fir installing NPM `canvas` package which can be found [here](https://www.npmjs.com/package/canvas)
+
+#### macOS
 ```
 brew install pkg-config cairo libpng jpeg giflib
 ```
-
+#### Ubuntu
 ```
-// import { ArgumentParser } from 'argparse'
+sudo apt-get install libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++
+```
+#### Windows
+Instructions [here](https://github.com/Automattic/node-canvas/wiki/Installation---Windows)
 
-// const parser = new ArgumentParser({
-//   version: '0.0.1',
-//   addHelp: true,
-//   description: 'Argparse example',
-// })
-//
-// parser.addArgument(['-s', '--size'], {
-//   help: 'Icon size in pixels',
-//   type: 'int',
-// })
-// parser.addArgument(['-o', '--offset'], {
-//   help: 'Offset size in pixels',
-//   type: 'int',
-// })
-//
-// const args = parser.parseArgs()
-// const { size, offset } = args
+After installing all packages run
+```
+yarn install
+```
+
+## Developing
+Source files in `src` folder. Generated fonts will be placed inside `fonts` folder and demo inside `demo` folder.
+To generate web fonts package and demo files run:
+```
+yarn build
+```
+
+## Usage
+In you `sass` file add this block:
+```
+$font-path: "~presslabs-particles-icons/fonts/";
+@import "~presslabs-particles-icons/fonts/style";
 ```
