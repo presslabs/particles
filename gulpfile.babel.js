@@ -13,12 +13,15 @@ import processBrandSvg from './bin/process-brand-svg'
 
 const runTimestamp = Math.round(Date.now() / 1000)
 
+// Existing
 const ICONS_DIR = path.resolve(__dirname, 'src/icons')
 const BRANDS_DIR = path.resolve(__dirname, 'src/brands')
 const TEMPLATES_DIR = path.resolve(__dirname, 'templates')
+
+// Generated
 const DEMO_DIR = path.resolve(__dirname, 'demo')
 const PROCESSED_DIR = path.resolve(__dirname, 'svg')
-const OUT_DIR = path.resolve(__dirname, 'dist')
+const OUT_DIR = path.resolve(__dirname, 'fonts')
 
 const sizeArg = 24
 const offsetArg = 0.75
@@ -79,7 +82,9 @@ gulp.task('convert-icons', () =>
   gulp
     .src([`${ICONS_DIR}/*.svg`])
     .pipe(convertIcons())
-    .pipe(gulp.dest(PROCESSED_DIR)),
+    .pipe(gulp.dest(PROCESSED_DIR))
+    // this is a bug. force closed process
+    .on('end', () => process.exit()),
 )
 
 gulp.task('convert-brands', () =>

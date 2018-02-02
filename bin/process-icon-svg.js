@@ -38,9 +38,7 @@ const optimize = svg => {
       { removeTitle: true },
     ],
   })
-  return new Promise(resolve => {
-    svgo.optimize(svg, ({ data }) => resolve(data))
-  })
+  return svgo.optimize(svg).then(res => Buffer.from(res.data))
 }
 
 /**
