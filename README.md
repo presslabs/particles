@@ -35,3 +35,8 @@ In you `sass` file add this block:
 $font-path: "~presslabs-particles-icons/fonts/";
 @import "~presslabs-particles-icons/fonts/style";
 ```
+
+Particles was developed by the awesome engineering team at [Presslabs](https://www.presslabs.com/),
+a Managed WordPress Hosting provider.
+
+For more open-source projects, check [Presslabs Code](https://www.presslabs.org/).
