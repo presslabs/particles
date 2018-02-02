@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import gulp from 'gulp'
 import iconfont from 'gulp-iconfont'
 import rename from 'gulp-rename'
@@ -63,16 +64,22 @@ const convertBrands = () =>
     return true
   })
 
-gulp.task('cleanup', () =>
-  del([`${PROCESSED_DIR}/*`, `${OUT_DIR}/*`, `${DEMO_DIR}/*`]),
-)
+gulp.task('cleanup', () => {
+  console.log(`Cleanup folder ${PROCESSED_DIR}/*`)
+  del([`${PROCESSED_DIR}/*`])
+
+  console.log(`Cleanup folder ${OUT_DIR}/*`)
+  del([`${OUT_DIR}/*`])
+
+  console.log(`Cleanup folder ${DEMO_DIR}/*`)
+  del([`${DEMO_DIR}/*`])
+})
 
 gulp.task('convert-icons', () =>
   gulp
     .src([`${ICONS_DIR}/*.svg`])
     .pipe(convertIcons())
-    .pipe(gulp.dest(PROCESSED_DIR))
-    .on('finish', () => process.exit()),
+    .pipe(gulp.dest(PROCESSED_DIR)),
 )
 
 gulp.task('convert-brands', () =>
