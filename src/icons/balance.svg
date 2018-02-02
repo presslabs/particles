@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>balance</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="balance" stroke="#000000" stroke-width="2">
+            <path d="M12,3 L12,21" id="Stroke-1"></path>
+            <path d="M4,21 L20,21" id="Stroke-3"></path>
+            <path d="M4,8 L20,4" id="Stroke-5"></path>
+            <polygon id="Stroke-7" points="4 11 7 16 1 16"></polygon>
+            <polygon id="Stroke-9" points="20 7 23 12 17 12"></polygon>
+        </g>
+    </g>
+</svg>

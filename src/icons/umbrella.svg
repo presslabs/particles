@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>umbrella</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="umbrella" stroke="#000000" stroke-width="2">
+            <path d="M12,13 L12,20 C12,21.104 12.896,22 14,22 C15.104,22 16,21.104 16,20 L16,19" id="Stroke-1"></path>
+            <path d="M12,4 L12,2" id="Stroke-3"></path>
+            <path d="M2,14 C3.001,13.37 4.229,13 5.5,13 C6.684,13 7.782,13.331 8.738,13.884 C9.697,13.325 10.81,13 12,13 C13.19,13 14.303,13.325 15.262,13.884 C16.218,13.331 17.316,13 18.5,13 C19.771,13 20.999,13.37 22,14 C22,8.477 17.522,4 12,4 C6.478,4 2,8.477 2,14 Z" id="Stroke-5"></path>
+        </g>
+    </g>
+</svg>

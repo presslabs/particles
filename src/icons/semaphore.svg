@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>semaphore</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="semaphore" stroke="#000000" stroke-width="2">
+            <path d="M14.5,6 C14.5,7.657 13.157,9 11.5,9 C9.843,9 8.5,7.657 8.5,6 C8.5,4.343 9.843,3 11.5,3 C13.157,3 14.5,4.343 14.5,6 Z" id="Stroke-1"></path>
+            <path d="M14.5,12 C14.5,13.657 13.157,15 11.5,15 C9.843,15 8.5,13.657 8.5,12 C8.5,10.343 9.843,9 11.5,9 C13.157,9 14.5,10.343 14.5,12 Z" id="Stroke-3"></path>
+            <path d="M14.5,18 C14.5,19.657 13.157,21 11.5,21 C9.843,21 8.5,19.657 8.5,18 C8.5,16.343 9.843,15 11.5,15 C13.157,15 14.5,16.343 14.5,18 Z" id="Stroke-5"></path>
+            <polyline id="Stroke-7" points="11.5 3 17 3 14.5 5.5"></polyline>
+            <polyline id="Stroke-9" points="11.5 9 17 9 14.5 11.5"></polyline>
+            <polyline id="Stroke-11" points="11.5 15 17 15 14.5 17.5"></polyline>
+            <polyline id="Stroke-13" points="11.5 3 6 3 8.5 5.5"></polyline>
+            <polyline id="Stroke-15" points="11.5 9 6 9 8.5 11.5"></polyline>
+            <polyline id="Stroke-17" points="11.5 15 6 15 8.5 17.5"></polyline>
+        </g>
+    </g>
+</svg>

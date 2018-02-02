@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>file-code</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="file-code" stroke="#000000" stroke-width="2">
+            <polyline id="Stroke-1" points="14 1 14 7 20 7"></polyline>
+            <path d="M20,21 C20,22.104 19.104,23 18,23 L6,23 C4.896,23 4,22.104 4,21 L4,3 C4,1.896 4.896,1 6,1 L14,1 L20,7 L20,21 Z" id="Stroke-3"></path>
+            <path d="M14,10 C15.104,10 15,10.896 15,12 L15,14 C15,14.552 15.447,15 16,15 L17,15" id="Stroke-5"></path>
+            <path d="M14,20 C15.104,20 15,19.104 15,18 L15,16 C15,15.448 15.447,15 16,15" id="Stroke-7"></path>
+            <path d="M10,10 C8.896,10 9,10.896 9,12 L9,14 C9,14.552 8.553,15 8,15 L7,15" id="Stroke-9"></path>
+            <path d="M10,20 C8.896,20 9,19.104 9,18 L9,16 C9,15.448 8.553,15 8,15" id="Stroke-11"></path>
+        </g>
+    </g>
+</svg>

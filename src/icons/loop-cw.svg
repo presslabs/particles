@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>loop-cw</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="loop-cw" stroke="#000000" stroke-width="2">
+            <polyline id="Shape" points="22 4 22 10 16 10"></polyline>
+            <path d="M19.49,15 C18.1546218,18.7797845 14.4803151,21.2207055 10.4784162,20.9865893 C6.47651725,20.752473 3.11189474,17.8997654 2.22636199,13.9900548 C1.34082923,10.0803441 3.14789059,6.05627226 6.6583505,4.1206388 C10.1688104,2.18500534 14.5362874,2.80449677 17.37,5.64 L22,10" id="Shape"></path>
+        </g>
+    </g>
+</svg>

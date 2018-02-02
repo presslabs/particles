@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>calculator</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="calculator" stroke="#000000" stroke-width="2">
+            <polygon id="Stroke-1" points="4 22 20 22 20 2 4 2"></polygon>
+            <polygon id="Stroke-3" points="7 7 17 7 17 5 7 5"></polygon>
+            <polygon id="Stroke-4" points="7 11 8 11 8 10 7 10"></polygon>
+            <polygon id="Stroke-5" points="11 11 12 11 12 10 11 10"></polygon>
+            <polygon id="Stroke-6" points="15 11 17 11 17 10 15 10"></polygon>
+            <polygon id="Stroke-7" points="15 19 17 19 17 14 15 14"></polygon>
+            <polygon id="Stroke-8" points="7 15 8 15 8 14 7 14"></polygon>
+            <polygon id="Stroke-9" points="11 15 12 15 12 14 11 14"></polygon>
+            <polygon id="Stroke-10" points="7 19 8 19 8 18 7 18"></polygon>
+            <polygon id="Stroke-11" points="11 19 12 19 12 18 11 18"></polygon>
+        </g>
+    </g>
+</svg>

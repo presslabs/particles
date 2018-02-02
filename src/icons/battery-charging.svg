@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>battery-charging</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="battery-charging" stroke="#000000" stroke-width="2">
+            <path d="M5,18 L3,18 C1.8954305,18 1,17.1045695 1,16 L1,8 C1,6.8954305 1.8954305,6 3,6 L6.19,6 M15,6 L17,6 C18.1045695,6 19,6.8954305 19,8 L19,16 C19,17.1045695 18.1045695,18 17,18 L13.81,18" id="Shape"></path>
+            <path d="M23,13 L23,11" id="Shape"></path>
+            <polyline id="Shape" points="11 6 7 12 13 12 9 18"></polyline>
+        </g>
+    </g>
+</svg>

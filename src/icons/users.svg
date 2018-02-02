@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>users</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="users" stroke="#000000" stroke-width="2">
+            <path d="M17,22 L17,19 C17,16.790861 15.209139,15 13,15 L5,15 C2.790861,15 1,16.790861 1,19 L1,22 C1,22.5522847 1.44771525,23 2,23 L16,23 C16.5522847,23 17,22.5522847 17,22 Z" id="Shape-Copy"></path>
+            <path d="M20,23 L22,23 C22.5522847,23 23,22.5522847 23,22 L23,19 C23,16.790861 21.209139,15 19,15" id="Shape-Copy-2"></path>
+            <path d="M9,12 C11.7614237,12 14,9.60719872 14,5.88888889 C14,3.18883011 11.7614237,1 9,1 C6.23857625,1 4,3.18883011 4,5.88888889 C4,9.58405919 6.23857625,12 9,12 Z" id="Oval-Copy"></path>
+            <path d="M15.9896968,11.8938984 C18.2770684,11.39285 20,9.15096163 20,5.88888889 C20,3.5219339 18.279695,1.54784881 15.9949283,1.09679155" id="Oval-Copy-2"></path>
+        </g>
+    </g>
+</svg>

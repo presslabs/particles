@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>bucket</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="bucket" stroke="#000000" stroke-width="2">
+            <path d="M5.2926,20.8286 L3.1716,18.7066 C1.6096,17.1446 1.6096,14.6126 3.1716,13.0506 L10.7176,5.5046 L18.4956,13.2826 L10.9496,20.8286 C9.3876,22.3906 6.8546,22.3906 5.2926,20.8286 Z" id="Stroke-1"></path>
+            <path d="M9.607,11 L9.607,2" id="Stroke-3"></path>
+            <path d="M21.4957,20 C21.4957,21.104 20.5997,22 19.4957,22 C18.3917,22 17.4957,21.104 17.4957,20 C17.4957,18.896 19.4957,16 19.4957,16 C19.4957,16 21.4957,18.896 21.4957,20 Z" id="Stroke-5"></path>
+        </g>
+    </g>
+</svg>

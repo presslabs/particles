@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>patch</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="patch" stroke="#000000" stroke-width="2">
+            <path d="M4.1714,4.1714 C2.6094,5.7334 2.6094,8.2664 4.1714,9.8284 L14.0704,19.7284 C15.6334,21.2904 18.1654,21.2904 19.7284,19.7284 C21.2894,18.1664 21.2894,15.6334 19.7284,14.0704 L9.8284,4.1714 C8.2664,2.6094 5.7334,2.6094 4.1714,4.1714 Z" id="Stroke-1"></path>
+            <path d="M6.9996,12.6568 L12.6566,6.9998" id="Stroke-3"></path>
+            <path d="M11.2427,16.8995 L16.8997,11.2425" id="Stroke-5"></path>
+        </g>
+    </g>
+</svg>

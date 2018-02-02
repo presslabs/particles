@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "Presslabs Particles";
+	src: url('../dist/particles.eot');
+	src: url('../dist/particles.eot?#iefix') format('eot'),
+		url('../dist/particles.woff2') format('woff2'),
+		url('../dist/particles.woff') format('woff'),
+		url('../dist/particles.ttf') format('truetype'),
+		url('../dist/particles.svg#Presslabs-Particles') format('svg');
+}
+
+.<%= cssClass %>:before {
+	font-family: "Presslabs Particles";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+<% _.each(glyphs, function(glyph) { %>
+.<%= cssClass %>-<%= glyph.fileName %>:before {
+	content: "\<%= glyph.codePoint %>";
+}
+<% }); %>

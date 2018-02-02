@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>key</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="key" stroke="#000000" stroke-width="2">
+            <path d="M8,22 C11.313,22 14,19.313 14,16 C14,12.687 11.313,10 8,10 C4.687,10 2,12.687 2,16 C2,19.313 4.687,22 8,22 Z" id="Stroke-1"></path>
+            <polyline id="Stroke-3" points="9.7427 10.2573 17.9997 2.0003 21.9997 2.0003 21.9997 5.0003 19.9997 5.0003 19.9997 7.0003 17.9997 7.0003 17.9997 9.0003 15.9997 9.0003 15.9997 11.0003 13.4837 13.5163"></polyline>
+            <path d="M7,18 C7.552,18 8,17.553 8,17 C8,16.447 7.552,16 7,16 C6.448,16 6,16.447 6,17 C6,17.553 6.448,18 7,18 Z" id="Stroke-5"></path>
+        </g>
+    </g>
+</svg>

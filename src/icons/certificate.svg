@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>certificate</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="certificate" stroke="#000000" stroke-width="2">
+            <path d="M10,19 L4,19 C2.896,19 2,18.104 2,17 L2,5 C2,3.896 2.896,3 4,3 L20,3 C21.104,3 22,3.896 22,5 L22,17 C22,17.416 21.873,17.803 21.655,18.123" id="Stroke-1"></path>
+            <path d="M6,7 L18,7" id="Stroke-3"></path>
+            <path d="M6,11 L10,11" id="Stroke-5"></path>
+            <path d="M6,15 L10,15" id="Stroke-7"></path>
+            <path d="M18.5,13.5 C18.5,14.881 17.381,16 16,16 C14.619,16 13.5,14.881 13.5,13.5 C13.5,12.119 14.619,11 16,11 C17.381,11 18.5,12.119 18.5,13.5 Z" id="Stroke-9"></path>
+            <polyline id="Stroke-11" points="14 15 13 21 16 20 19 21 18 15"></polyline>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>db-delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="db-delete" stroke="#000000" stroke-width="2">
+            <path d="M21,5 C21,6.104 16.9698,7 12,7 C7.0302,7 3,6.104 3,5 C3,3.896 7.0302,3 12,3 C16.9698,3 21,3.896 21,5 Z" id="Stroke-1"></path>
+            <path d="M3,5 L3,10 C3,10.944976 5.95277248,11.7375583 9.92012061,11.9462842 M21,9.22384983 C21,8.28521653 21,6.87726659 21,5" id="Stroke-3"></path>
+            <path d="M3,10 L3,15 C3,15.7817002 5.02054665,16.4591193 7.96451466,16.7880256" id="Stroke-5"></path>
+            <path d="M3,15 L3,20 C3,20.943686 5.94471653,21.7353942 9.90387922,21.9454261" id="Stroke-7"></path>
+            <circle id="Oval-2" cx="17" cy="17" r="6"></circle>
+            <path d="M14.8786797,14.8786797 L19.1213203,19.1213203" id="Line"></path>
+            <path d="M19.1213203,14.8786797 L14.8786797,19.1213203" id="Line"></path>
+        </g>
+    </g>
+</svg>

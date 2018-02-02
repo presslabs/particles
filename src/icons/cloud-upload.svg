@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>cloud-upload</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="cloud-upload" stroke="#000000" stroke-width="2">
+            <path d="M16.0003,18 L18.0003,18 C20.2093,18 22.0003,16.209 22.0003,14 C22.0003,12.512 21.1783,11.229 19.9733,10.54 C19.9883,10.362 20.0003,10.182 20.0003,10 C20.0003,6.686 17.3133,4 14.0003,4 C11.3193,4 9.0503,5.759 8.2813,8.186 C7.8693,8.077 7.4463,8 7.0003,8 C4.2393,8 2.0003,10.239 2.0003,13 C2.0003,15.761 4.2393,18 7.0003,18 L8.0003,18" id="Stroke-1"></path>
+            <polyline id="Stroke-3" points="9.0003 14 12.0003 11 15.0003 14"></polyline>
+            <path d="M12.0003,11 L12.0003,20" id="Stroke-5"></path>
+        </g>
+    </g>
+</svg>

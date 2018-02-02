@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>sign</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="sign" stroke="#000000" stroke-width="2">
+            <polygon id="Stroke-1" points="16.671 8.135 12.046 4.312 13.957 2 18.582 5.822"></polygon>
+            <polygon id="Stroke-3" points="10.1348 6.6248 14.7598 10.4468 13.2488 16.9828 4.1648 18.5568 3.9998 9.3378"></polygon>
+            <path d="M4.1651,18.5564 L7.9871,13.9314" id="Stroke-5"></path>
+            <path d="M10.8038,13.6643 C10.0998,14.5153 8.8388,14.6353 7.9878,13.9313 C7.1358,13.2273 7.0168,11.9673 7.7198,11.1163 C8.4238,10.2643 9.6848,10.1443 10.5358,10.8483 C11.3878,11.5523 11.5068,12.8123 10.8038,13.6643 Z" id="Stroke-7"></path>
+            <path d="M4,21 L20,21" id="Stroke-9"></path>
+        </g>
+    </g>
+</svg>

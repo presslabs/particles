@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>check-rect</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="check-rect" stroke="#000000" stroke-width="2">
+            <path d="M21,10 L21,19 C21,20.104 20.104,21 19,21 L5,21 C3.896,21 3,20.104 3,19 L3,5 C3,3.896 3.896,3 5,3 L15,3" id="Stroke-1"></path>
+            <path d="M21,4 L11,14" id="Stroke-3"></path>
+            <path d="M7,10 L11,14" id="Stroke-5"></path>
+        </g>
+    </g>
+</svg>

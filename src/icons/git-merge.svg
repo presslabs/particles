@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>git-merge</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="git-merge" stroke="#000000" stroke-width="2">
+            <path d="M4,20 C5.657,20 7,18.657 7,17 C7,15.343 5.657,14 4,14 C2.343,14 1,15.343 1,17 C1,18.657 2.343,20 4,20 Z" id="Stroke-1"></path>
+            <path d="M4,10 C5.657,10 7,8.657 7,7 C7,5.343 5.657,4 4,4 C2.343,4 1,5.343 1,7 C1,8.657 2.343,10 4,10 Z" id="Stroke-3"></path>
+            <path d="M20,15 C21.657,15 23,13.657 23,12 C23,10.343 21.657,9 20,9 C18.343,9 17,10.343 17,12 C17,13.657 18.343,15 20,15 Z" id="Stroke-5"></path>
+            <path d="M7,7 L10,7 C11.104,7 12,7.896 12,9 L12,10 C12,11.104 12.896,12 14,12 L16,12" id="Stroke-7"></path>
+            <path d="M7,17 L10,17 C11.104,17 12,16.104 12,15 L12,14 C12,12.896 12.896,12 14,12 L17,12" id="Stroke-9"></path>
+        </g>
+    </g>
+</svg>

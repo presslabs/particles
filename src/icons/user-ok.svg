@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>user-ok</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="user-ok" stroke="#000000" stroke-width="2">
+            <circle id="Oval-2" cx="17" cy="17" r="6"></circle>
+            <path d="M8,15 C5.790861,15 4,16.790861 4,19 L4,22 C4,22.5522847 4.44771525,23 5,23 L9.79956055,23" id="Shape-Copy"></path>
+            <path d="M16.889848,7.27206138 C16.9620187,6.83506588 17,6.37322214 17,5.88888889 C17,3.18883011 14.7614237,1 12,1 C9.23857625,1 7,3.18883011 7,5.88888889 C7,8.47928523 8.10010822,10.4410271 9.70924787,11.3825121" id="Oval-Copy"></path>
+            <polyline id="Shape" points="14 17 16 19 19.5 15.5"></polyline>
+        </g>
+    </g>
+</svg>

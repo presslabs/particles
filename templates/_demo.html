@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style type="text/css">
+.<%= cssClass %>-binary {
+    font-family: "<%=fontName%>";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+.my-class-name:before{
+	content: "\<%= glyphs[0].codePoint %>";
+}
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li{
+    float: left;
+    text-align: center;
+}
+ul li:hover{
+    background: #ddd;
+}
+#icon-list li{
+	padding: 10px;
+}
+.icon-show-type{
+	clear: both;
+}
+.icon-show-type li span{
+	display: block;
+	padding: 10px;
+}
+.icon-show-type input{
+	display: none;
+}
+.icon-show-type input:checked ~ span{
+	background: #ddd;
+}
+i {
+	display: block;
+}
+#icon-demo i {
+	float: left;
+  padding-left: 10px;
+}
+.class-name li, .hex li, .binary li {
+	display: none;
+}
+.class-name .class-name-demo {
+	display: block;
+}
+.class-name .class-name-demo .<%= cssClass %> {
+  font-size: 48px;
+}
+.hex .hex-demo {
+	display: block;
+}
+.hex .<%= cssClass %> {
+  font-size: 48px;
+}
+.binary .binary-demo {
+	display: block;
+}
+.binary .binary-demo pre {
+	display: inline;
+}
+.binary .<%= cssClass %>-binary {
+  font-size: 48px;
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+</style>
+</head>
+<body>
+
+<ul class="icon-show-type clearfix">
+	<li>
+		<label onclick="showIconType(0)">
+			<input type="radio" name="icon-type">
+			<span>className</span>
+		</label>
+	</li>
+	<li>
+		<label onclick="showIconType(1)">
+			<input type="radio" name="icon-type">
+			<span>hex</span>
+		</label>
+	</li>
+	<li>
+		<label onclick="showIconType(2)">
+			<input type="radio" name="icon-type">
+			<span>binary</span>
+		</label>
+	</li>
+</ul>
+<hr/>
+Demo
+<div id="icon-demo" class="class-name clearfix">
+	<li class="class-name-demo">
+		<i class="<%= cssClass %> <%= cssClass %>-<%= glyphs[0].fileName %>"></i>
+		<pre>
+			&lt;i class="<%= cssClass %> <%= glyphs[0].fileName %>"&gt;&lt;/i&gt;
+		</pre>
+	</li>
+	<li class="hex-demo">
+		<i class="<%= cssClass %> my-class-name"></i>
+		<pre>
+		    &lt;style&gt;
+			    .my-class-name:before{
+				    content: "\<%= glyphs[0].codePoint %>";
+				}
+			&lt;/style&gt;
+
+			&lt;i class="<%= cssClass %> my-class-name"&gt;&lt;/i&gt;
+		</pre>
+	</li>
+	<li class="binary-demo">
+		<i class="<%= cssClass %>-binary">&#<%=+('0x' + glyphs[0].codePoint).toString(10)%>;</i>
+		<pre>
+		    &lt;style&gt;
+				.<%= cssClass %>-binary {
+				    font-family: "<%=fontName%>";
+				    -webkit-font-smoothing: antialiased;
+				    -moz-osx-font-smoothing: grayscale;
+				    font-style: normal;
+				    font-variant: normal;
+				    font-weight: normal;
+				    text-decoration: none;
+				    text-transform: none;
+				}
+			&lt;/style&gt;
+			&lt;i class="<%= cssClass %>-binary"&gt; &amp;#<%=+('0x' + glyphs[0].codePoint).toString(10)%>;&lt;/i&gt;
+		</pre>
+	</li>
+</div>
+<hr/>
+<ul id="icon-list" class="class-name">
+<% _.each(glyphs, function(glyph) { %>
+<li class="class-name-demo">
+    <i class="<%= cssClass %> <%= cssClass %>-<%= glyph.fileName %>"></i>
+    <pre><%= cssClass %>-<%= glyph.fileName %></pre>
+</li>
+<li class="hex-demo">
+    <i class="<%= cssClass %> <%= cssClass %>-<%= glyph.fileName %>"></i>
+    <pre>\<%= glyph.codePoint %></pre>
+</li>
+<li class="binary-demo">
+    <i class="<%= cssClass %>-binary">&#<%=+('0x' + glyph.codePoint).toString(10)%>;</i>
+    <pre>&amp;#<%=+('0x' + glyph.codePoint).toString(10)%>;</pre>
+</li>
+<% }); %>
+</ul>
+
+<script type="text/javascript">
+	function showIconType(type){
+		var classMap = {
+			0: 'class-name',
+			1: 'hex',
+			2: 'binary',
+		};
+		document.getElementById('icon-list').className = classMap[type];
+		document.getElementById('icon-demo').className = classMap[type] + ' clearfix';
+	}
+</script>
+</body>
+</html>

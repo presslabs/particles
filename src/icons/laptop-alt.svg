@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>laptop-alt</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="laptop-alt" stroke="#000000" stroke-width="2">
+            <path d="M21,17 L3,17 L3,6 C3,4.896 3.896,4 5,4 L19,4 C20.104,4 21,4.896 21,6 L21,17 Z" id="Stroke-1"></path>
+            <path d="M21,20 L3,20 C1.896,20 1,19.104 1,18 L1,17 L23,17 L23,18 C23,19.104 22.104,20 21,20 Z" id="Stroke-3"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>cube</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="cube" stroke="#000000" stroke-width="2">
+            <path d="M12.8900487,1.20893886 L20.8900487,5.20893886 C21.5697064,5.54666887 21.999646,6.23999489 22.0000487,6.99893886 L22.0000487,16.5289389 C21.999646,17.2878828 21.5697064,17.9812089 20.8900487,18.3189389 L12.8900487,22.3189389 C12.3266808,22.6008484 11.6634166,22.6008484 11.1000487,22.3189389 L3.1000487,18.3189389 C2.4210411,17.9768078 1.99475736,17.2792526 2.0000487,16.5189389 L2.0000487,6.99893886 C2.00045142,6.23999489 2.43039102,5.54666887 3.1100487,5.20893886 L11.1100487,1.20893886 C11.6706813,0.930353713 12.3294161,0.930353713 12.8900487,1.20893886 Z" id="Shape"></path>
+            <polyline id="Shape" points="2.3200487 5.91893886 12.0000487 10.7589389 21.6800487 5.91893886"></polyline>
+            <path d="M12.0000487,22.5189389 L12.0000487,10.7589389" id="Shape"></path>
+        </g>
+    </g>
+</svg>

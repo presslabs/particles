@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>cart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="cart" stroke="#000000" stroke-width="2">
+            <circle id="Oval" cx="9" cy="22" r="1"></circle>
+            <circle id="Oval" cx="20" cy="22" r="1"></circle>
+            <path d="M1,2 L5,2 L7.68,15.39 C7.86873697,16.3402315 8.71138394,17.0185624 9.68,17 L19.4,17 C20.3686161,17.0185624 21.211263,16.3402315 21.4,15.39 L23,7 L6,7" id="Shape"></path>
+        </g>
+    </g>
+</svg>

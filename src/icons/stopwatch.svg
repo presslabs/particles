@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>stopwatch</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="stopwatch" stroke="#000000" stroke-width="2">
+            <path d="M12,23 C16.971,23 21,18.971 21,14 C21,9.029 16.971,5 12,5 C7.029,5 3,9.029 3,14 C3,18.971 7.029,23 12,23 Z" id="Stroke-1"></path>
+            <polyline id="Stroke-3" points="9 9 12 14 16 16"></polyline>
+            <polyline id="Stroke-5" points="11 5 11 1 13 1 13 5"></polyline>
+            <path d="M15,1 L9,1" id="Stroke-5"></path>
+            <polyline id="Stroke-7" points="7 6 5 4 3 5 2 7 4 9"></polyline>
+            <path d="M12,5 L12,8" id="Stroke-9"></path>
+            <path d="M3,14 L6,14" id="Stroke-11"></path>
+            <path d="M12,23 L12,20" id="Stroke-13"></path>
+            <path d="M21,14 L18,14" id="Stroke-15"></path>
+        </g>
+    </g>
+</svg>

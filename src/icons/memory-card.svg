@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>memory-card</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="memory-card" stroke="#000000" stroke-width="2">
+            <polygon id="Stroke-1" points="19 2 7 2 7 10 5 12 5 22 19 22"></polygon>
+            <path d="M10,5 L10,7" id="Stroke-3"></path>
+            <path d="M13,5 L13,7" id="Stroke-4"></path>
+            <path d="M16,5 L16,7" id="Stroke-5"></path>
+            <polyline id="Stroke-7" points="8 22 8 17 16 17 16 22"></polyline>
+        </g>
+    </g>
+</svg>

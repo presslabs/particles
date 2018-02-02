@@ -1,1 +1,6 @@
+/node_modules
+/dist
+/svg
 .DS_Store
+/build
+/demo

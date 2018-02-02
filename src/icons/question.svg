@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>question</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="question" stroke="#000000" stroke-width="2">
+            <path d="M12,22 C17.522,22 22,17.523 22,12 C22,6.477 17.522,2 12,2 C6.478,2 2,6.477 2,12 C2,17.523 6.478,22 12,22 Z" id="Stroke-1"></path>
+            <path d="M12,13.9775 C12,13.2385 12.479,12.6255 13.151,12.3205 C14.256,11.8175 14.975,10.6155 14.74,9.2795 C14.543,8.1595 13.624,7.2405 12.505,7.0445 C10.744,6.7355 9.216,8.0815 9.216,9.7845" id="Stroke-3"></path>
+            <path d="M12,17 L12,17.05" id="Stroke-5"></path>
+        </g>
+    </g>
+</svg>

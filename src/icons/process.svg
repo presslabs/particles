@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>process</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="process" stroke="#000000" stroke-width="2">
+            <polygon id="Stroke-1" points="10 7 14 7 14 3 10 3"></polygon>
+            <polygon id="Stroke-3" points="10 14 14 14 14 10 10 10"></polygon>
+            <polygon id="Stroke-4" points="10 21 14 21 14 17 10 17"></polygon>
+            <path d="M17,5 L20,5 C21.104,5 22,5.896 22,7 L22,17 C22,18.104 21.104,19 20,19 L17,19" id="Stroke-6"></path>
+            <polyline id="Stroke-7" points="19 17 17 19 19 21"></polyline>
+            <path d="M7,19 L4,19 C2.896,19 2,18.104 2,17 L2,7 C2,5.896 2.896,5 4,5 L7,5" id="Stroke-8"></path>
+            <polyline id="Stroke-9" points="5 7 7 5 5 3"></polyline>
+        </g>
+    </g>
+</svg>

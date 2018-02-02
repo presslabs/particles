@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>box</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="box" stroke="#000000" stroke-width="2">
+            <polygon id="Stroke-1" points="2 19 12 22 22 19 22 5 12 2 2 5"></polygon>
+            <polyline id="Stroke-3" points="2 5 12 8 22 5"></polyline>
+            <path d="M12,8 L12,22" id="Stroke-5"></path>
+            <path d="M7,12 L7,6.5" id="Stroke-8"></path>
+            <path d="M7.2627,6.5791 L16.6677,3.4441" id="Stroke-9"></path>
+        </g>
+    </g>
+</svg>
