@@ -1,81 +1,75 @@
-<% if (stylesheet === 'scss') { %>
-	<% if (fontPathVariables && stylesheet !== 'css') { %>
-	<%= fontPathVariable %>
-	<% } %>
-	@font-face {
+<% if (stylesheet === 'scss') { %><% if (fontPathVariables && stylesheet !== 'css') { %><%= fontPathVariable %><% } %>
+@font-face {
+	font-family: "<%= fontFamilyName %>";
+	<% if (fontSrc1) { %>src: <%= fontSrc1 %>;<% } %>
+	src: <%= fontSrc2 %>;
+	font-weight: normal;
+	font-style: normal;
+}
+
+<% if (baseStyles) { %>%<%= baseClass %> {
+	&:before {
 		font-family: "<%= fontFamilyName %>";
-		<% if (fontSrc1) { %>src: <%= fontSrc1 %>;<% } %>
-		src: <%= fontSrc2 %>;
+		display: inline-block;
+		line-height: 1;
 		font-weight: normal;
 		font-style: normal;
+		speak: none;
+		text-decoration: inherit;
+		text-transform: none;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
 	}
-
-	// Map of icon name to codepoint
-	$icons: (
-	<% _.forEach(glyphs, function(glyph, index) { %>
-	  ${ glyph }: "${ codepoints[index] }",<% }); %>
-	);
-
-	@mixin icon($icon) {
-	  $code: map-get($icons, $icon);
-	  content: unquote('\'\\#{ $code }\'');
-	}
-
-	// Generate BEM style selector for each icon
-	.icon {
-	  font-family: "${ fontFamilyName }";
-
-	  <% _.forEach(glyphs, function(glyph, index) { %>
-	  &--${ glyph }:before {
-	    @include icon(${ glyph });
-	  }
-	  <% }); %>
-	}
-
+}
 <% } %>
-<% if (stylesheet === 'css') { %>
-	@font-face {
-		font-family: "<%= fontFamilyName %>";
-		<% if (fontSrc1) { %>src:<%= fontSrc1 %>;<% } %>
-		src: <%= fontSrc2 %>;
-		font-weight: normal;
-		font-style: normal;
-	}
 
-	<% if (baseStyles) { %>.<%= baseClass %><% if (addLigatures) { %>,
-	.ligature-icons<% } %> {
-		<% if (stylesheet === 'less') { %>&:before {<% } %>
-			font-family:"<%= fontFamilyName %>";
-		<% if (stylesheet === 'less') { %>}<% } %>
-		display:inline-block;
-		line-height:1;
-		font-weight:normal;
-		font-style:normal;
-		speak:none;
-		text-decoration:inherit;
-		text-transform:none;
-		text-rendering:auto;
-		-webkit-font-smoothing:antialiased;
-		-moz-osx-font-smoothing:grayscale;
+@mixin icon($particle) {
+  $code: map-get($particles, $particle);
+	&:before {
+		content: unquote('\'\\#{ $code }\'');
+		/* content: "#{ $code }"; */
 	}
-	<% } %>
+}
 
-	<% if (iconsStyles) { %>/* Icons */<% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { %>
-	<% if (stylesheet === 'less') { %>
-	.<%= classPrefix %><%= glyphs[glyphIdx] %> {
-		&:before {
-			content:"<% if (addLigatures) { %><%= glyphs[glyphIdx] %><% } else { %>\<%= codepoints[glyphIdx] %><% } %>";
-		}<% if (ie7) {%>
-		*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x<%= codepoints[glyphIdx] %>;');
-		<% } %>
-	}
-	<% } else { %>
-	<% if (ie7) {%>.<%= classPrefix %><%= glyphs[glyphIdx] %> {
-		*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x<%= codepoints[glyphIdx] %>;');
-	}
-	<% } %>
-	.<%= baseClass %>.<%= glyphs[glyphIdx] %>:before {
-		content:"<% if (addLigatures) { %><%= glyphs[glyphIdx] %><% } else { %>\<%= codepoints[glyphIdx] %><% } %>";
-	}<% } } } %>
+@mixin particle($particle) {
+	@extend %<%= baseClass %>;
+	@include icon($particle);
+}
+
+// Map of icon name to codepoint
+$particles: (<% _.forEach(glyphs, function(glyph, index) { %>
+	${ glyphs[index] }: "${ glyphs[index] }",<%
+	}); %>
+);
+
+<% } %><% if (stylesheet === 'css') { %>
+@font-face {
+	font-family: "<%= fontFamilyName %>";
+	<% if (fontSrc1) { %>src:<%= fontSrc1 %>;<% } %>
+	src: <%= fontSrc2 %>;
+	font-weight: normal;
+	font-style: normal;
+}
+
+<% if (baseStyles) { %>.<%= baseClass %> {
+	font-family: "<%= fontFamilyName %>";
+	display: inline-block;
+	line-height: 1;
+	font-weight: normal;
+	font-style: normal;
+	speak: none;
+	text-decoration: inherit;
+	text-transform: none;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+<% } %>
+
+<% if (iconsStyles) { %>/* Icons */<% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { %>
+.<%= baseClass %>.<%= glyphs[glyphIdx] %>:before {
+	content: "<% if (addLigatures) { %><%= glyphs[glyphIdx] %><% } else { %>\<%= codepoints[glyphIdx] %><% } %>";
+}<% } } %>
 
 <% } %>

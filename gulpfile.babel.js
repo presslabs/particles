@@ -79,4 +79,4 @@ gulp.task('convert-brands', () =>
     .pipe(gulp.dest(PROCESSED_DIR)),
 )
 
-gulp.task('generate', ['convert-icons', 'convert-brands'])
+gulp.task('default', ['cleanup', 'convert-icons', 'convert-brands'])
