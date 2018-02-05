@@ -74,7 +74,7 @@
 		*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x<%= codepoints[glyphIdx] %>;');
 	}
 	<% } %>
-	.<%= classPrefix %><%= glyphs[glyphIdx] %>:before {
+	.<%= baseClass %>.<%= glyphs[glyphIdx] %>:before {
 		content:"<% if (addLigatures) { %><%= glyphs[glyphIdx] %><% } else { %>\<%= codepoints[glyphIdx] %><% } %>";
 	}<% } } } %>
 

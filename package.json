@@ -36,7 +36,7 @@
     "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-promise": "^1.1.2",
-    "grunt-webfont": "^1.7.1",
+    "grunt-webfont": "desero/grunt-webfont",
     "gulp": "^3.9.1",
     "gulp-cli": "^2.0.1",
     "gulp-consolidate": "^0.2.0",

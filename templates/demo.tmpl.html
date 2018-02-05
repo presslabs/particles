@@ -1,5 +1,4 @@
 <!doctype html>
-<!-- my template -->
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -34,6 +33,7 @@
 			}
 		.icons__item,
 		.icons__item i {
+			text-align:center;
 			line-height:2em;
 			cursor:pointer;
 			overflow:hidden;
@@ -42,9 +42,11 @@
 			color:#3c90be;
 			}
 		.icons__item i {
-			display:inline-block;
+			line-height:3em;
+			font-size: 2em;
+			display:block;
+			margin: 0 auto;
 			width:32px;
-			text-align:center;
 			}
 		.icons__item:hover i {
 			-webkit-transform:scale(1.5);
@@ -64,7 +66,7 @@
 
 		<div class="icons" id="icons">
 			<% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
-				<div class="icons__item" data-name="<%= glyph %>"><i class="<%= baseClass %> <%= classPrefix %><%= glyph %>"></i> <%= classPrefix %><%= glyph %></div>
+				<div class="icons__item" data-name="<%= glyph %>"><i class="<%= baseClass %> <%= glyph %>"></i> <%= glyph %></div>
 			<% } %>
 		</div>
 
