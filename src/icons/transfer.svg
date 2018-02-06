@@ -5,11 +5,11 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="transfer" stroke="#000000" stroke-width="2">
-            <polyline id="Stroke-1" points="17 10 20 13 17 16"></polyline>
-            <path d="M19,13 L5,13" id="Stroke-2"></path>
-            <polyline id="Stroke-3" points="10 16 10 19 1 19 1 8 5.5 5 10 8 10 10"></polyline>
-            <polyline id="Stroke-5" points="14 10 14 8 18.5 5 23 8 23 19 14 19 14 16"></polyline>
+        <g id="transfer" stroke="#000000" stroke-width="1.5">
+            <polyline id="Stroke-2" points="16 10 19 13 16 16"></polyline>
+            <path d="M18,13 L6,13" id="Stroke-3"></path>
+            <path d="M11,16 L11,17 C11,18.104 10.104,19 9,19 L4,19 C2.896,19 2,18.104 2,17 L2,8 L6.5,5 L11,8 L11,10" id="Stroke-4"></path>
+            <path d="M13,10 L13,8 L17.5,5 L22,8 L22,17 C22,18.104 21.104,19 20,19 L15,19 C13.896,19 13,18.104 13,17 L13,16" id="Stroke-6"></path>
         </g>
     </g>
 </svg>

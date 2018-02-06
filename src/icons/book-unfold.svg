@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="book-unfold" stroke="#000000" stroke-width="2">
+        <g id="book-unfold" stroke="#000000" stroke-width="1.5">
             <path d="M2,3 L8,3 C10.209139,3 12,4.790861 12,7 L12,21 C12,19.3431458 10.6568542,18 9,18 L2,18 L2,3 Z" id="Shape"></path>
             <path d="M22,3 L16,3 C13.790861,3 12,4.790861 12,7 L12,21 C12,19.3431458 13.3431458,18 15,18 L22,18 L22,3 Z" id="Shape"></path>
         </g>

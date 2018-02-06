@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="network" stroke="#000000" stroke-width="2">
+        <g id="network" stroke="#000000" stroke-width="1.5">
             <path d="M7,6 C7,7.104 6.104,8 5,8 C3.896,8 3,7.104 3,6 C3,4.896 3.896,4 5,4 C6.104,4 7,4.896 7,6 Z" id="Stroke-1"></path>
             <path d="M21,6 C21,7.104 20.104,8 19,8 C17.896,8 17,7.104 17,6 C17,4.896 17.896,4 19,4 C20.104,4 21,4.896 21,6 Z" id="Stroke-3"></path>
             <path d="M14,5 C14,6.104 13.104,7 12,7 C10.896,7 10,6.104 10,5 C10,3.896 10.896,3 12,3 C13.104,3 14,3.896 14,5 Z" id="Stroke-5"></path>

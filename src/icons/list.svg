@@ -5,13 +5,19 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="list" stroke="#000000" stroke-width="2">
-            <path d="M9,6 L20,6" id="Shape"></path>
-            <path d="M9,12 L20,12" id="Shape"></path>
-            <path d="M9,18 L20,18" id="Shape"></path>
-            <path d="M4,6 L5,6" id="Shape"></path>
-            <path d="M4,12 L5,12" id="Shape"></path>
-            <path d="M4,18 L5,18" id="Shape"></path>
+        <g id="list" stroke="#000000" stroke-width="1.5">
+            <path d="M9,6 L20,6" id="Stroke-2"></path>
+            <path d="M9,12 L20,12" id="Stroke-3"></path>
+            <path d="M9,18 L20,18" id="Stroke-4"></path>
+            <path d="M5,7 C5.553,7 6,6.552 6,6 C6,5.448 5.553,5 5,5 C4.447,5 4,5.448 4,6 C4,6.552 4.447,7 5,7 Z" id="Stroke-1"></path>
+            <path d="M5,5 L5,7" id="Stroke-3"></path>
+            <path d="M6,6 L4,6" id="Stroke-5"></path>
+            <path d="M5,13 C5.553,13 6,12.552 6,12 C6,11.448 5.553,11 5,11 C4.447,11 4,11.448 4,12 C4,12.552 4.447,13 5,13 Z" id="Stroke-7"></path>
+            <path d="M5,11 L5,13" id="Stroke-9"></path>
+            <path d="M6,12 L4,12" id="Stroke-11"></path>
+            <path d="M5,19 C5.553,19 6,18.553 6,18 C6,17.447 5.553,17 5,17 C4.447,17 4,17.447 4,18 C4,18.553 4.447,19 5,19 Z" id="Stroke-13"></path>
+            <path d="M5,17 L5,19" id="Stroke-15"></path>
+            <path d="M6,18 L4,18" id="Stroke-17"></path>
         </g>
     </g>
 </svg>

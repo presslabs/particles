@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="volume-hi" stroke="#000000" stroke-width="2">
+        <g id="volume-hi" stroke="#000000" stroke-width="1.5">
             <polygon id="Shape" points="11 5.07 6 9.07 2 9.07 2 15.07 6 15.07 11 19.07"></polygon>
             <path d="M15.54,8.53 C17.4919097,10.4824993 17.4919097,13.6475007 15.54,15.6" id="Path"></path>
             <path d="M19.07,5 C22.9738194,8.90499851 22.9738194,15.2350015 19.07,19.14" id="Shape"></path>

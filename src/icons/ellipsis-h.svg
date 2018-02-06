@@ -5,10 +5,16 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="ellipsis-h" stroke="#000000" stroke-width="2">
-            <circle id="Oval" cx="12" cy="12" r="1"></circle>
-            <circle id="Oval" cx="19" cy="12" r="1"></circle>
-            <circle id="Oval" cx="5" cy="12" r="1"></circle>
+        <g id="ellipsis-h" stroke="#000000" stroke-width="1.5">
+            <path d="M6,12 C6,11.448 5.553,11 5,11 C4.447,11 4,11.448 4,12 C4,12.552 4.447,13 5,13 C5.553,13 6,12.552 6,12 Z" id="Stroke-1"></path>
+            <path d="M4,12 L6,12" id="Stroke-3"></path>
+            <path d="M5,11 L5,13" id="Stroke-5"></path>
+            <path d="M13,12 C13,11.448 12.553,11 12,11 C11.447,11 11,11.448 11,12 C11,12.552 11.447,13 12,13 C12.553,13 13,12.552 13,12 Z" id="Stroke-7"></path>
+            <path d="M11,12 L13,12" id="Stroke-9"></path>
+            <path d="M12,11 L12,13" id="Stroke-11"></path>
+            <path d="M20,12 C20,11.448 19.553,11 19,11 C18.447,11 18,11.448 18,12 C18,12.552 18.447,13 19,13 C19.553,13 20,12.552 20,12 Z" id="Stroke-13"></path>
+            <path d="M18,12 L20,12" id="Stroke-15"></path>
+            <path d="M19,11 L19,13" id="Stroke-17"></path>
         </g>
     </g>
 </svg>

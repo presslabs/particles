@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="loop-ccw" stroke="#000000" stroke-width="2">
+        <g id="loop-ccw" stroke="#000000" stroke-width="1.5">
             <polyline id="Shape" points="2 4 2 10 8 10"></polyline>
             <path d="M4.51,15 C5.8420064,18.780717 9.5138392,21.2247974 13.5157152,20.9944702 C17.5175912,20.764143 20.8847697,17.9149336 21.7742205,14.0063611 C22.6636713,10.0977885 20.8609726,6.07210066 17.3528343,4.13276378 C13.844696,2.1934269 9.47683228,2.80796104 6.64,5.64 L2,10" id="Shape"></path>
         </g>

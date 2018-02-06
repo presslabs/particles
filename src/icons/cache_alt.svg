@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="cache_alt" stroke="#000000" stroke-width="2">
+        <g id="cache_alt" stroke="#000000" stroke-width="1.5">
             <polyline id="Stroke-1" points="12 1 12 7 18 7"></polyline>
             <path d="M12,1 L17,1 L22,6 L22,21 C22,22.104 21.104,23 20,23 L14,23" id="Stroke-3"></path>
             <path d="M16,23 C17.104,23 18,22.104 18,21 L18,7 L12,1 L4,1 C2.896,1 2,1.896 2,3 L2,21 C2,22.104 2.896,23 4,23 L16,23 Z" id="Stroke-7"></path>

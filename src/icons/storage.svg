@@ -5,19 +5,19 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="storage" stroke="#000000" stroke-width="2">
-            <path d="M5,5 L5,9" id="Shape-Copy"></path>
-            <path d="M8,5 L8,9" id="Shape-Copy-2"></path>
-            <path d="M11,5 L11,9" id="Shape-Copy-4"></path>
-            <path d="M14,5 L14,9" id="Shape-Copy-5"></path>
-            <path d="M21,12 L3,12" id="Shape-Copy-10"></path>
-            <rect id="Rectangle-3" x="2" y="2" width="20" height="20"></rect>
-            <path d="M5,15 L5,19" id="Shape-Copy"></path>
-            <path d="M8,15 L8,19" id="Shape-Copy-2"></path>
-            <path d="M11,15 L11,19" id="Shape-Copy-4"></path>
-            <path d="M14,15 L14,19" id="Shape-Copy-5"></path>
-            <path d="M19,15 L18,15" id="Shape-Copy-3"></path>
-            <path d="M19,5 L18,5" id="Shape-Copy-3"></path>
+        <g id="storage" stroke="#000000" stroke-width="1.5">
+            <path d="M5,5 L5,9" id="Stroke-2"></path>
+            <path d="M8,5 L8,9" id="Stroke-3"></path>
+            <path d="M11,5 L11,9" id="Stroke-4"></path>
+            <path d="M14,5 L14,9" id="Stroke-5"></path>
+            <path d="M22,12 L2,12" id="Stroke-6"></path>
+            <path d="M4,2 L20,2 C21.104,2 22,2.896 22,4 L22,20 C22,21.104 21.104,22 20,22 L4,22 C2.896,22 2,21.104 2,20 L2,4 C2,2.896 2.896,2 4,2 Z" id="Stroke-8"></path>
+            <path d="M5,15 L5,19" id="Stroke-10"></path>
+            <path d="M8,15 L8,19" id="Stroke-12"></path>
+            <path d="M11,15 L11,19" id="Stroke-14"></path>
+            <path d="M14,15 L14,19" id="Stroke-16"></path>
+            <path d="M19,15 L18,15" id="Stroke-18"></path>
+            <path d="M19,5 L18,5" id="Stroke-20"></path>
         </g>
     </g>
 </svg>

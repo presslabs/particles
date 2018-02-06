@@ -5,10 +5,10 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="login" stroke="#000000" stroke-width="2">
-            <polyline id="Stroke-1" points="10.0713 15.9286 14.0003 11.9996 10.0713 8.0716"></polyline>
-            <path d="M4,11.9999 L14,11.9999" id="Stroke-2"></path>
-            <polyline id="Stroke-4" points="6 15.9999 6 19.9999 18 19.9999 18 3.9999 6 3.9999 6 7.9999"></polyline>
+        <g id="login" stroke="#000000" stroke-width="1.5">
+            <polyline id="Stroke-1" points="10.0713 15.9287 14.0003 11.9997 10.0713 8.0717"></polyline>
+            <path d="M4,12 L14,12" id="Stroke-2"></path>
+            <path d="M6,16 L6,18 C6,19.104 6.896,20 8,20 L16,20 C17.104,20 18,19.104 18,18 L18,6 C18,4.896 17.104,4 16,4 L8,4 C6.896,4 6,4.896 6,6 L6,8" id="Stroke-3"></path>
         </g>
     </g>
 </svg>

@@ -5,11 +5,13 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="battery-full" stroke="#000000" stroke-width="2">
-            <path d="M3,6 L17,6 C18.104,6 19,6.896 19,8 L19,16 C19,17.104 18.104,18 17,18 L3,18 C1.896,18 1,17.104 1,16 L1,8 C1,6.896 1.896,6 3,6 Z" id="Stroke-1"></path>
-            <path d="M3,6 L17,6 C18.104,6 19,6.896 19,8 L19,16 C19,17.104 18.104,18 17,18 L3,18 C1.896,18 1,17.104 1,16 L1,8 C1,6.896 1.896,6 3,6 Z" id="Stroke-3"></path>
-            <path d="M23,13 L23,11" id="Stroke-5"></path>
-            <path d="M5,12 L15,12" id="Stroke-7"></path>
+        <g id="battery-full" stroke="#000000" stroke-width="1.5">
+            <path d="M4,13 L16,13" id="Stroke-2"></path>
+            <path d="M4,12 L16,12" id="Stroke-3"></path>
+            <path d="M4,11 L16,11" id="Stroke-4"></path>
+            <path d="M21,14 L22,14 C22.553,14 23,13.553 23,13 L23,11 C23,10.448 22.553,10 22,10 L21,10" id="Stroke-5"></path>
+            <polygon id="Stroke-7" points="4 14 16 14 16 10 4 10"></polygon>
+            <path d="M17,17 L3,17 C1.896,17 1,16.104 1,15 L1,9 C1,7.896 1.896,7 3,7 L17,7 C18.104,7 19,7.896 19,9 L19,15 C19,16.104 18.104,17 17,17 Z" id="Stroke-9"></path>
         </g>
     </g>
 </svg>

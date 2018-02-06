@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="compass_alt" stroke="#000000" stroke-width="2">
+        <g id="compass_alt" stroke="#000000" stroke-width="1.5">
             <path d="M14,7 C14,8.104 13.104,9 12,9 C10.896,9 10,8.104 10,7 C10,5.896 10.896,5 12,5 C13.104,5 14,5.896 14,7 Z" id="Stroke-1"></path>
             <path d="M12,5 L12,2" id="Stroke-3"></path>
             <path d="M12.8496,8.8198 L18.9996,21.9998" id="Stroke-5"></path>
