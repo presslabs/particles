@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <title>sendgrid</title>
-  <path d="M5,23H23V41H41V59H23V41H5Zm20.41-2.42H41V5.09h2.43V20.61H58.91V23H43.39V38.58H41V23H25.43ZM23,2.67v18H2.67V61.39H43.39V41h18V2.67Z" fill-rule="evenodd"/>
+  <path d="M21,21V2H62V43H43V62H2V21Zm0,3H5V40H21Zm19-3H24V5H40Zm0,38H24V43H40ZM59,40H43V24H59Z" fill-rule="evenodd"/>
 </svg>

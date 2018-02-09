@@ -1,9 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <title>list-alt</title>
-  <line x1="34" y1="14" x2="54" y2="14" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <line x1="34" y1="42" x2="54" y2="42" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <line x1="34" y1="22" x2="44" y2="22" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <line x1="34" y1="50" x2="44" y2="50" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <rect x="8" y="8" width="20" height="20" rx="2" ry="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <rect x="8" y="36" width="20" height="20" rx="2" ry="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="34" y1="14" x2="54" y2="14" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="34" y1="42" x2="54" y2="42" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="34" y1="22" x2="44" y2="22" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="34" y1="50" x2="44" y2="50" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M10,28a2,2,0,0,1-2-2V10a2,2,0,0,1,2-2H26a2,2,0,0,1,2,2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M10,56a2,2,0,0,1-2-2V38a2,2,0,0,1,2-2H26a2,2,0,0,1,2,2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M28,10V26a2,2,0,0,1-2,2H10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M28,38V54a2,2,0,0,1-2,2H10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
 </svg>

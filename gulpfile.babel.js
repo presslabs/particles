@@ -16,7 +16,7 @@ const BRANDS_DIR = path.resolve(__dirname, 'src/brands')
 const PROCESSED_DIR = path.resolve(__dirname, 'svg')
 
 const sizeArg = 64
-const offsetArg = 1.5
+const offsetArg = 2
 
 const attrs = {
   xmlns: 'http://www.w3.org/2000/svg',
