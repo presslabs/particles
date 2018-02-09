@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>percent</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="percent" stroke="#000000" stroke-width="1.5">
-            <path d="M9.2676,5.7324 C10.2446,6.7084 10.2446,8.2914 9.2676,9.2674 C8.2906,10.2444 6.7086,10.2444 5.7326,9.2674 C4.7556,8.2914 4.7556,6.7084 5.7326,5.7324 C6.7086,4.7554 8.2906,4.7554 9.2676,5.7324 Z" id="Stroke-1"></path>
-            <path d="M18.2676,14.7324 C19.2446,15.7084 19.2446,17.2914 18.2676,18.2674 C17.2906,19.2444 15.7086,19.2444 14.7326,18.2674 C13.7556,17.2914 13.7556,15.7084 14.7326,14.7324 C15.7086,13.7554 17.2906,13.7554 18.2676,14.7324 Z" id="Stroke-3"></path>
-            <path d="M20,4 L4,20" id="Stroke-5"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>percent</title>
+  <circle cx="16" cy="16" r="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle cx="48" cy="48" r="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="8" y1="56" x2="56" y2="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

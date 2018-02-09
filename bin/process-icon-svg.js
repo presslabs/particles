@@ -104,11 +104,11 @@ const convertPaths = (svg, data) => {
   const imported = Paper.project.importSVG(svg, { expandShapes: true })
 
   // Remove all clipping masks but not the root element
-  // map(imported.getItems({ clipMask: true }), shape => {
-  //   if (!shape.isDescendant(Paper.project)) {
-  //     shape.remove()
-  //   }
-  // })
+  map(imported.getItems({ clipMask: true }), shape => {
+    if (!shape.isDescendant(Paper.project)) {
+      shape.remove()
+    }
+  })
 
   // Create offset path from original paths
   const offsets = []

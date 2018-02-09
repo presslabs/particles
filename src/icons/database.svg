@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>database</title>
+  <ellipse cx="32" cy="14" rx="24" ry="6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M8,14V50c0,3.31,10.75,6,24,6s24-2.69,24-6V14" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M56,38c0,3.31-10.75,6-24,6S8,41.31,8,38" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M56,26c0,3.31-10.75,6-24,6S8,29.31,8,26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>

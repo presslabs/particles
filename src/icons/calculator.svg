@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>calculator</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="calculator" stroke="#000000" stroke-width="1.5">
-            <path d="M6,22 L18,22 C19.104,22 20,21.104 20,20 L20,4 C20,2.896 19.104,2 18,2 L6,2 C4.896,2 4,2.896 4,4 L4,20 C4,21.104 4.896,22 6,22 Z" id="Stroke-1"></path>
-            <polygon id="Stroke-3" points="7 7 17 7 17 5 7 5"></polygon>
-            <polygon id="Stroke-5" points="7 11 8 11 8 10 7 10"></polygon>
-            <polygon id="Stroke-6" points="11 11 12 11 12 10 11 10"></polygon>
-            <polygon id="Stroke-7" points="15 11 17 11 17 10 15 10"></polygon>
-            <polygon id="Stroke-8" points="15 19 17 19 17 14 15 14"></polygon>
-            <polygon id="Stroke-9" points="7 15 8 15 8 14 7 14"></polygon>
-            <polygon id="Stroke-10" points="11 15 12 15 12 14 11 14"></polygon>
-            <polygon id="Stroke-11" points="7 19 8 19 8 18 7 18"></polygon>
-            <polygon id="Stroke-12" points="11 19 12 19 12 18 11 18"></polygon>
-            <path d="M7,6 L17,6" id="Stroke-13"></path>
-            <path d="M16,10 L16,11" id="Stroke-14"></path>
-            <path d="M16,14 L16,19" id="Stroke-15"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>calculator</title>
+  <rect x="11" y="4" width="42" height="56" rx="5" ry="5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="19" y="26" width="2" height="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="27" y="26" width="2" height="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="35" y="26" width="2" height="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="43" y="26" width="2" height="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="19" y="34" width="2" height="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="27" y="34" width="2" height="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="35" y="34" width="2" height="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="43" y="34" width="2" height="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="19" y="42" width="2" height="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="27" y="42" width="2" height="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="35" y="42" width="2" height="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="19" y="50" width="10" height="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="35" y="50" width="2" height="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="43" y="42" width="2" height="10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="19" y="12" width="26" height="6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="19" y1="15" x2="45" y2="15" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="19" y1="13" x2="45" y2="13" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="19" y1="14" x2="45" y2="14" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="19" y1="16" x2="45" y2="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="19" y1="17" x2="45" y2="17" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

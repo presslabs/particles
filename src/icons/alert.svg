@@ -1,13 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>alert</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="alert" stroke="#000000" stroke-width="1.5">
-            <path d="M2,17 C3.657,17 5,15.657 5,14 L5,9 C5,5.134 8.134,2 12,2 C15.866,2 19,5.134 19,9 L19,14 C19,15.657 20.343,17 22,17 M13.73,21 C13.372,21.617 12.713,21.996 12,21.996 C11.287,21.996 10.628,21.617 10.27,21 L13.73,21 Z" id="Stroke-1"></path>
-            <path d="M22,17 L2,17" id="Stroke-3"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>alert</title>
+  <path d="M51,32V26A19,19,0,0,0,32,7h0A19,19,0,0,0,13,26v6a8,8,0,0,1-8,8H5v7H59V40h0A8,8,0,0,1,51,32Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M36,54a4,4,0,0,1-8,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="32" y1="54" x2="32" y2="58" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="28.54" y1="56" x2="35.46" y2="56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

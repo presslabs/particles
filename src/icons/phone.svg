@@ -1,13 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>phone</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="phone" stroke="#000000" stroke-width="1.5">
-            <path d="M16,22 L8,22 C6.896,22 6,21.104 6,20 L6,4 C6,2.896 6.896,2 8,2 L16,2 C17.104,2 18,2.896 18,4 L18,20 C18,21.104 17.104,22 16,22 Z" id="Stroke-1"></path>
-            <polyline id="Stroke-3" points="14 2 14 3 10 3 10 2"></polyline>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>phone</title>
+  <rect x="16" y="5" width="32" height="54" rx="5" ry="5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polyline points="38 5 38 8 26 8 26 5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

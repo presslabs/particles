@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>login</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="login" stroke="#000000" stroke-width="1.5">
-            <polyline id="Stroke-1" points="10.0713 15.9287 14.0003 11.9997 10.0713 8.0717"></polyline>
-            <path d="M4,12 L14,12" id="Stroke-2"></path>
-            <path d="M6,16 L6,18 C6,19.104 6.896,20 8,20 L16,20 C17.104,20 18,19.104 18,18 L18,6 C18,4.896 17.104,4 16,4 L8,4 C6.896,4 6,4.896 6,6 L6,8" id="Stroke-3"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>login</title>
+  <line x1="13" y1="32" x2="41" y2="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polyline points="29 20 41 32 29 44" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M19,40v9a5,5,0,0,0,5,5H45a5,5,0,0,0,5-5V15a5,5,0,0,0-5-5H24a5,5,0,0,0-5,5v9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

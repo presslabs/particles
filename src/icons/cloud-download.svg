@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>cloud-download</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="cloud-download" stroke="#000000" stroke-width="1.5">
-            <path d="M16,16 L18,16 C20.209,16 22,14.209 22,12 C22,10.512 21.178,9.229 19.973,8.54 C19.989,8.362 20,8.182 20,8 C20,4.686 17.314,2 14,2 C11.319,2 9.05,3.759 8.281,6.186 C7.869,6.077 7.446,6 7,6 C4.239,6 2,8.239 2,11 C2,13.761 4.239,16 7,16 L8,16" id="Stroke-1"></path>
-            <polyline id="Stroke-3" points="9.0005 19 12.0005 22 15.0005 19"></polyline>
-            <path d="M12.0005,12 L12.0005,22" id="Stroke-5"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>cloud-download</title>
+  <path d="M41,43h8v0a10.49,10.49,0,0,0,3.79-20A14.82,14.82,0,0,0,53,20.5a15.49,15.49,0,0,0-30.74-2.77A12.83,12.83,0,0,0,18,17a13,13,0,0,0,0,26h9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="34" y1="35" x2="34" y2="59" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polyline points="27 52 34 59 41 52" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

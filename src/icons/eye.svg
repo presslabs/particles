@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>eye</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="eye" stroke="#000000" stroke-width="1.5">
-            <path d="M11.9951,6 C7.0751,6 2.8511,8.47 1.0001,12 C2.8511,15.53 7.0751,18 11.9951,18 C16.9151,18 21.1381,15.53 22.9901,12 C21.1381,8.47 16.9151,6 11.9951,6 Z" id="Stroke-1"></path>
-            <path d="M13,12 C13,11.448 12.553,11 12,11 C11.447,11 11,11.448 11,12 C11,12.552 11.447,13 12,13 C12.553,13 13,12.552 13,12 Z" id="Stroke-3"></path>
-            <path d="M11,12 L13,12" id="Stroke-5"></path>
-            <path d="M12,11 L12,13" id="Stroke-7"></path>
-            <path d="M15.2002,9.6001 C15.7022,10.2681 16.0002,11.1001 16.0002,12.0001 C16.0002,14.2091 14.2092,16.0001 12.0002,16.0001 C9.7912,16.0001 8.0002,14.2091 8.0002,12.0001 C8.0002,9.7911 9.7912,8.0001 12.0002,8.0001" id="Stroke-9"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>eye</title>
+  <path d="M59,32c-6.39-8.54-16.11-14-27-14S11.39,23.46,5,32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M40.05,28a9,9,0,1,1-8-5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M32,34a2,2,0,0,1,0-4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M32,30a2,2,0,0,1,0,4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="32" y1="30" x2="32" y2="34" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="30" y1="32" x2="34" y2="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M5,32c6.39,8.54,16.11,14,27,14s20.61-5.46,27-14" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

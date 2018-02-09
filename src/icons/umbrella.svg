@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>umbrella</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="umbrella" stroke="#000000" stroke-width="1.5">
-            <path d="M12,13 L12,20 C12,21.104 12.896,22 14,22 C15.104,22 16,21.104 16,20 L16,19" id="Stroke-1"></path>
-            <path d="M12,4 L12,2" id="Stroke-3"></path>
-            <path d="M2,14 C3.001,13.37 4.229,13 5.5,13 C6.684,13 7.782,13.331 8.738,13.884 C9.697,13.325 10.81,13 12,13 C13.19,13 14.303,13.325 15.262,13.884 C16.218,13.331 17.316,13 18.5,13 C19.771,13 20.999,13.37 22,14 C22,8.477 17.522,4 12,4 C6.478,4 2,8.477 2,14 Z" id="Stroke-5"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>umbrella</title>
+  <line x1="32" y1="10" x2="32" y2="6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M5,37a18.14,18.14,0,0,1,9.45-3,17.55,17.55,0,0,1,8.74,2.69A17.71,17.71,0,0,1,32,34a17.71,17.71,0,0,1,8.81,2.69A17.55,17.55,0,0,1,49.55,34,18.14,18.14,0,0,1,59,37,27,27,0,0,0,5,37Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M32,34V52a5,5,0,0,0,10,0V50" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

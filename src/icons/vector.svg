@@ -1,20 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>vector</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="vector" stroke="#000000" stroke-width="1.5">
-            <path d="M7,17 C7,15.896 6.104,15 5,15 C3.896,15 3,15.896 3,17 C3,18.104 3.896,19 5,19 C6.104,19 7,18.104 7,17 Z" id="Stroke-1"></path>
-            <path d="M21,17 C21,15.896 20.104,15 19,15 C17.896,15 17,15.896 17,17 C17,18.104 17.896,19 19,19 C20.104,19 21,18.104 21,17 Z" id="Stroke-3"></path>
-            <path d="M14,8 C14,6.896 13.104,6 12,6 C10.896,6 10,6.896 10,8 C10,9.104 10.896,10 12,10 C13.104,10 14,9.104 14,8 Z" id="Stroke-5"></path>
-            <path d="M3,8 L10,8" id="Stroke-7"></path>
-            <path d="M14,8 L21,8" id="Stroke-9"></path>
-            <path d="M14,8.29 C16.892,9.15 19,11.829 19,15" id="Stroke-11"></path>
-            <path d="M5,15 C5,11.821 7.119,9.137 10.021,8.284" id="Stroke-13"></path>
-            <path d="M4,8 C4,8.552 3.553,9 3,9 C2.447,9 2,8.552 2,8 C2,7.448 2.447,7 3,7 C3.553,7 4,7.448 4,8 Z" id="Stroke-15"></path>
-            <path d="M22,8 C22,8.552 21.553,9 21,9 C20.447,9 20,8.552 20,8 C20,7.448 20.447,7 21,7 C21.553,7 22,7.448 22,8 Z" id="Stroke-17"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>vector</title>
+  <circle cx="12" cy="47" r="6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle cx="52" cy="47" r="6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle cx="32" cy="21" r="6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="38" y1="21" x2="56" y2="21" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="8" y1="21" x2="26" y2="21" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M7,21a1,1,0,0,1,2,0" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M9,21a1,1,0,0,1-2,0" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M37.93,21.89A20,20,0,0,1,52,41" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M12,41A20,20,0,0,1,26.05,21.9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M55,21a1,1,0,0,1,2,0" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M57,21a1,1,0,0,1-2,0" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>role-superadmin</title>
+  <path d="M53,60V50A10,10,0,0,0,43,40H21A10,10,0,0,0,11,50V60Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M32,33c7.36,0,13-6.08,13-16a13,13,0,0,0-26,0C19,26.85,24.64,33,32,33Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polyline points="30 40 25 53 30 60" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polyline points="34 40 39 53 34 60" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>

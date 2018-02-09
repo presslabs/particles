@@ -1,17 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>coffee</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="coffee" stroke="#000000" stroke-width="1.5">
-            <path d="M3,21 L21,21" id="Stroke-1"></path>
-            <path d="M12,18 C9.238,18 7,15.761 7,13 L7,9 L17,9 L17,13 C17,15.761 14.762,18 12,18 Z" id="Stroke-3"></path>
-            <path d="M17,9 L21,9 C21,11.209 19.209,13 17,13" id="Stroke-5"></path>
-            <polyline id="Stroke-7" points="12 6 11 4 12 2"></polyline>
-            <polyline id="Stroke-9" points="15 6 14 4 15 2"></polyline>
-            <polyline id="Stroke-11" points="9 6 8 4 9 2"></polyline>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>coffee</title>
+  <path d="M16,24H48a0,0,0,0,1,0,0V34A16,16,0,0,1,32,50h0A16,16,0,0,1,16,34V24a0,0,0,0,1,0,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M48,24h8v2a8,8,0,0,1-8,8v2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="8" y1="58" x2="56" y2="58" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M24,16s-2-2-2-4,2-4,2-4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M32,16s-2-2-2-4,2-4,2-4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M40,16s-2-2-2-4,2-4,2-4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

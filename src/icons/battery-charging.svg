@@ -1,15 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>battery-charging</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="battery-charging" stroke="#000000" stroke-width="1.5">
-            <polyline id="Stroke-1" points="11 6 7 12 13 12 9 18"></polyline>
-            <path d="M21,14 L22,14 C22.553,14 23,13.553 23,13 L23,11 C23,10.448 22.553,10 22,10 L21,10" id="Stroke-2"></path>
-            <path d="M6,17 L3,17 C1.896,17 1,16.104 1,15 L1,9 C1,7.896 1.896,7 3,7 L7,7" id="Stroke-4"></path>
-            <path d="M14,7 L17,7 C18.104,7 19,7.896 19,9 L19,15 C19,16.104 18.104,17 17,17 L13,17" id="Stroke-6"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>battery-charging</title>
+  <path d="M56,38h2a2.1,2.1,0,0,0,2-2.18V28.18A2.1,2.1,0,0,0,58,26H56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polyline points="34 14 22 32 34 32 22 50" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polyline points="39.62 38 43 38 43 26 39.29 26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polyline points="16.39 26 11 26 11 38 16.71 38" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M15.72,45H9.33A5.27,5.27,0,0,1,4,39.8V24.2A5.27,5.27,0,0,1,9.33,19H21.05" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M40.28,19h4.39A5.27,5.27,0,0,1,50,24.2V39.8A5.27,5.27,0,0,1,44.67,45H35" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

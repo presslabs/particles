@@ -1,17 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>bank</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="bank" stroke="#000000" stroke-width="1.5">
-            <polyline id="Stroke-1" points="3 9 21 9 12 3 3 9"></polyline>
-            <polygon id="Stroke-3" points="3 21 21 21 21 18 3 18"></polygon>
-            <path d="M6,18 L6,9" id="Stroke-6"></path>
-            <path d="M10,9 L10,18" id="Stroke-7"></path>
-            <path d="M14,18 L14,9" id="Stroke-8"></path>
-            <path d="M18,9 L18,18" id="Stroke-9"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>bank</title>
+  <polygon points="56 51 8 51 5 59 59 59 56 51" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polygon points="32 5 5 24 59 24 32 5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polygon points="19 24 13 24 12 51 20 51 19 24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polygon points="35 24 29 24 28 51 36 51 35 24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polygon points="51 24 45 24 44 51 52 51 51 24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

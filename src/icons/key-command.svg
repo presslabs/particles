@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>key-command</title>
+  <path d="M48,38H16A10,10,0,0,0,6,48H6A10,10,0,0,0,16,58h0A10,10,0,0,0,26,48V16A10,10,0,0,0,16,6h0A10,10,0,0,0,6,16H6A10,10,0,0,0,16,26H48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M48,38A10,10,0,0,1,58,48h0A10,10,0,0,1,48,58h0A10,10,0,0,1,38,48V16A10,10,0,0,1,48,6h0A10,10,0,0,1,58,16h0A10,10,0,0,1,48,26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>

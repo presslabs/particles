@@ -1,23 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>list</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="list" stroke="#000000" stroke-width="1.5">
-            <path d="M9,6 L20,6" id="Stroke-2"></path>
-            <path d="M9,12 L20,12" id="Stroke-3"></path>
-            <path d="M9,18 L20,18" id="Stroke-4"></path>
-            <path d="M5,7 C5.553,7 6,6.552 6,6 C6,5.448 5.553,5 5,5 C4.447,5 4,5.448 4,6 C4,6.552 4.447,7 5,7 Z" id="Stroke-1"></path>
-            <path d="M5,5 L5,7" id="Stroke-3"></path>
-            <path d="M6,6 L4,6" id="Stroke-5"></path>
-            <path d="M5,13 C5.553,13 6,12.552 6,12 C6,11.448 5.553,11 5,11 C4.447,11 4,11.448 4,12 C4,12.552 4.447,13 5,13 Z" id="Stroke-7"></path>
-            <path d="M5,11 L5,13" id="Stroke-9"></path>
-            <path d="M6,12 L4,12" id="Stroke-11"></path>
-            <path d="M5,19 C5.553,19 6,18.553 6,18 C6,17.447 5.553,17 5,17 C4.447,17 4,17.447 4,18 C4,18.553 4.447,19 5,19 Z" id="Stroke-13"></path>
-            <path d="M5,17 L5,19" id="Stroke-15"></path>
-            <path d="M6,18 L4,18" id="Stroke-17"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>list</title>
+  <line x1="24" y1="16" x2="54" y2="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="24" y1="32" x2="54" y2="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="24" y1="48" x2="54" y2="48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M12,18a2,2,0,0,1,0-4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M12,14a2,2,0,0,1,0,4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="12" y1="14" x2="12" y2="18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="10" y1="16" x2="14" y2="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M12,34a2,2,0,0,1,0-4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M12,30a2,2,0,0,1,0,4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="12" y1="30" x2="12" y2="34" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="10" y1="32" x2="14" y2="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M12,50a2,2,0,0,1,0-4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M12,46a2,2,0,0,1,0,4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="12" y1="46" x2="12" y2="50" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="10" y1="48" x2="14" y2="48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

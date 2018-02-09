@@ -1,5 +1,6 @@
 /* eslint-disable no-console */
 import gulp from 'gulp'
+// import replace from 'gulp-replace'
 import del from 'del'
 import path from 'path'
 import eventStream from 'event-stream'
@@ -14,8 +15,8 @@ const BRANDS_DIR = path.resolve(__dirname, 'src/brands')
 // Generated
 const PROCESSED_DIR = path.resolve(__dirname, 'svg')
 
-const sizeArg = 24
-const offsetArg = 0.75
+const sizeArg = 64
+const offsetArg = 1.5
 
 const attrs = {
   xmlns: 'http://www.w3.org/2000/svg',

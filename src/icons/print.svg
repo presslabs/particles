@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>print</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="print" stroke="#000000" stroke-width="1.5">
-            <polyline id="Shape" points="6 9 6 2 18 2 18 9"></polyline>
-            <path d="M6,18 L4,18 C2.8954305,18 2,17.1045695 2,16 L2,11 C2,9.8954305 2.8954305,9 4,9 L20,9 C21.1045695,9 22,9.8954305 22,11 L22,16 C22,17.1045695 21.1045695,18 20,18 L18,18" id="Shape"></path>
-            <rect id="Rectangle-path" x="6" y="14" width="12" height="8"></rect>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>print</title>
+  <rect x="16" y="38" width="32" height="21" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M16,48H10a5,5,0,0,1-5-5V29a5,5,0,0,1,5-5H54a5,5,0,0,1,5,5V43a5,5,0,0,1-5,5H48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polyline points="16 24 16 5 48 5 48 24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

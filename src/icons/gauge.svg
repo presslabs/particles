@@ -1,22 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>gauge</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="gauge" stroke="#000000" stroke-width="1.5">
-            <path d="M12,22 C17.522,22 22,17.523 22,12 C22,6.477 17.522,2 12,2 C6.478,2 2,6.477 2,12 C2,17.523 6.478,22 12,22 Z" id="Stroke-1"></path>
-            <path d="M17,7 L13.414,10.586" id="Stroke-3"></path>
-            <path d="M14,12 C14,13.104 13.104,14 12,14 C10.896,14 10,13.104 10,12 C10,10.896 10.896,10 12,10 C13.104,10 14,10.896 14,12 Z" id="Stroke-5"></path>
-            <path d="M5,12 L6,12" id="Stroke-7"></path>
-            <path d="M18,12 L19,12" id="Stroke-9"></path>
-            <path d="M12,5 L12,6" id="Stroke-11"></path>
-            <path d="M16.9502,16.9497 L16.2422,16.2427" id="Stroke-13"></path>
-            <path d="M7.0498,7.0503 L7.7578,7.7573" id="Stroke-15"></path>
-            <path d="M7.0498,16.9497 L7.7578,16.2427" id="Stroke-17"></path>
-            <path d="M15,21.542 L15,20 C15,19.448 14.553,19 14,19 L10,19 C9.447,19 9,19.448 9,20 L9,21.542" id="Stroke-19"></path>
-            <path d="M16.9502,16.9497 C18.2462,15.6787 19.0002,13.9587 19.0002,11.9997" id="Stroke-21"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>gauge</title>
+  <circle cx="32" cy="32" r="27" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle cx="32" cy="32" r="6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="13" y1="32" x2="17" y2="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="47" y1="32" x2="51" y2="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="32" y1="17" x2="32" y2="13" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="18.56" y1="18.56" x2="21.39" y2="21.39" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="42.61" y1="42.61" x2="45.44" y2="45.44" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="18.56" y1="45.44" x2="21.39" y2="42.61" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M51,32a19,19,0,0,1-5.56,13.44" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="36.24" y1="27.76" x2="45.44" y2="18.56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M23,57.46V53a2,2,0,0,1,2-2H39a2,2,0,0,1,2,2v4.46" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

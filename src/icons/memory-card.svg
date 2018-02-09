@@ -1,16 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>memory-card</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="memory-card" stroke="#000000" stroke-width="1.5">
-            <polygon id="Stroke-1" points="19 2 7 2 7 10 5 12 5 22 19 22"></polygon>
-            <path d="M10,5 L10,7" id="Stroke-3"></path>
-            <path d="M13,5 L13,7" id="Stroke-4"></path>
-            <path d="M16,5 L16,7" id="Stroke-5"></path>
-            <polyline id="Stroke-7" points="8 22 8 17 16 17 16 22"></polyline>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>memory-card</title>
+  <path d="M50,4H22a2,2,0,0,0-2,2V24l-8,8V55a5,5,0,0,0,5,5H47a5,5,0,0,0,5-5V6A2,2,0,0,0,50,4Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="28" y1="4" x2="28" y2="13" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="36" y1="4" x2="36" y2="13" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="44" y1="4" x2="44" y2="13" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polyline points="44 60 44 44 21 44 21 60" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

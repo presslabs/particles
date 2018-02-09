@@ -1,15 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>microphone</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="microphone" stroke="#000000" stroke-width="1.5">
-            <path d="M12,1 C10.3431458,1 9,2.34314575 9,4 L9,12 C9,13.6568542 10.3431458,15 12,15 C13.6568542,15 15,13.6568542 15,12 L15,4 C15,2.34314575 13.6568542,1 12,1 Z" id="Shape"></path>
-            <path d="M19,10 L19,12 C18.9999999,15.8659933 15.8659932,19 12,19 C8.13400679,19 5.00000006,15.8659933 5,12 L5,10" id="Shape"></path>
-            <path d="M12,19 L12,23" id="Shape"></path>
-            <path d="M8,23 L16,23" id="Shape"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>microphone</title>
+  <rect x="24" y="4" width="16" height="40" rx="8" ry="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M16,28v8A16,16,0,0,0,32,52h0A16,16,0,0,0,48,36V28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="32" y1="52" x2="32" y2="60" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="24" y1="60" x2="40" y2="60" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

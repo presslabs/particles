@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>bucket</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="bucket" stroke="#000000" stroke-width="1.5">
-            <path d="M5.2926,20.8286 L3.1716,18.7066 C1.6096,17.1446 1.6096,14.6126 3.1716,13.0506 L10.7176,5.5046 L18.4956,13.2826 L10.9496,20.8286 C9.3876,22.3906 6.8546,22.3906 5.2926,20.8286 Z" id="Stroke-1"></path>
-            <path d="M9.607,11 L9.607,2" id="Stroke-3"></path>
-            <path d="M21.4957,20 C21.4957,21.104 20.5997,22 19.4957,22 C18.3917,22 17.4957,21.104 17.4957,20 C17.4957,18.896 19.4957,16 19.4957,16 C19.4957,16 21.4957,18.896 21.4957,20 Z" id="Stroke-5"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>bucket</title>
+  <path d="M14,51.63,7.93,46.14A10,10,0,0,1,7.93,32L27.27,12,53.13,37.28H41.82L28.13,51.63A10,10,0,0,1,14,51.63Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M59,53a6,6,0,0,1-12,0c0-3.31,6-9,6-9S59,49.69,59,53Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="35" y1="26" x2="35" y2="5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

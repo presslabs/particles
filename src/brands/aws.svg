@@ -1,12 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>aws</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="aws" fill="#000000">
-            <path d="M12.0444738,0.999914964 L2.84868233,3.82991257 L12.0444738,6.65991017 L20.8652566,3.71086219 L12.0444738,0.999914964 Z M13.1856567,8.14803992 L13.1856567,22.2146927 L22.9996599,19.2741483 L22.9996599,5.20749554 L13.1856567,8.14803992 Z M1,19.2741483 L10.8148535,22.2146927 L10.8148535,8.14803992 L1,5.20749554 L1,19.2741483 Z" id="Page-1"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>aws</title>
+  <path d="M2.67,51.4l26.17,7.84V21.73L2.67,13.89ZM35.16,21.73V59.24L61.33,51.4V13.89Zm-3-19.06L7.6,10.21l24.52,7.55L55.64,9.9Z" fill-rule="evenodd"/>
 </svg>

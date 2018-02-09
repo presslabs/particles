@@ -1,13 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>power</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="power" stroke="#000000" stroke-width="1.5">
-            <path d="M7.96683668,4.95208599 C5.02137976,6.43107039 3,9.47947592 3,13 C3,17.9705627 7.02943725,22 12,22 C16.9705627,22 21,17.9705627 21,13 C21,9.48381496 18.9835999,6.43858541 16.0440499,4.95756167" id="Oval"></path>
-            <path d="M12,10 L12,3" id="Shape"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>power</title>
+  <line x1="32" y1="5" x2="32" y2="21" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M41,9.75a24,24,0,1,1-18,0" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

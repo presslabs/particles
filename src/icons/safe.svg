@@ -1,18 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>safe</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="safe" stroke="#000000" stroke-width="1.5">
-            <path d="M18,19 L5,19 C3.896,19 3,18.104 3,17 L3,5 C3,3.896 3.896,3 5,3 L18,3 C19.104,3 20,3.896 20,5 L20,17 C20,18.104 19.104,19 18,19 Z" id="Stroke-1"></path>
-            <path d="M7,10 L7,13" id="Stroke-3"></path>
-            <path d="M17,11 C17,12.657 15.657,14 14,14 C12.343,14 11,12.657 11,11 C11,9.343 12.343,8 14,8 C15.657,8 17,9.343 17,11 Z" id="Stroke-5"></path>
-            <polyline id="Stroke-7" points="8 19 8 21 6 21 6 19"></polyline>
-            <polyline id="Stroke-9" points="17 19 17 21 15 21 15 19"></polyline>
-            <polyline id="Stroke-11" points="20 6 21 6 21 8 20 8"></polyline>
-            <polyline id="Stroke-13" points="20 14 21 14 21 16 20 16"></polyline>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>safe</title>
+  <polyline points="22 51 22 57 14 57 14 51" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polyline points="46 51 46 57 38 57 38 51" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="18" y1="25" x2="18" y2="33" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle cx="35" cy="29" r="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="50" y="17" width="8" height="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="50" y="33" width="8" height="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="54" y1="25" x2="54" y2="33" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M54,41v5a5,5,0,0,1-5,5H11a5,5,0,0,1-5-5V12a5,5,0,0,1,5-5H49a5,5,0,0,1,5,5v5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

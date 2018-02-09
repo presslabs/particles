@@ -1,13 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>location</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="location" stroke="#000000" stroke-width="1.5">
-            <path d="M21,10.0000001 C21,17.0000001 12,23.0000001 12,23.0000001 C12,23.0000001 3,17.0000001 3,10.0000001 C3.00000007,5.02943733 7.0294373,1.00000013 12,1.00000013 C16.9705627,1.00000013 20.9999999,5.02943733 21,10.0000001 Z" id="Shape"></path>
-            <circle id="Oval" cx="12" cy="10" r="3"></circle>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>location</title>
+  <circle cx="32" cy="27" r="9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M55,27c0,21-23,33-23,33S9,48,9,27a23,23,0,0,1,46,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

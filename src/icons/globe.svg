@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>globe</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="globe" stroke="#000000" stroke-width="1.5">
-            <circle id="Oval" cx="12" cy="12" r="10"></circle>
-            <path d="M2,12 L22,12" id="Shape"></path>
-            <path d="M12,2 C14.5012804,4.73835289 15.9227528,8.29203385 16,12 C15.9227528,15.7079661 14.5012804,19.2616471 12,22 C9.49871962,19.2616471 8.07724724,15.7079661 8,12 C8.07724724,8.29203385 9.49871962,4.73835289 12,2 Z" id="Shape"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>globe</title>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <ellipse cx="32" cy="32" rx="11" ry="26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="6" y1="32" x2="58" y2="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

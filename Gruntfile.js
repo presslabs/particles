@@ -6,12 +6,14 @@ module.exports = function task(grunt) {
       particles: {
         src: 'svg/*.svg',
         dest: 'fonts',
-        destCss: 'demo',
-        destHtml: 'demo',
+        destCss: 'files',
+        destHtml: 'files',
         options: {
           font: 'particles',
           fontFamilyName: 'Presslabs Particles',
           fontFilename: 'particles',
+          // descent: 64,
+          // fontHeight: 128,
           ligatures: true,
           optimize: false,
           types: 'eot,woff2,woff,ttf,svg',
@@ -31,7 +33,7 @@ module.exports = function task(grunt) {
       },
     },
     clean: {
-      demo: ['demo'],
+      demo: ['files'],
       fonts: ['fonts'],
     },
   })

@@ -1,23 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>rack</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="rack" stroke="#000000" stroke-width="1.5">
-            <path d="M10.0986,6 L4.9996,6" id="Stroke-2"></path>
-            <path d="M10.0986,12 L4.9996,12" id="Stroke-3"></path>
-            <path d="M22,9 L2,9" id="Stroke-4"></path>
-            <path d="M22,15 L2,15" id="Stroke-6"></path>
-            <path d="M10.0986,18 L4.9996,18" id="Stroke-9"></path>
-            <path d="M15,6 L14,6" id="Stroke-10"></path>
-            <path d="M15,12 L14,12" id="Stroke-11"></path>
-            <path d="M15,18 L14,18" id="Stroke-12"></path>
-            <path d="M19,6 L18,6" id="Stroke-13"></path>
-            <path d="M19,12 L18,12" id="Stroke-14"></path>
-            <path d="M19,18 L18,18" id="Stroke-15"></path>
-            <path d="M4,3 L20,3 C21.104,3 22,3.896 22,5 L22,19 C22,20.104 21.104,21 20,21 L4,21 C2.896,21 2,20.104 2,19 L2,5 C2,3.896 2.896,3 4,3 Z" id="Stroke-16"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>rack</title>
+  <rect x="7" y="8" width="50" height="48" rx="5.33" ry="5.33" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="7" y1="40" x2="57" y2="40" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="7" y1="24" x2="57" y2="24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="15" y1="16" x2="29" y2="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="15" y1="32" x2="29" y2="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="15" y1="48" x2="29" y2="48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="37" y1="16" x2="39" y2="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="37" y1="32" x2="39" y2="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="37" y1="48" x2="39" y2="48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

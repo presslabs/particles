@@ -64,21 +64,21 @@ const setAttrs = (svg, attrs, filename) => {
  */
 const removeGroups = svg => {
   const $ = cheerio.load(svg)
-  const removeGroupTags = markup => {
-    const element = cheerio.load(markup)('body')
-    const first = element.children().first()
-    if (first.get(0).tagName === 'g') {
-      return removeGroupTags(
-        element
-          .children()
-          .first()
-          .html(),
-      )
-    }
-    return element.html()
-  }
+  // const removeGroupTags = markup => {
+  //   const element = cheerio.load(markup)('body')
+  //   const first = element.children().first()
+  //   if (first.get(0).tagName === 'g') {
+  //     return removeGroupTags(
+  //       element
+  //         .children()
+  //         .first()
+  //         .html(),
+  //     )
+  //   }
+  //   return element.html()
+  // }
   return new Promise((resolve, reject) => {
-    const data = removeGroupTags($('svg').html())
+    const data = $('svg').html()
     if (data === null) {
       reject(new Error('SVG is empty!'))
       return false

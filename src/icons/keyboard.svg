@@ -1,24 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>keyboard</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="keyboard" stroke="#000000" stroke-width="1.5">
-            <path d="M3,19 L21,19 C22.104,19 23,18.104 23,17 L23,9 C23,7.896 22.104,7 21,7 L3,7 C1.896,7 1,7.896 1,9 L1,17 C1,18.104 1.896,19 3,19 Z" id="Stroke-2"></path>
-            <path d="M12,7 L12,5 C12,3.896 12.896,3 14,3 L16,3" id="Stroke-4"></path>
-            <path d="M4,10 L5,10" id="Stroke-6"></path>
-            <path d="M8,10 L10,10" id="Stroke-8"></path>
-            <path d="M13,10 L15,10" id="Stroke-10"></path>
-            <path d="M18,10 L20,10" id="Stroke-12"></path>
-            <path d="M6,13 L7,13" id="Stroke-14"></path>
-            <path d="M10,13 L11,13" id="Stroke-16"></path>
-            <path d="M14,13 L15,13" id="Stroke-18"></path>
-            <path d="M18,13 L20,13" id="Stroke-20"></path>
-            <path d="M4,16 L5,16" id="Stroke-22"></path>
-            <path d="M8,16 L16,16" id="Stroke-24"></path>
-            <path d="M19,16 L20,16" id="Stroke-26"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>keyboard</title>
+  <rect x="4" y="19" width="56" height="32" rx="4" ry="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="12" y1="27" x2="15" y2="27" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="23" y1="27" x2="26" y2="27" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="34" y1="27" x2="37" y2="27" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="45" y1="27" x2="52" y2="27" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="27" y1="35" x2="30" y2="35" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="38" y1="35" x2="41" y2="35" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="49" y1="35" x2="52" y2="35" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="12" y1="35" x2="19" y2="35" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="12" y1="43" x2="15" y2="43" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="49" y1="43" x2="52" y2="43" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="23" y1="43" x2="40" y2="43" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M32,19V13a5,5,0,0,1,5-5h7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

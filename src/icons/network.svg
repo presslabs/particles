@@ -1,24 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>network</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="network" stroke="#000000" stroke-width="1.5">
-            <path d="M7,6 C7,7.104 6.104,8 5,8 C3.896,8 3,7.104 3,6 C3,4.896 3.896,4 5,4 C6.104,4 7,4.896 7,6 Z" id="Stroke-1"></path>
-            <path d="M21,6 C21,7.104 20.104,8 19,8 C17.896,8 17,7.104 17,6 C17,4.896 17.896,4 19,4 C20.104,4 21,4.896 21,6 Z" id="Stroke-3"></path>
-            <path d="M14,5 C14,6.104 13.104,7 12,7 C10.896,7 10,6.104 10,5 C10,3.896 10.896,3 12,3 C13.104,3 14,3.896 14,5 Z" id="Stroke-5"></path>
-            <path d="M21,16 C21,17.104 20.104,18 19,18 C17.896,18 17,17.104 17,16 C17,14.896 17.896,14 19,14 C20.104,14 21,14.896 21,16 Z" id="Stroke-7"></path>
-            <path d="M7,19 C7,20.104 6.104,21 5,21 C3.896,21 3,20.104 3,19 C3,17.896 3.896,17 5,17 C6.104,17 7,17.896 7,19 Z" id="Stroke-9"></path>
-            <path d="M6.9795,5.7261 L10.0175,5.2501" id="Stroke-11"></path>
-            <path d="M13.9844,5.2505 L17.0004,5.7265" id="Stroke-13"></path>
-            <path d="M19,8 L19,14" id="Stroke-15"></path>
-            <path d="M6.7295,18 L17.6165,7.443" id="Stroke-17"></path>
-            <path d="M5,8 L5,17" id="Stroke-19"></path>
-            <path d="M6.9795,18.7158 L17.0605,16.4848" id="Stroke-21"></path>
-            <path d="M11.2021,6.834 L5.9041,17.22" id="Stroke-23"></path>
-            <path d="M13.0674,6.6909 L17.8864,14.3399" id="Stroke-25"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>network</title>
+  <circle cx="12" cy="52" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle cx="10" cy="20" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle cx="29" cy="10" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle cx="54" cy="22" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle cx="48" cy="54" r="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polyline points="54 26 48 50 33 10 50 22 16 52 44 54" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polyline points="25 10 14 20 50 22" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <polyline points="29 14 12 48 10 24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>

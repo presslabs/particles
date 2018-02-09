@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>role-admin</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="role-admin" stroke="#000000" stroke-width="1.5">
-            <path d="M20,22 L20,19 C20,16.790861 18.209139,15 16,15 L8,15 C5.790861,15 4,16.790861 4,19 L4,22 C4,22.5522847 4.44771525,23 5,23 L19,23 C19.5522847,23 20,22.5522847 20,22 Z" id="Shape"></path>
-            <path d="M12,12 C14.7614237,12 17,9.60719872 17,5.88888889 C17,3.18883011 14.7614237,1 12,1 C9.23857625,1 7,3.18883011 7,5.88888889 C7,9.58405919 9.23857625,12 12,12 Z" id="Oval"></path>
-            <path d="M16.5,19.5 L13.5,19.5" id="Line"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>role-admin</title>
+  <path d="M53,60V50A10,10,0,0,0,43,40H21A10,10,0,0,0,11,50V60Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M32,33c7.36,0,13-6.08,13-16a13,13,0,0,0-26,0C19,26.85,24.64,33,32,33Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="35" y1="50" x2="42" y2="50" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
 </svg>
