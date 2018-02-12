@@ -39,7 +39,7 @@ module.exports = function task(grunt) {
       },
     },
     clean: {
-      demo: ['files'],
+      demo: ['files/resources'],
       fonts: ['fonts'],
     },
   })
