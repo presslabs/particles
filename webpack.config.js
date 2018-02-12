@@ -3,6 +3,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 const path = require('path')
 
+function resolve(dir) {
+  return path.join(__dirname, '..', dir)
+}
+
 const webpackConfig = {
   context: path.resolve('files'),
   entry: ['./index.js'],
@@ -12,6 +16,13 @@ const webpackConfig = {
     publicPath: '/',
   },
   module: {},
+  resolve: {
+    extensions: ['.js', '.vue', '.json'],
+    alias: {
+      'vue$': 'vue/dist/vue.esm.js',
+      '@': resolve('files'),
+    },
+  },
 }
 
 webpackConfig.plugins = []
@@ -47,8 +58,18 @@ webpackConfig.module.rules.push({
 })
 
 webpackConfig.module.rules.push({
+  test: /\.vue$/,
+  loader: 'vue-loader',
+})
+
+webpackConfig.module.rules.push({
   test: /\.html$/,
   loader: 'html-loader?name=html/[name].[ext]',
+})
+
+webpackConfig.module.rules.push({
+  test: /\.json$/,
+  loader: 'json-loader',
 })
 
 webpackConfig.module.rules.push({
