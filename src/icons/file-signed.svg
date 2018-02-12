@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <title>file-signed</title>
-  <path d="M53,20V55a5,5,0,0,1-5,5H16a5,5,0,0,1-5-5V9a5,5,0,0,1,5-5H37Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <polyline points="37 4 37 20 53 20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <path d="M19,48c5-4,3,3,6.5,3s.5-2,3.5-4,6,1,6,1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <line x1="19" y1="39" x2="45" y2="39" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <line x1="19" y1="31" x2="45" y2="31" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <line x1="19" y1="17" x2="28" y2="17" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <line x1="19" y1="24" x2="25" y2="24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M53,20V55a5,5,0,0,1-5,5H16a5,5,0,0,1-5-5V9a5,5,0,0,1,5-5H37Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="37 4 37 20 53 20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M19,48c5-4,3,3,6.5,3s.5-2,3.5-4,6,1,6,1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="19" y1="39" x2="45" y2="39" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="19" y1="31" x2="45" y2="31" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="19" y1="17" x2="28" y2="17" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="19" y1="24" x2="25" y2="24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
 </svg>

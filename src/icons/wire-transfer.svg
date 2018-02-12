@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <title>wire-transfer</title>
-  <line x1="14" y1="34" x2="53" y2="34" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <polyline points="43 24 53 34 43 44" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <path d="M28,42v7a5,5,0,0,1-5,5H9a5,5,0,0,1-5-5V19l12-9,12,9v7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <path d="M36,42v7a5,5,0,0,0,5,5H55a5,5,0,0,0,5-5V19L48,10,36,19v7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line x1="14" y1="34" x2="53" y2="34" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="43 24 53 34 43 44" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M28,42v7a5,5,0,0,1-5,5H9a5,5,0,0,1-5-5V19l12-9,12,9v7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M36,42v7a5,5,0,0,0,5,5H55a5,5,0,0,0,5-5V19L48,10,36,19v7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
 </svg>

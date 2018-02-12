@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <title>book-sign</title>
-  <path d="M52,60,32,45,12,60V9a5,5,0,0,1,5-5H47a5,5,0,0,1,5,5Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M52,60,32,45,12,60V9a5,5,0,0,1,5-5H47a5,5,0,0,1,5,5Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
 </svg>

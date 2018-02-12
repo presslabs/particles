@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <title>cloud-upload</title>
-  <path d="M41,51h8v0a10.49,10.49,0,0,0,3.79-20A14.82,14.82,0,0,0,53,28.5a15.49,15.49,0,0,0-30.74-2.77A12.83,12.83,0,0,0,18,25a13,13,0,0,0,0,26h9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <line x1="34" y1="56" x2="34" y2="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <polyline points="27 39 34 32 41 39" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M41,51h8v0a10.49,10.49,0,0,0,3.79-20A14.82,14.82,0,0,0,53,28.5a15.49,15.49,0,0,0-30.74-2.77A12.83,12.83,0,0,0,18,25a13,13,0,0,0,0,26h9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="34" y1="56" x2="34" y2="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="27 39 34 32 41 39" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
 </svg>

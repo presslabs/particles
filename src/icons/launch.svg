@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>launch</title>
+  <g>
+    <path d="M53,28c5.66-11.31,2.12-19.09,2.12-19.09S47.36,5.32,36.05,11s-19.8,25.45-19.8,25.45L27.57,47.75S47.36,39.26,53,28Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path d="M27.57,47.75l8.48,8.48c4.81-4.81,4.75-11.24,4-15.45" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path d="M16.25,36.43,7.77,28c4.78-4.78,11.16-4.75,15.37-4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path d="M46.66,18.76a1,1,0,0,1-1.42-1.42" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path d="M45.24,17.34a1,1,0,1,1,1.42,1.42" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <polygon points="14.84 44.92 19.08 49.16 11.3 52.7 14.84 44.92" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <line x1="16.96" y1="47.04" x2="11.3" y2="52.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+</svg>

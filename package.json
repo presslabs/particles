@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "generate": "grunt",
-    "convert": "gulp",
+    "convert": "gulp convert",
     "dev": "webpack --progress --hide-modules --watch",
     "lint": "eslint ."
   },

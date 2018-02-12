@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <title>battery-empty</title>
-  <path d="M56,38h2a2.1,2.1,0,0,0,2-2.18V28.18A2.1,2.1,0,0,0,58,26H56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <rect x="11" y="26" width="7" height="12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <path d="M44.67,45H9.33A5.27,5.27,0,0,1,4,39.8V24.2A5.27,5.27,0,0,1,9.33,19H44.67A5.27,5.27,0,0,1,50,24.2V39.8A5.27,5.27,0,0,1,44.67,45Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M56,38h2a2.1,2.1,0,0,0,2-2.18V28.18A2.1,2.1,0,0,0,58,26H56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <rect x="11" y="26" width="7" height="12" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M44.67,45H9.33A5.27,5.27,0,0,1,4,39.8V24.2A5.27,5.27,0,0,1,9.33,19H44.67A5.27,5.27,0,0,1,50,24.2V39.8A5.27,5.27,0,0,1,44.67,45Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
 </svg>

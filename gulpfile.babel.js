@@ -1,6 +1,5 @@
 /* eslint-disable no-console */
 import gulp from 'gulp'
-// import replace from 'gulp-replace'
 import del from 'del'
 import path from 'path'
 import eventStream from 'event-stream'
@@ -9,8 +8,9 @@ import processIconSvg from './bin/process-icon-svg'
 import processBrandSvg from './bin/process-brand-svg'
 
 // Existing
-const ICONS_DIR = path.resolve(__dirname, 'src/icons')
-const BRANDS_DIR = path.resolve(__dirname, 'src/brands')
+const SOURCE_DIR = path.resolve(__dirname, 'src')
+const ICONS_DIR = path.resolve(SOURCE_DIR, 'icons')
+const BRANDS_DIR = path.resolve(SOURCE_DIR, 'brands')
 
 // Generated
 const PROCESSED_DIR = path.resolve(__dirname, 'svg')
@@ -69,7 +69,7 @@ gulp.task('convert-icons', () =>
     .src([`${ICONS_DIR}/*.svg`])
     .pipe(convertIcons())
     .pipe(gulp.dest(PROCESSED_DIR))
-    // this is a bug. force closed process
+    // this is a bug. force close process on terminating task
     .on('end', () => process.exit()),
 )
 
@@ -79,5 +79,4 @@ gulp.task('convert-brands', () =>
     .pipe(convertBrands())
     .pipe(gulp.dest(PROCESSED_DIR)),
 )
-
-gulp.task('default', ['cleanup', 'convert-icons', 'convert-brands'])
+gulp.task('convert', ['cleanup', 'convert-icons', 'convert-brands'])

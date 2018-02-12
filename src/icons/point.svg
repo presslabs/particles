@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <title>point</title>
-  <path d="M54.79,25H37V14c0-8-8.67-8.67-8.67-8.67L17,29H9a5,5,0,0,0-5,5V54a5,5,0,0,0,5,5H32a10,10,0,0,0,9.75-7.78L45.08,38l11-2.73a5.21,5.21,0,0,0,4-5.06h0A5.21,5.21,0,0,0,54.79,25Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <line x1="17" y1="59" x2="17" y2="29" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <line x1="37" y1="25" x2="33" y2="25" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M54.79,25H37V14c0-8-8.67-8.67-8.67-8.67L17,29H9a5,5,0,0,0-5,5V54a5,5,0,0,0,5,5H32a10,10,0,0,0,9.75-7.78L45.08,38l11-2.73a5.21,5.21,0,0,0,4-5.06h0A5.21,5.21,0,0,0,54.79,25Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="17" y1="59" x2="17" y2="29" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="37" y1="25" x2="33" y2="25" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
 </svg>

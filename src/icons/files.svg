@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <title>files</title>
-  <path d="M48,20V55a5,5,0,0,1-5,5H11a5,5,0,0,1-5-5V9a5,5,0,0,1,5-5H32Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <polyline points="32 4 32 20 48 20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <path d="M32,4H44L58,18V55a5,5,0,0,1-5,5H43" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M48,20V55a5,5,0,0,1-5,5H11a5,5,0,0,1-5-5V9a5,5,0,0,1,5-5H32Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="32 4 32 20 48 20" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M32,4H44L58,18V55a5,5,0,0,1-5,5H43" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
 </svg>

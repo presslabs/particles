@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
   <title>ruler</title>
   <g>
-    <rect x="-0.05" y="21.95" width="64" height="20" transform="translate(-13.23 31.95) rotate(-45)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="7.91" y1="41.85" x2="16.39" y2="50.33" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="13.56" y1="36.19" x2="19.22" y2="41.85" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="19.22" y1="30.53" x2="24.88" y2="36.19" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="30.53" y1="19.22" x2="36.19" y2="24.88" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="36.19" y1="13.56" x2="41.85" y2="19.22" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="24.88" y1="24.88" x2="33.36" y2="33.36" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <line x1="41.85" y1="7.91" x2="50.33" y2="16.39" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="-0.05" y="21.95" width="64" height="20" transform="translate(-13.23 31.95) rotate(-45)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <line x1="7.91" y1="41.85" x2="16.39" y2="50.33" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <line x1="13.56" y1="36.19" x2="19.22" y2="41.85" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <line x1="19.22" y1="30.53" x2="24.88" y2="36.19" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <line x1="30.53" y1="19.22" x2="36.19" y2="24.88" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <line x1="36.19" y1="13.56" x2="41.85" y2="19.22" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <line x1="24.88" y1="24.88" x2="33.36" y2="33.36" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <line x1="41.85" y1="7.91" x2="50.33" y2="16.39" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
   </g>
 </svg>

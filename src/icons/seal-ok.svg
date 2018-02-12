@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>seal-ok</title>
+  <polygon points="48.47 15.53 56.21 18.02 54.5 25.97 59.95 32 54.5 38.03 56.21 45.98 48.47 48.47 45.98 56.21 38.03 54.5 32 59.95 25.97 54.5 18.02 56.21 15.53 48.47 7.79 45.98 9.5 38.03 4.05 32 9.5 25.97 7.79 18.02 15.53 15.53 18.02 7.79 25.97 9.5 32 4.05 38.03 9.5 45.98 7.79 48.47 15.53" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="18 33 27 42 46 23" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>
