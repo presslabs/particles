@@ -1,9 +1,11 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 const path = require('path')
 
 const webpackConfig = {
   context: path.resolve('files'),
-  entry: ['./index.js', './style.scss'],
+  entry: ['./index.js'],
   output: {
     path: path.resolve('./demo'),
     filename: 'js/bundle.js',
@@ -13,23 +15,40 @@ const webpackConfig = {
 }
 
 webpackConfig.plugins = []
+
+webpackConfig.plugins.push(
+  new HtmlWebpackPlugin({
+    template: '../templates/index.template.ejs',
+    inject: 'body',
+  }),
+)
+
+webpackConfig.plugins.push(
+  new BrowserSyncPlugin({
+    host: 'localhost',
+    port: 3000,
+    server: { baseDir: ['demo'] },
+  }),
+)
+
+webpackConfig.plugins.push(new ExtractTextPlugin('styles.css'))
+
 webpackConfig.module.rules = []
 
 webpackConfig.module.rules.push({
   test: /\.js$/,
-  loader: 'babel-loader',
   exclude: /node_modules/,
-  query: 'presets=es2015',
+  use: {
+    loader: 'babel-loader',
+    options: {
+      presets: ['@babel/preset-env'],
+    },
+  },
 })
 
 webpackConfig.module.rules.push({
   test: /\.html$/,
   loader: 'html-loader?name=html/[name].[ext]',
-})
-
-webpackConfig.module.rules.push({
-  test: /\.twig$/,
-  loader: 'twig-loader',
 })
 
 webpackConfig.module.rules.push({

@@ -6,8 +6,8 @@ module.exports = function task(grunt) {
       particles: {
         src: 'svg/*.svg',
         dest: 'fonts',
-        destCss: 'files',
-        destHtml: 'files',
+        destCss: 'files/resources',
+        destHtml: 'files/resources',
         options: {
           font: 'particles',
           fontFamilyName: 'Presslabs Particles',
@@ -29,6 +29,12 @@ module.exports = function task(grunt) {
           stylesheets: ['css', 'scss'],
           template: 'templates/style.tmpl.css',
           htmlDemoTemplate: 'templates/demo.tmpl.html',
+          customOutputs: [
+            {
+              template: 'templates/particles.json.tmpl',
+              dest: 'files/resources/particles.json',
+            },
+          ],
         },
       },
     },
