@@ -18,11 +18,6 @@ import Particle from './Particle'
 
 export default {
   props: ['particle', 'dark'],
-  data: function() {
-    return {
-      dark,
-    }
-  },
   methods: {
     toggleDark: function() {
       this.dark = !this.dark

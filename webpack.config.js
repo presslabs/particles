@@ -1,6 +1,6 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 const path = require('path')
 
 function resolve(dir) {
@@ -12,7 +12,7 @@ const webpackConfig = {
   entry: ['./index.js'],
   output: {
     path: path.resolve('./demo'),
-    filename: 'js/bundle.js',
+    filename: 'js/bundle.[hash].js',
     publicPath: '/',
   },
   module: {},
@@ -34,15 +34,8 @@ webpackConfig.plugins.push(
   }),
 )
 
-webpackConfig.plugins.push(
-  new BrowserSyncPlugin({
-    host: 'localhost',
-    port: 3000,
-    server: { baseDir: ['demo'] },
-  }),
-)
-
-webpackConfig.plugins.push(new ExtractTextPlugin('styles.css'))
+webpackConfig.plugins.push(new CleanWebpackPlugin(['demo']))
+webpackConfig.plugins.push(new ExtractTextPlugin('css/styles.[hash].css'))
 
 webpackConfig.module.rules = []
 
