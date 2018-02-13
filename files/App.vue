@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <particle :particle="{ liga: 'particles' }" :zoom="true" :class="[ 'logo' ]" />
+    <particle :particle="{ liga: 'particles_alt' }" :zoom="true" :class="[ 'logo' ]" />
     <h1>Presslabs Particles</h1>
     <div class="input-wrapper">
       <input type="text" v-model="search" placeholder="Search particle.." class="input" @focus="zoomedParticle = null" />
@@ -49,7 +49,9 @@ export default {
 <style lang="scss">
 $particles-font-path: "../fonts/" !default;
 @import "./resources/particles";
-
+body {
+  background: #F2F2F2;
+}
 i.particle {
   font-family: "Presslabs Particles";
   display: inline-block;
@@ -62,6 +64,10 @@ i.particle {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+  &:hover {
+    color: #009EFB;
+  }
 }
 
 #app {
@@ -88,9 +94,10 @@ i.logo {
   appearance: none;
   background-color: transparent;
   border: 1px solid #d1d1d1;
+  background: #fff;
   border-radius: 3px;
   box-shadow: none;
-  box-sizing: inherit;
+  box-sizing: border-box;
   height: 40px;
   outline: none;
   padding: 10px 8px;
