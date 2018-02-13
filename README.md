@@ -12,7 +12,7 @@ brew install pkg-config cairo libpng jpeg giflib
 ```
 #### Ubuntu
 ```
-sudo apt-get install libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++
+sudo apt-get install libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev
 ```
 #### Windows
 Instructions [here](https://github.com/Automattic/node-canvas/wiki/Installation---Windows)
@@ -23,10 +23,26 @@ yarn install
 ```
 
 ## Developing
-Source files in `src` folder. Generated fonts will be placed inside `fonts` folder and demo inside `demo` folder.
+Source files in `files` folder. Generated fonts will be placed inside `fonts` folder and demo inside `demo` folder.
+
+To convert source SVG files to ready for font SVGs run:
+```
+yarn convert
+```
+
 To generate web fonts package and demo files run:
 ```
+yarn generate
+```
+
+To build the demo run:
+```
 yarn build
+```
+
+To view the demo in browser window run:
+```
+yarn dev
 ```
 
 ## Usage
