@@ -28,5 +28,5 @@ export default {
 }
 </script>
 
-<style type="scss">
+<style lang="scss">
 </style>

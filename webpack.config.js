@@ -19,7 +19,7 @@ const webpackConfig = {
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
-      'vue$': 'vue/dist/vue.esm.js',
+      'vue$': 'vue/dist/vue.esm.js', // prettier-ignore
       '@': resolve('files'),
     },
   },
@@ -60,6 +60,13 @@ webpackConfig.module.rules.push({
 webpackConfig.module.rules.push({
   test: /\.vue$/,
   loader: 'vue-loader',
+  options: {
+    extractCSS: true,
+    loaders: {
+      scss:
+        'vue-style-loader!css-loader!autoprefixer-loader!sass-loader!webpack-px-to-rem?basePx=16',
+    },
+  },
 })
 
 webpackConfig.module.rules.push({

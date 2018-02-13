@@ -1,5 +1,5 @@
 <template>
-  <i :class="{ particle: true, zoom: zoom }" @click="handleClick">
+  <i class="particle" :class="{ zoom: zoom }" @click="handleClick">
     {{ particle.liga }}
   </i>
 </template>
@@ -15,7 +15,7 @@ export default {
 }
 </script>
 
-<style type="scss">
+<style lang="scss">
 .particle {
   font-size: 24px;
   display: block;

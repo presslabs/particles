@@ -1,5 +1,5 @@
 <template>
-  <div class="particle-card" @click="toggleDark()" :class="{ dark }">
+  <div class="particle-card" :class="{ dark }">
     <particle :particle="particle"></particle>
     <particle :particle="particle" :zoom="true"></particle>
     <p>
@@ -17,10 +17,10 @@
 import Particle from './Particle'
 
 export default {
-  props: ['particle'],
+  props: ['particle', 'dark'],
   data: function() {
     return {
-      dark: false,
+      dark,
     }
   },
   methods: {
@@ -37,16 +37,18 @@ export default {
   max-width: 400px;
   text-align: left;
   background: #fff;
+  color: #2c3e50;
   border-radius: 4px;
   box-shadow: 0 2px 5px rgba(0, 0 , 0, .1);
   padding: 20px;
-  margin: 40px auto 80px;
+  margin: 0 auto;
+  transition: all ease .15s;
 }
 .particle-card small {
   display: block;
 }
 .particle-card.dark {
-  background: #222;
+  background: #2c3e50;
   color: #fff;
 }
 </style>
