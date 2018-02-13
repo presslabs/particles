@@ -7,13 +7,11 @@ module.exports = function task(grunt) {
         src: 'svg/*.svg',
         dest: 'fonts',
         destCss: 'files/resources',
-        destHtml: 'files/resources',
         options: {
           font: 'particles',
           fontFamilyName: 'Presslabs Particles',
           fontFilename: 'particles',
-          // descent: 64,
-          // fontHeight: 128,
+          htmlDemo: false,
           ligatures: true,
           optimize: false,
           types: 'eot,woff2,woff,ttf,svg',
@@ -28,7 +26,6 @@ module.exports = function task(grunt) {
           },
           stylesheets: ['css', 'scss'],
           template: 'templates/style.tmpl.css',
-          htmlDemoTemplate: 'templates/demo.tmpl.html',
           customOutputs: [
             {
               template: 'templates/particles.json.tmpl',

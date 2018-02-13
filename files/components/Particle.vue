@@ -1,33 +1,29 @@
 <template>
-  <div class="particle">
-    <h2>Zoom: {{ zoomed }}</h2>
-    <i
-      :class="{ 'particle': true, 'zoom': zoomed === particle.liga }"
-      v-for="particle in particles"
-      @click="zoom(particle)"
-    >{{ particle.liga }}</i>
-  </div>
+  <i :class="{ particle: true, zoom: zoom }" @click="handleClick">
+    {{ particle.liga }}
+  </i>
 </template>
 
 <script>
 export default {
-  name: 'hello',
-  props: ['particles'],
-  data () {
-    return {
-      zoomed: null,
-    }
-  },
+  props: ['particle', 'zoom'],
   methods: {
-    zoom: function (particle) {
-      this.zoomed = particle.liga
+  	handleClick() {
+    	this.$emit('click')
     }
   }
 }
 </script>
 
 <style type="scss">
+.particle {
+  font-size: 24px;
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 5px;
+}
 .zoom {
-  font-size: 48px;
+  font-size: 96px;
 }
 </style>
