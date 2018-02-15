@@ -17,8 +17,7 @@ import offsetPath, { joinOffsets } from './offset-path'
  */
 const processSvg = (svg, data) => {
   const { attributes, filename } = data
-  return removeGroups(svg)
-    .then(svg => convertPaths(svg, data))
+  return convertPaths(svg, data)
     .then(svg => optimize(svg))
     .then(svg => setAttrs(svg, attributes, filename))
     .then(format)
@@ -62,37 +61,6 @@ const setAttrs = (svg, attrs) => {
 }
 
 /**
- * Remove SVG group <g> tags.
- * @param {string} svg - An SVG string.
- * @returns {Promise<string>}
- */
-const removeGroups = svg => {
-  const $ = cheerio.load(svg)
-  const removeGroupTags = markup => {
-    const element = cheerio.load(markup)('body')
-    const first = element.children().first()
-    if (first.get(0).tagName === 'g') {
-      return removeGroupTags(
-        element
-          .children()
-          .first()
-          .html(),
-      )
-    }
-    return element.html()
-  }
-  return new Promise((resolve, reject) => {
-    const data = removeGroupTags($('svg').html())
-    if (data === null) {
-      reject(new Error('SVG is empty!'))
-      return false
-    }
-    resolve($('body').html())
-    return true
-  })
-}
-
-/**
  * Create offset path for original paths.
  * @param {string} svg - An SVG string.
  * @param {string} filename - SVG filename.
@@ -103,16 +71,9 @@ const convertPaths = (svg, data) => {
   Paper.setup([attributes.width, attributes.height]).activate()
   const imported = Paper.project.importSVG(svg, { expandShapes: true })
 
-  // Remove all clipping masks but not the root element
-  map(imported.getItems({ clipMask: true }), shape => {
-    if (!shape.isDescendant(Paper.project)) {
-      shape.remove()
-    }
-  })
-
   // Create offset path from original paths
   const offsets = []
-  map(imported.getItems({ type: 'path', clipMask: false }), path => {
+  map(imported.getItems({ type: 'path' }), path => {
     path.strokeJoin = 'round'
     path.strokeCap = 'round'
 

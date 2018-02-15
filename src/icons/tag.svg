@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>tag</title>
+  <path d="M55.8,30.83V8.2H33.17L8.42,33a5,5,0,0,0,0,7.07L24,55.58a5,5,0,0,0,7.07,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M43.07,20.93A2,2,0,0,1,45.9,18.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M45.9,18.1a2,2,0,0,1-2.83,2.83" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="45.9" y1="18.1" x2="43.07" y2="20.93" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="43.07" y1="18.1" x2="45.9" y2="20.93" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

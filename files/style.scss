@@ -1,0 +1,21 @@
+$particles-font-path: "../fonts/" !default;
+@import "./resources/particles";
+@import "./components/variables";
+@import "./components/colors";
+
+body {
+  background: #F2F2F2;
+}
+i.particle {
+  font-family: "Presslabs Particles";
+  display: inline-block;
+  line-height: 1;
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-transform: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -13,8 +13,7 @@ import { format } from 'prettier'
  */
 const processSvg = (svg, data) => {
   const { attributes, filename } = data
-  return removeGroups(svg)
-    .then(svg => optimize(svg))
+  return optimize(svg)
     .then(svg => setAttrs(svg, attributes, filename))
     .then(format)
     .then(svg => svg.replace(/;/g, ''))
@@ -53,37 +52,6 @@ const setAttrs = (svg, attrs, filename) => {
       return false
     }
     resolve(data)
-    return true
-  })
-}
-
-/**
- * Remove SVG group <g> tags.
- * @param {string} svg - An SVG string.
- * @returns {Promise<string>}
- */
-const removeGroups = svg => {
-  const $ = cheerio.load(svg)
-  // const removeGroupTags = markup => {
-  //   const element = cheerio.load(markup)('body')
-  //   const first = element.children().first()
-  //   if (first.get(0).tagName === 'g') {
-  //     return removeGroupTags(
-  //       element
-  //         .children()
-  //         .first()
-  //         .html(),
-  //     )
-  //   }
-  //   return element.html()
-  // }
-  return new Promise((resolve, reject) => {
-    const data = $('svg').html()
-    if (data === null) {
-      reject(new Error('SVG is empty!'))
-      return false
-    }
-    resolve($('body').html())
     return true
   })
 }

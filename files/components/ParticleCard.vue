@@ -1,7 +1,11 @@
 <template>
   <div class="particle-card" :class="{ dark }">
+    <a href="#" @click="closeCard" class="close">
+      <particle :particle="{ liga: 'delete' }"></particle>
+    </a>
     <particle :particle="particle"></particle>
     <particle :particle="particle" :zoom="true"></particle>
+    <particle-svg :size="256" :dark="dark" :particle="particle"></particle-svg>
     <p>
       <small>HTML Markup for ligature</small>
       <code>&lt;i class=&quot;particle&quot;&gt;{{ particle.liga }}&lt;/i&gt;</code>
@@ -15,35 +19,59 @@
 
 <script>
 import Particle from './Particle'
+import ParticleSvg from './ParticleSvg'
 
 export default {
   props: ['particle', 'dark'],
   methods: {
     toggleDark: function() {
       this.dark = !this.dark
+    },
+    closeCard: function () {
+      this.$emit('close');
     }
   },
-  components: { Particle }
+  components: { Particle, ParticleSvg }
 }
 </script>
 
-<style scoped>
+<style lang="scss">
+@import "./variables";
+@import "./colors";
+
 .particle-card {
-  max-width: 400px;
   text-align: left;
   background: #fff;
-  color: #2c3e50;
+  color: $gray-1;
   border-radius: 4px;
-  box-shadow: 0 2px 10px rgba(#000, .2);
+  box-shadow: 0 2px 10px rgba($gray-1, .2);
   padding: 20px;
-  margin: 0 auto;
   transition: all ease .15s;
-}
-.particle-card small {
-  display: block;
-}
-.particle-card.dark {
-  background: #2c3e50;
-  color: #fff;
+  position: relative;
+  small {
+    display: block;
+  }
+  code {
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
+    color: $red-1;
+  }
+  &.dark {
+    background: $gray-1;
+    color: #fff;
+    code {
+      color: $teal-1;
+    }
+  }
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: $gray-5;
+    &:hover {
+      color: $secondColor;
+    }
+  }
 }
 </style>

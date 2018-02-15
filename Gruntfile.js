@@ -1,4 +1,5 @@
 const path = require('path')
+const cheerio = require('cheerio')
 
 module.exports = function task(grunt) {
   grunt.initConfig({
@@ -39,7 +40,44 @@ module.exports = function task(grunt) {
       demo: ['files/resources'],
       fonts: ['fonts'],
     },
+    'extract-svg-paths': {
+      files: {
+        src: 'svg/**/*.svg',
+        dest: 'files/resources/icons.json',
+      },
+    },
   })
+
+  grunt.registerMultiTask(
+    'extract-svg-paths',
+    'Extracts pathdata from svgs',
+    function() {
+      const pathObj = {}
+      this.files.forEach(f => {
+        f.src
+          .filter(filepath => {
+            if (!grunt.file.exists(filepath)) {
+              grunt.log.warn(`Source file ${filepath} not found.`)
+              return false
+            }
+            return true
+          })
+          .forEach(filepath => {
+            const svgContent = grunt.file.read(filepath)
+            const filename = filepath.match(/([^\/]+)(?=\.\w+$)/)[0]
+            const $ = cheerio.load(svgContent)
+            const pathArray = $('path')
+              .map(function() {
+                return this.attribs.d
+              })
+              .get()
+            pathObj[filename] = pathArray
+          })
+        grunt.file.write(f.dest, JSON.stringify(pathObj))
+        grunt.log.writeln(`File ${f.dest} created.`)
+      })
+    },
+  )
 
   grunt.loadNpmTasks('grunt-webfont')
   grunt.loadNpmTasks('grunt-contrib-clean')
@@ -47,5 +85,6 @@ module.exports = function task(grunt) {
     'clean:demo',
     'clean:fonts',
     'webfont:particles',
+    'extract-svg-paths',
   ])
 }

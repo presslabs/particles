@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>star-off</title>
+  <line x1="8" y1="8" x2="56" y2="56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="45.59 45.59 47.22 52.94 32 44 16.78 52.94 20.59 35.71 7.38 24 22.53 22.53" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="27.57 16.26 32 6.11 39.05 22.29 56.62 24 45.33 34.01" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

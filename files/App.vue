@@ -4,14 +4,21 @@
     <h1>Presslabs Particles</h1>
     <div class="input-wrapper">
       <input type="text" v-model="search" placeholder="Search particle.." class="input" @focus="zoomedParticle = null" />
+      <input type="range" v-model="size" min="16" max="48" name="size" /> Size: {{ size }}px
     </div>
-    <div class="particle-zoom" v-if="zoomedParticle">
-      <particleCard :particle="zoomedParticle" :dark="dark"></particleCard>
-      <label>
-        <input type="checkbox" v-model="dark" name="dark" /> Switch to dark mode
-      </label>
+    <div class="particles-show">
+      <particles :particles="filteredList" :size="size" v-on:zoom="zoomParticle($event)" />
+      <div class="particle-zoom" v-if="zoomedParticle && showCard">
+        <particleCard :particle="zoomedParticle" :dark="dark" v-on:close="closeCard"></particleCard>
+        <label>
+          <input type="checkbox" v-model="dark" name="dark" /> Switch to dark mode
+        </label>
+        <!-- <label>
+          <input type="checkbox" v-model="showCard" name="card" /> Show card
+        </label> -->
+      </div>
     </div>
-    <particles :particles="filteredList" v-on:zoom="zoomParticle($event)" />
+    <footer></footer>
   </div>
 </template>
 
@@ -19,20 +26,27 @@
 import Particles from './components/Particles'
 import ParticleCard from './components/ParticleCard'
 import Particle from './components/Particle'
+import Footer from './components/Footer'
 import particlesData from './resources/particles.json'
 
 export default {
   data: function () {
     return {
       search: '',
+      size: 32,
       dark: false,
+      showCard: false,
       particlesData,
       zoomedParticle: null
     }
   },
   methods: {
-    zoomParticle: function (particle) {
+    zoomParticle: function(particle) {
       this.zoomedParticle = particle
+      this.showCard = true
+    },
+    closeCard: function() {
+      this.showCard = false
     }
   },
   computed: {
@@ -42,47 +56,27 @@ export default {
       })
     }
   },
-  components: { Particle, Particles, ParticleCard }
+  components: { Particle, Particles, ParticleCard, Footer }
 }
 </script>
 
 <style lang="scss">
-$particles-font-path: "../fonts/" !default;
-@import "./resources/particles";
-body {
-  background: #F2F2F2;
-}
-i.particle {
-  font-family: "Presslabs Particles";
-  display: inline-block;
-  line-height: 1;
-  font-weight: normal;
-  font-style: normal;
-  speak: none;
-  text-decoration: inherit;
-  text-transform: none;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  cursor: pointer;
-  &:hover {
-    color: #009EFB;
-  }
-}
+@import "./components/variables";
+@import "./components/colors";
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: $gray-1;
   margin-top: 60px;
 }
 i.logo {
   width: 96px;
   height: 96px;
   margin: 0 auto;
-  color: #2c3e50;
+  color: $gray-1;
 }
 .input-wrapper {
   max-width: 500px;
@@ -105,11 +99,17 @@ i.logo {
   font-size: 18px;
   width: 100%;
 }
-.particle-zoom {
-  margin: 40px auto;
-  label {
-    display: block;
-    margin-top: 20px;
+.particles-show {
+  display: flex;
+  .particles-container {
+    flex: 1;
+  }
+  .particle-zoom {
+    flex: 0 0 400px;
+    label {
+      display: block;
+      margin-top: 20px;
+    }
   }
 }
 </style>

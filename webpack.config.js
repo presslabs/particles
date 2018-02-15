@@ -11,7 +11,7 @@ const webpackConfig = {
   context: path.resolve('files'),
   entry: ['./index.js'],
   output: {
-    path: path.resolve('./demo'),
+    path: path.resolve('demo'),
     filename: 'js/bundle.[hash].js',
     publicPath: '/',
   },
@@ -35,7 +35,7 @@ webpackConfig.plugins.push(
 )
 
 webpackConfig.plugins.push(new CleanWebpackPlugin(['demo']))
-webpackConfig.plugins.push(new ExtractTextPlugin('css/styles.[hash].css'))
+webpackConfig.plugins.push(new ExtractTextPlugin('styles.[hash].css'))
 
 webpackConfig.module.rules = []
 

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>repo-migrate</title>
+  <path d="M20,46H16a6,6,0,0,0-6,6h0a6,6,0,0,0,6,6h8.52" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M16,6a6,6,0,0,0-6,6V52" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="54 22.19 54 6 16 6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="18" y1="6" x2="18" y2="46" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <circle cx="44" cy="44" r="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="44" y1="52" x2="44" y2="36" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="36 44 44 52 52 44" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

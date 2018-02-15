@@ -69,5 +69,7 @@
     "webpack-px-to-rem": "^0.1.1",
     "xmlserializer": "^0.6.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "grunt-extract-svg-paths": "^0.1.2"
+  }
 }
