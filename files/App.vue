@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <particle :particle="{ liga: 'particles_alt' }" :zoom="true" :class="[ 'logo' ]" />
+    <particle particle="particles_alt" :size="128" :class="[ 'logo' ]" />
     <h1>Presslabs Particles</h1>
     <div class="input-wrapper">
       <input type="text" v-model="search" placeholder="Search particle.." class="input" @focus="zoomedParticle = null" />
@@ -21,6 +21,7 @@
 <script>
 import Particles from './components/Particles'
 import ParticleCard from './components/ParticleCard'
+import ParticleIcon from './components/ParticleIcon'
 import Particle from './components/Particle'
 import AppFooter from './components/Footer'
 import particlesData from './resources/particles.json'
@@ -55,7 +56,7 @@ export default {
       })
     },
   },
-  components: { Particle, Particles, ParticleCard, AppFooter }
+  components: { Particle, ParticleIcon, Particles, ParticleCard, AppFooter }
 }
 </script>
 
@@ -72,8 +73,7 @@ export default {
   margin-top: 60px;
 }
 i.logo {
-  width: 96px;
-  height: 96px;
+  font-size: 128px;
   margin: 0 auto;
   color: $gray-1;
 }

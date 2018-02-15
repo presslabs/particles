@@ -1,13 +1,43 @@
 <template>
   <div class="particle-card" :class="{ dark }">
-    <a href="#" @click.prevent="toggleDark" class="dark">
-      <particle :particle="{ liga: 'lightbulb' }"></particle>
+    <a href="#" @click.prevent="toggleDark" class="action dark">
+      <particle :particle="dark ? 'lightbulb_on' : 'lightbulb_off'"></particle>
     </a>
-    <a href="#" @click.prevent="closeCard" class="close">
-      <particle :particle="{ liga: 'delete' }"></particle>
+    <a href="#" @click.prevent="closeCard" class="action close">
+      <particle particle="delete"></particle>
     </a>
-    <particle :particle="particle"></particle>
-    <particle :particle="particle" :zoom="true"></particle>
+    <h2><small>Particle name:</small>{{ particle.liga }}</h2>
+    <table>
+      <tr class="icons">
+        <td>
+          <particle :particle="particle.liga" class="zoom-1x"></particle>
+        </td>
+        <td>
+          <particle :particle="particle.liga" class="zoom-2x"></particle>
+        </td>
+        <td>
+          <particle :particle="particle.liga" class="zoom-4x"></particle>
+        </td>
+        <td>
+          <particle :particle="particle.liga" class="zoom-8x"></particle>
+        </td>
+      </tr>
+      <tr class="sizes">
+        <td>
+          <small>16px</small>
+        </td>
+        <td>
+          <small>32px</small>
+        </td>
+        <td>
+          <small>64px</small>
+        </td>
+        <td>
+          <small>128px</small>
+        </td>
+      </tr>
+    </table>
+
     <particle-svg :size="256" :dark="dark" :particle="particle"></particle-svg>
     <p>
       <small>HTML Markup for ligature</small>
@@ -52,6 +82,29 @@ export default {
   transition: all ease .15s;
   position: sticky;
   top: 0px;
+  h2 {
+    small {
+      color: $gray-4;
+      font-size: 12px;
+      display: block;
+      font-weight: 400;
+    }
+  }
+  .action {
+    font-size: 24px;
+  }
+  .icons td {
+    vertical-align: bottom;
+    i {
+      border: 1px solid rgba($gray-4, .2);
+    }
+  }
+  .sizes {
+    small {
+      color: $gray-4;
+      font-size: 12px;
+    }
+  }
   small {
     display: block;
   }
@@ -79,6 +132,18 @@ export default {
   }
   .dark {
     right: 40px;
+  }
+  .zoom-1x {
+    font-size: 16px;
+  }
+  .zoom-2x {
+    font-size: 32px;
+  }
+  .zoom-4x {
+    font-size: 64px;
+  }
+  .zoom-8x {
+    font-size: 128px;
   }
 }
 </style>

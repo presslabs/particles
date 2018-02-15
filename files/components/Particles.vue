@@ -1,18 +1,18 @@
 <template>
   <div class="particles-container">
-    <particle
+    <particle-icon
       v-for="particle in particles"
       :key="particle.codepoint"
       :particle="particle"
       @click="zoom(particle)"
       :class="{ selected: particle === selected }"
-      :style="{ fontSize: `${size*.75}px`, lineHeight: `${size}px`, width: `${size}px`, height: `${size}px` }"
-    ></particle>
+      :style="{ fontSize: `${size}px` }"
+    ></particle-icon>
   </div>
 </template>
 
 <script>
-import Particle from './Particle'
+import ParticleIcon from './ParticleIcon'
 
 export default {
   props: ['particles', 'size'],
@@ -28,7 +28,7 @@ export default {
       this.selected = particle
     }
   },
-  components: { Particle },
+  components: { ParticleIcon },
 }
 </script>
 
@@ -40,6 +40,10 @@ export default {
   overflow: hidden;
   padding: 0 1px 1px 0;
   user-select: none;
+  .selected i {
+    background-color: $gray-1;
+    color: #fff;
+  }
   .particle {
     display: block;
     float: left;
@@ -57,10 +61,6 @@ export default {
     cursor: pointer;
     &:hover {
       background: $blue-1;
-      color: #fff;
-    }
-    &.selected {
-      background: $gray-1;
       color: #fff;
     }
   }
