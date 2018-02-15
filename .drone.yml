@@ -2,10 +2,19 @@ pipeline:
   build:
     image: presslabs/particles-build:latest
     commands:
-      - yarn
-      - yarn convert
-      - yarn generate
-      - yarn build
+      - make build
+      - make github-pages
+
+  github_pages:
+    image: appleboy/drone-git-push
+    force: true
+    branch: gh-pages
+    remote: git@github.com:/Presslabs/particles.git
+    secrets:
+      - GIT_PUSH_SSH_KEY
+    commit_message: "Update static page"
+    # when:
+    #   branch: master
 
   npm:
     image: plugins/npm
