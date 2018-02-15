@@ -5,8 +5,7 @@
       :width="size"
       :height="size"
       viewBox="0 0 64 64"
-      fill="black"
-      fill-rule="nonzero"
+      fill-rule="evenodd"
       class="grid"
     >
       <rect width="64" height="64" fill="none" stroke="#888888" stroke-width=".2" :stroke-opacity="dark ? .4 : .5" />
