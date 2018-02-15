@@ -9,7 +9,7 @@ build: dependencies
 github-pages: dependencies
 	git config --global user.email "bot@presslabs.com"
 	git config --global user.name "Igor Debot"
-	for i in $(ls | grep -v docs); do rm -rf $i; done
+	for i in $(ls | egrep -v "docs|fonts"); do rm -rf $i; done
 	cp -R docs/* .
 	rm -rf docs
 	git add .

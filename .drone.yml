@@ -5,6 +5,7 @@ pipeline:
       - make build
       - make github-pages
 
+
   github_pages:
     image: appleboy/drone-git-push
     force: true
