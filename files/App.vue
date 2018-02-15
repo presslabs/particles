@@ -4,21 +4,17 @@
     <h1>Presslabs Particles</h1>
     <div class="input-wrapper">
       <input type="text" v-model="search" placeholder="Search particle.." class="input" @focus="zoomedParticle = null" />
-      <input type="range" v-model="size" min="16" max="48" name="size" /> Size: {{ size }}px
+    </div>
+    <div class="input-wrapper">
+      <input type="range" v-model="size" min="16" max="96" name="size" /> Size: {{ size }}px
     </div>
     <div class="particles-show">
       <particles :particles="filteredList" :size="size" v-on:zoom="zoomParticle($event)" />
       <div class="particle-zoom" v-if="zoomedParticle && showCard">
-        <particleCard :particle="zoomedParticle" :dark="dark" v-on:close="closeCard"></particleCard>
-        <label>
-          <input type="checkbox" v-model="dark" name="dark" /> Switch to dark mode
-        </label>
-        <!-- <label>
-          <input type="checkbox" v-model="showCard" name="card" /> Show card
-        </label> -->
+        <particleCard :particle="zoomedParticle" :dark="dark" v-on:dark="switchDark" v-on:close="closeCard"></particleCard>
       </div>
     </div>
-    <footer></footer>
+    <app-footer></app-footer>
   </div>
 </template>
 
@@ -26,7 +22,7 @@
 import Particles from './components/Particles'
 import ParticleCard from './components/ParticleCard'
 import Particle from './components/Particle'
-import Footer from './components/Footer'
+import AppFooter from './components/Footer'
 import particlesData from './resources/particles.json'
 
 export default {
@@ -47,16 +43,19 @@ export default {
     },
     closeCard: function() {
       this.showCard = false
-    }
+    },
+    switchDark: function() {
+      this.dark = !this.dark
+    },
   },
   computed: {
     filteredList() {
       return this.particlesData.filter(particle => {
         return particle.liga.toLowerCase().includes(this.search.toLowerCase())
       })
-    }
+    },
   },
-  components: { Particle, Particles, ParticleCard, Footer }
+  components: { Particle, Particles, ParticleCard, AppFooter }
 }
 </script>
 

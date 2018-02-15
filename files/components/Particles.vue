@@ -45,6 +45,7 @@ $cell: 48px;
     display: block;
     width: $cell;
     height: $cell;
+    padding: 20px;
     float: left;
     margin: 0 -1px -1px 0;
     line-height: $cell;

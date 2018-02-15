@@ -1,5 +1,8 @@
 <template>
   <div class="particle-card" :class="{ dark }">
+    <a href="#" @click="toggleDark" class="dark">
+      <particle :particle="{ liga: 'lightbulb' }"></particle>
+    </a>
     <a href="#" @click="closeCard" class="close">
       <particle :particle="{ liga: 'delete' }"></particle>
     </a>
@@ -25,7 +28,7 @@ export default {
   props: ['particle', 'dark'],
   methods: {
     toggleDark: function() {
-      this.dark = !this.dark
+      this.$emit('dark');
     },
     closeCard: function () {
       this.$emit('close');
@@ -63,7 +66,7 @@ export default {
       color: $teal-1;
     }
   }
-  .close {
+  .close, .dark {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -72,6 +75,9 @@ export default {
     &:hover {
       color: $secondColor;
     }
+  }
+  .dark {
+    right: 40px;
   }
 }
 </style>
