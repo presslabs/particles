@@ -12,6 +12,7 @@ github-pages: dependencies
 	for i in $(ls | egrep -v "docs|fonts"); do rm -rf $i; done
 	cp -R docs/* .
 	rm -rf docs
-	git add -f .
+	git add .
+	git add -f fonts/
 	echo -n "(autodoc) " > /tmp/COMMIT_MESSAGE ; git log -1 --pretty=%B >> /tmp/COMMIT_MESSAGE ; echo >> /tmp/COMMIT_MESSAGE ; echo "Commited-By: $$CI_BUILD_URL" >> /tmp/COMMIT_MESSAGE
 	git commit -F /tmp/COMMIT_MESSAGE
