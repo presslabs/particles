@@ -1,9 +1,9 @@
 <template>
   <div class="particle-card" :class="{ dark }">
-    <a href="#" @click="toggleDark" class="dark">
+    <a href="#" @click.prevent="toggleDark" class="dark">
       <particle :particle="{ liga: 'lightbulb' }"></particle>
     </a>
-    <a href="#" @click="closeCard" class="close">
+    <a href="#" @click.prevent="closeCard" class="close">
       <particle :particle="{ liga: 'delete' }"></particle>
     </a>
     <particle :particle="particle"></particle>

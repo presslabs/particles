@@ -87,6 +87,12 @@ i.logo {
     display: block;
   }
 }
+input[type="range"] {
+  height: 24px;
+  margin: 0;
+  vertical-align: middle;
+  margin-right: 10px;
+}
 .input {
   -webkit-appearance: none;
   -moz-appearance: none;

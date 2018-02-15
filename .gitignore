@@ -1,7 +1,7 @@
+.DS_Store
 /node_modules
 /fonts
 /svg
-.DS_Store
 /build
-/demo
+/docs
 /files/resources
