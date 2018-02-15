@@ -1,4 +1,12 @@
 pipeline:
+  build:
+    image: presslabs/particles-build:latest
+    commands:
+      - yarn
+      - yarn convert
+      - yarn generate
+      - yarn build
+
   npm:
     image: plugins/npm
     username: $NPM_USERNAME
