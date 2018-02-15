@@ -5,7 +5,7 @@
     <div class="input-wrapper">
       <input type="text" v-model="search" placeholder="Search particle.." class="input" @focus="zoomedParticle = null" />
     </div>
-    <div class="input-wrapper">
+    <div class="input-wrapper size">
       <input type="range" v-model="size" min="16" max="96" name="size" /> Size: {{ size }}px
     </div>
     <div class="particles-show">
@@ -80,6 +80,12 @@ i.logo {
 .input-wrapper {
   max-width: 500px;
   margin: 0 auto 40px;
+  &.size {
+    @media screen and (max-width: 480px) {
+      display: none;
+    }
+    display: block;
+  }
 }
 .input {
   -webkit-appearance: none;
@@ -104,7 +110,10 @@ i.logo {
     flex: 1;
   }
   .particle-zoom {
-    flex: 0 0 400px;
+    flex: 0 0 296px;
+    @media screen and (min-width: 480px) {
+      flex: 0 0 400px;
+    }
     label {
       display: block;
       margin-top: 20px;

@@ -36,21 +36,24 @@ export default {
 @import "./variables";
 @import "./colors";
 
-$cell: 48px;
 .particles-container {
   overflow: hidden;
   padding: 0 1px 1px 0;
   user-select: none;
   .particle {
     display: block;
-    width: $cell;
-    height: $cell;
-    padding: 20px;
     float: left;
     margin: 0 -1px -1px 0;
-    line-height: $cell;
-    font-size: $cell*.75;
     box-shadow: inset 0 0 0 1px lighten($gray-1, 60%);
+    @media screen and (max-width: 480px) {
+      $cell: 32px;
+      line-height: $cell !important;
+      font-size: $cell*.75 !important;
+      width: $cell !important;
+      height: $cell !important;
+      padding: 10px !important;
+    }
+    padding: 20px;
     cursor: pointer;
     &:hover {
       background: $blue-1;

@@ -50,7 +50,8 @@ export default {
   box-shadow: 0 2px 10px rgba($gray-1, .2);
   padding: 20px;
   transition: all ease .15s;
-  position: relative;
+  position: sticky;
+  top: 0px;
   small {
     display: block;
   }
