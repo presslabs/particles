@@ -13,8 +13,8 @@ pipeline:
     secrets:
       - GIT_PUSH_SSH_KEY
     commit_message: "Update static page"
-  when:
-    branch: master
+    when:
+      branch: master
 
   npm:
     image: plugins/npm
