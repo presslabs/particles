@@ -3,15 +3,28 @@
     <particle particle="particles_alt" :size="128" :class="[ 'logo' ]" />
     <h1>Presslabs Particles</h1>
     <div class="input-wrapper">
-      <input type="text" v-model="search" placeholder="Search particle.." class="input" @focus="zoomedParticle = null" />
+      <input type="text" v-model="search" placeholder="Search particle.." class="input" @focus="zoomedParticle = null, currentIndex = null" />
     </div>
     <div class="input-wrapper size">
       <input type="range" v-model="size" min="16" max="96" name="size" /> Size: {{ size }}px
     </div>
     <div class="particles-show">
-      <particles :particles="filteredList" :size="size" v-on:zoom="zoomParticle($event)" />
+      <particles
+        :particles="filteredList"
+        :size="size"
+        :index="currentIndex"
+        v-on:zoom="zoomParticle($event)"
+      />
       <div class="particle-zoom" v-if="zoomedParticle && showCard">
-        <particleCard :particle="zoomedParticle" :dark="dark" v-on:dark="switchDark" v-on:close="closeCard"></particleCard>
+        <!-- <a href="#" @click.prevent="prev()"><particle particle="arrow_w" /></a> {{ currentIndex }} <a href="#" @click.prevent="next()"><particle particle="arrow_e" /></a> -->
+        <particleCard
+          :particle="zoomedParticle"
+          :dark="dark"
+          v-on:dark="switchDark"
+          v-on:close="closeCard"
+          v-on:prev="prev"
+          v-on:next="next"
+        ></particleCard>
       </div>
     </div>
     <app-footer></app-footer>
@@ -34,11 +47,14 @@ export default {
       dark: false,
       showCard: false,
       particlesData,
-      zoomedParticle: null
+      zoomedParticle: null,
+      currentIndex: null,
     }
   },
   methods: {
-    zoomParticle: function(particle) {
+    zoomParticle: function(data) {
+      const { particle, index } = data
+      this.currentIndex = index
       this.zoomedParticle = particle
       this.showCard = true
     },
@@ -47,6 +63,20 @@ export default {
     },
     switchDark: function() {
       this.dark = !this.dark
+    },
+    next: function () {
+      if (this.currentIndex < this.filteredList.length - 1) {
+        this.currentIndex += 1
+      }
+      this.zoomedParticle = this.filteredList[this.currentIndex]
+      this.showCard = true
+    },
+    prev: function () {
+      if (this.currentIndex > 0) {
+        this.currentIndex -= 1
+      }
+      this.zoomedParticle = this.filteredList[this.currentIndex]
+      this.showCard = true
     },
   },
   computed: {

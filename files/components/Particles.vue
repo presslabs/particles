@@ -1,12 +1,12 @@
 <template>
   <div class="particles-container">
     <particle-icon
-      v-for="particle in particles"
-      :key="particle.codepoint"
-      :particle="particle"
-      @click="zoom(particle)"
-      :class="{ selected: particle === selected }"
-      :style="{ fontSize: `${size}px` }"
+    v-for="(particle, i) in particles"
+    :key="i"
+    :particle="particle"
+    @click="zoom(particle, i)"
+    :class="{ selected: particle === particles[index] }"
+    :style="{ fontSize: `${size}px` }"
     ></particle-icon>
   </div>
 </template>
@@ -15,18 +15,18 @@
 import ParticleIcon from './ParticleIcon'
 
 export default {
-  props: ['particles', 'size'],
+  props: ['particles', 'size', 'index'],
   data () {
     return {
       zoomed: null,
-      selected: null,
+      selected: null
     }
   },
   methods: {
-    zoom: function (particle) {
-      this.$emit('zoom', particle);
+    zoom: function (particle, index) {
+      this.$emit('zoom', { particle, index })
       this.selected = particle
-    }
+    },
   },
   components: { ParticleIcon },
 }

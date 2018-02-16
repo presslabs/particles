@@ -1,5 +1,13 @@
 <template>
   <div class="particle-card" :class="{ dark }">
+    <a href="#" @click.prevent="prev" class="nav prev">
+      <particle particle="arrow_w"></particle>
+    </a>
+    <a href="#" @click.prevent="next" class="nav next">
+      <particle particle="arrow_e"></particle>
+    </a>
+
+
     <a href="#" @click.prevent="toggleDark" class="action dark">
       <particle :particle="dark ? 'lightbulb_on' : 'lightbulb_off'"></particle>
     </a>
@@ -62,7 +70,13 @@ export default {
     },
     closeCard: function () {
       this.$emit('close');
-    }
+    },
+    next: function() {
+      this.$emit('next');
+    },
+    prev: function() {
+      this.$emit('prev');
+    },
   },
   components: { Particle, ParticleSvg }
 }
@@ -83,6 +97,7 @@ export default {
   position: sticky;
   top: 0px;
   h2 {
+    margin-top: 30px;
     small {
       color: $gray-4;
       font-size: 12px;
@@ -90,7 +105,7 @@ export default {
       font-weight: 400;
     }
   }
-  .action {
+  .action, .nav {
     font-size: 24px;
   }
   .icons td {
@@ -120,7 +135,7 @@ export default {
       color: $teal-1;
     }
   }
-  .close, .dark {
+  .next, .prev, .close, .dark {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -132,6 +147,14 @@ export default {
   }
   .dark {
     right: 40px;
+  }
+  .prev {
+    right: auto;
+    left: 20px;
+  }
+  .next {
+    right: auto;
+    left: 50px;
   }
   .zoom-1x {
     font-size: 16px;
