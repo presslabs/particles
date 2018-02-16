@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: presslabs/particles-build:latest
+    image: presslabs/particles-build
     commands:
       - make build
       - make github-pages
