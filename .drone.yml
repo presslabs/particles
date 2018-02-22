@@ -4,8 +4,8 @@ pipeline:
     commands:
       - make build
       - make github-pages
-  when:
-    event: push
+    when:
+      event: push
 
   github_pages:
     image: appleboy/drone-git-push
