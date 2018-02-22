@@ -1,5 +1,5 @@
 <template>
-  <i class="particle">{{ particle }}</i>
+  <i class="particle"><slot>{{ particle }}</slot></i>
 </template>
 <script>
 export default { props: ['particle'] }
