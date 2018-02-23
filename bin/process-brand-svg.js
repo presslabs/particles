@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import 'jsdom-global/register'
 import Svgo from 'svgo'
 import cheerio from 'cheerio'
@@ -44,7 +43,7 @@ const optimize = svg => {
 const setAttrs = (svg, attrs, filename) => {
   const $ = cheerio.load(svg)
   Object.keys(attrs).forEach(key => $('svg').attr(key, attrs[key]))
-  console.log(`Processing ${filename}`)
+  console.log(`Processing ${filename}`) // eslint-disable-line no-console
   return new Promise((resolve, reject) => {
     const data = $('body').html()
     if (data === null) {

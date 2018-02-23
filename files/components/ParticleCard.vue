@@ -1,10 +1,10 @@
 <template>
   <div class="particle-card" :class="{ dark }">
     <a href="#" @click.prevent="prev" class="nav prev">
-      <particle particle="arrow_w"></particle>
+      <particle>arrow_w</particle>
     </a>
     <a href="#" @click.prevent="next" class="nav next">
-      <particle particle="arrow_e"></particle>
+      <particle>arrow_e</particle>
     </a>
 
 
@@ -12,22 +12,22 @@
       <particle :particle="dark ? 'lightbulb_on' : 'lightbulb_off'"></particle>
     </a>
     <a href="#" @click.prevent="closeCard" class="action close">
-      <particle particle="delete"></particle>
+      <particle>delete</particle>
     </a>
     <h2><small>Particle name:</small>{{ particle.liga }}</h2>
     <table>
       <tr class="icons">
         <td>
-          <particle :particle="particle.liga" class="zoom-1x"></particle>
+          <particle class="zoom-1x">{{ particle.liga }}</particle>
         </td>
         <td>
-          <particle :particle="particle.liga" class="zoom-2x"></particle>
+          <particle class="zoom-2x">{{ particle.liga }}</particle>
         </td>
         <td>
-          <particle :particle="particle.liga" class="zoom-4x"></particle>
+          <particle class="zoom-4x">{{ particle.liga }}</particle>
         </td>
         <td>
-          <particle :particle="particle.liga" class="zoom-8x"></particle>
+          <particle class="zoom-8x">{{ particle.liga }}</particle>
         </td>
       </tr>
       <tr class="sizes">
@@ -95,7 +95,7 @@ export default {
   padding: 20px;
   transition: all ease .15s;
   position: sticky;
-  top: 0px;
+  top: 100px;
   h2 {
     margin-top: 30px;
     small {

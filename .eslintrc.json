@@ -1,6 +1,6 @@
 {
   "extends": ["airbnb-base", "prettier"],
-  "plugins": ["import", "prettier"],
+  "plugins": ["import", "prettier", "vue"],
   "rules": {
     "no-console": ["error", { "allow": ["warn", "error"] }],
     "no-param-reassign": "off",

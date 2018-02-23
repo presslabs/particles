@@ -1,3 +1,4 @@
+/* eslint-disable func-names */
 const path = require('path')
 const cheerio = require('cheerio')
 
@@ -6,8 +7,8 @@ module.exports = function task(grunt) {
     webfont: {
       particles: {
         src: 'svg/*.svg',
-        dest: 'fonts',
-        destCss: 'files/resources',
+        dest: 'dist/fonts',
+        destCss: 'dist/css',
         options: {
           font: 'particles',
           fontFamilyName: 'Presslabs Particles',
@@ -38,7 +39,7 @@ module.exports = function task(grunt) {
     },
     clean: {
       demo: ['files/resources'],
-      fonts: ['fonts'],
+      fonts: ['dist'],
     },
     'extract-svg-paths': {
       files: {
@@ -64,7 +65,7 @@ module.exports = function task(grunt) {
           })
           .forEach(filepath => {
             const svgContent = grunt.file.read(filepath)
-            const filename = filepath.match(/([^\/]+)(?=\.\w+$)/)[0]
+            const filename = filepath.match(/([^\/]+)(?=\.\w+$)/)[0] // eslint-disable-line no-useless-escape
             const $ = cheerio.load(svgContent)
             const pathArray = $('path')
               .map(function() {

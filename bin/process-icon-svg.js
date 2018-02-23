@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import 'jsdom-global/register'
 import Svgo from 'svgo'
 import { map } from 'lodash'
@@ -107,7 +106,7 @@ const convertPaths = (svg, data) => {
   Paper.project.activeLayer.removeChildren()
   result.addTo(Paper.project.activeLayer)
 
-  console.log(`Processing ${filename}`)
+  console.log(`Processing ${filename}`) // eslint-disable-line no-console
   return new Promise((resolve, reject) => {
     const data = XMLSerializer.serializeToString(
       Paper.project.exportSVG({ precision: 2 }),

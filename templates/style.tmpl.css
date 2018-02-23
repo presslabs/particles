@@ -33,13 +33,28 @@
   $code: map-get($particles, $particle);
 	&:before {
 		content: unquote('\'\\#{ $code }\'');
-		/* content: "#{ $code }"; */
 	}
 }
 
 @mixin particle($particle) {
 	@extend %<%= baseClass %>;
 	@include icon($particle);
+}
+
+@mixin particle-size($size) {
+	&:before {
+		font-size: $size;
+		line-height: $size;
+	}
+}
+
+@mixin absolute($left: 0, $top: 0) {
+	position: relative;
+	&:before {
+		position: absolute;
+		left: $left;
+		top: $top;
+	}
 }
 
 // Map of icon name to codepoint

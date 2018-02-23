@@ -1,12 +1,17 @@
 <template>
   <div id="app">
-    <particle particle="particles_alt" :size="128" :class="[ 'logo' ]" />
-    <h1>Presslabs Particles</h1>
-    <div class="input-wrapper">
-      <input type="text" v-model="search" placeholder="Search particle.." class="input" @focus="zoomedParticle = null, currentIndex = null" />
-    </div>
-    <div class="input-wrapper size">
-      <input type="range" v-model="size" min="16" max="96" name="size" /> Size: {{ size }}px
+    <div class="topbar">
+      <div class="bar-section branding">
+        <a href="#">
+          <particle :class="[ 'logo' ]">particles_alt</particle> Presslabs Particles
+        </a>
+      </div>
+      <div class="bar-section input-wrapper search">
+        <input type="text" v-model="search" placeholder="Search particle.." class="input" @focus="zoomedParticle = null, currentIndex = null" />
+      </div>
+      <div class="bar-section input-wrapper size">
+        <input type="range" v-model="size" min="16" max="96" name="size" /> Size: {{ size }}px
+      </div>
     </div>
     <div class="particles-show">
       <particles
@@ -16,7 +21,6 @@
         v-on:zoom="zoomParticle($event)"
       />
       <div class="particle-zoom" v-if="zoomedParticle && showCard">
-        <!-- <a href="#" @click.prevent="prev()"><particle particle="arrow_w" /></a> {{ currentIndex }} <a href="#" @click.prevent="next()"><particle particle="arrow_e" /></a> -->
         <particleCard
           :particle="zoomedParticle"
           :dark="dark"
@@ -93,6 +97,7 @@ export default {
 <style lang="scss">
 @import "./components/variables";
 @import "./components/colors";
+@import "../dist/css/particles";
 
 #app {
   font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
@@ -100,21 +105,76 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: $gray-1;
-  margin-top: 60px;
+  padding: 140px 20px 0;
+  @media screen and (min-width: 768px) {
+    padding: 100px 20px 0;
+  }
 }
-i.logo {
-  font-size: 128px;
-  margin: 0 auto;
-  color: $gray-1;
+.topbar {
+  background: $gray-1;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    position: fixed;
+  }
+  padding: 0 20px;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  .bar-section {
+    flex: 1;
+    padding: 0 10px;
+    @media screen and (min-width: 768px) {
+      border-right: 1px solid $gray-2;
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+}
+.bar-section.branding {
+  text-align: left;
+  flex: 1;
+  @media screen and (min-width: 768px) {
+    flex: 0 0 200px;
+  }
+  a {
+    display: block;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 36px;
+  }
+  i.logo {
+    font-size: 40px;
+    margin: 0 10px 0 0;
+    color: $gray-8;
+    float: left;
+    vertical-align: middle;
+  }
 }
 .input-wrapper {
   max-width: 500px;
-  margin: 0 auto 40px;
+  color: #fff;
   &.size {
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
       display: none;
     }
     display: block;
+    padding: 18px 20px;
+    text-align: left;
+  }
+  &.search {
+    @include particle('search');
+    @include absolute(20px, 20px);
+    @include particle-size(20px);
+    &:before {
+      color: $gray-3;
+    }
   }
 }
 input[type="range"] {
@@ -128,25 +188,35 @@ input[type="range"] {
   -moz-appearance: none;
   appearance: none;
   background-color: transparent;
-  border: 1px solid #d1d1d1;
-  background: #fff;
+  border: none;
+  background: transparent;
   border-radius: 3px;
   box-shadow: none;
   box-sizing: border-box;
-  height: 40px;
+  height: 60px;
   outline: none;
   padding: 10px 8px;
   line-height: 24px;
   font-size: 18px;
   width: 100%;
+  color: #fff;
+  padding-left: 40px;
+  &::placeholder {
+    color: $gray-5;
+  }
 }
 .particles-show {
   display: flex;
+  flex-direction: column-reverse;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
   .particles-container {
     flex: 1;
   }
   .particle-zoom {
     flex: 0 0 296px;
+    margin-bottom: 20px;
     @media screen and (min-width: 480px) {
       flex: 0 0 400px;
     }

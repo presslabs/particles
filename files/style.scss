@@ -1,10 +1,12 @@
-$particles-font-path: "../fonts/" !default;
-@import "./resources/particles";
+$particles-font-path: "../dist/fonts/" !default;
+@import "../dist/css/particles";
 @import "./components/variables";
 @import "./components/colors";
 
 body {
   background: #F2F2F2;
+  margin: 0;
+  position: relative;
 }
 i.particle {
   font-family: "Presslabs Particles";

@@ -1,6 +1,6 @@
 <template>
   <div @click="handleClick">
-    <particle :particle="particle.liga"></particle>
+    <particle>{{ particle.liga }}</particle>
   </div>
 </template>
 
