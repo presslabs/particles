@@ -37,9 +37,7 @@ pipeline:
     commands:
       - mkdir -p /drone/src/presslabs-org/wp-content/root/particles/
       - rm -rf /drone/src/presslabs-org/wp-content/root/particles/*
-      - ls -la .
       - mv demo/* /drone/src/presslabs-org/wp-content/root/particles
-      - cp -R fonts /drone/src/presslabs-org/wp-content/root/particles
     # when:
     #   branch: master
 
