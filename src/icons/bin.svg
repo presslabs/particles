@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>bin</title>
+  <path d="M14,16V53a5,5,0,0,0,5,5H45a5,5,0,0,0,5-5V16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="8" y1="16" x2="56" y2="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M43,16V11a5,5,0,0,0-5-5H26a5,5,0,0,0-5,5v5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

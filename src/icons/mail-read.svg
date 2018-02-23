@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>mail-read</title>
+  <polyline points="4 29 32 44 60 29" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M60,27V50a5,5,0,0,1-5,5H9a5,5,0,0,1-5-5V27a5,5,0,0,1,2.64-4.4L32,9,57.36,22.59A5,5,0,0,1,60,27Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

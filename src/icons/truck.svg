@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>truck</title>
+  <circle cx="15" cy="47" r="6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <circle cx="46" cy="47" r="6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="21" y1="47" x2="40" y2="47" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M52,47h3a5,5,0,0,0,5-5V31a2,2,0,0,0-.8-1.6l-6.67-5a2,2,0,0,0-1.2-.4H44" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="44 41.34 44 12 4 12 4 47 8 47" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

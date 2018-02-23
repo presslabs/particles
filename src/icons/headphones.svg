@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>headphones</title>
+  <path d="M14,32A18,18,0,0,1,32,14h0A18,18,0,0,1,50,32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M14,32H11a5,5,0,0,0-5,5v7a5,5,0,0,0,5,5h3V40" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M50,32h3.33a5,5,0,0,1,5,5v7a5,5,0,0,1-5,5H50V40" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

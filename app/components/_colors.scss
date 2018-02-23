@@ -1,0 +1,193 @@
+$mainColor: #4DC74C;
+// $secondColor: #00D0FF;
+// $secondColor: #157CFF;
+$secondColor: #009EFB;
+
+$yellow-1: #FFC840;
+$yellow-2: #FFCF59;
+$yellow-3: #FFD670;
+$yellow-4: #FFDD89;
+$yellow-5: #FFE39F;
+$yellow-6: #FFEBB9;
+$yellow-7: #FFF1CF;
+$yellow-8: #FFF8E8;
+
+$orange-1: #F97C30;
+$orange-2: #FA8D4B;
+$orange-3: #FB9D64;
+$orange-4: #FBAE7F;
+$orange-5: #FCBD97;
+$orange-6: #FDCFB3;
+$orange-7: #FDDECB;
+$orange-8: #FEEFE6;
+
+$purple-1: #503AFF;
+$purple-2: #6753FF;
+$purple-3: #7C6CFF;
+$purple-4: #9385FF;
+$purple-5: #A79CFF;
+$purple-6: #BFB6FF;
+$purple-7: #D3CEFF;
+$purple-8: #EAE7FF;
+
+$violet-1: #974FFF;
+$violet-2: #A466FF;
+$violet-3: #B17BFF;
+$violet-4: #BF92FF;
+$violet-5: #CBA7FF;
+$violet-6: #D9BEFF;
+$violet-7: #E5D3FF;
+$violet-8: #F2E9FF;
+
+$red-1: #F93048;
+$red-2: #FA4B60;
+$red-3: #FB6476;
+$red-4: #FB7F8E;
+$red-5: #FC97A3;
+$red-6: #FDB3BC;
+$red-7: #FDCBD1;
+$red-8: #FEE6E9;
+
+$pink-1: #FF45A6;
+$pink-2: #FF5DB1;
+$pink-3: #FF74BD;
+$pink-4: #FF8CC8;
+$pink-5: #FFA2D2;
+$pink-6: #FFBBDE;
+$pink-7: #FFD0E9;
+$pink-8: #FFE8F4;
+
+$teal-1: #25EB9E;
+$teal-2: #41EDAA;
+$teal-3: #5CF0B7;
+$teal-4: #78F3C3;
+$teal-5: #92F5CE;
+$teal-6: #AFF8DB;
+$teal-7: #C8FAE7;
+$teal-8: #E4FCF3;
+
+$green-1: #00B531;
+$green-2: #21BE4C;
+$green-3: #40C865;
+$green-4: #61D17F;
+$green-5: #7FDA98;
+$green-6: #A1E4B3;
+$green-7: #BFECCB;
+$green-8: #E0F6E6;
+
+$lime-1: #A0DA26;
+$lime-2: #ACDF42;
+$lime-3: #B8E35D;
+$lime-4: #C4E879;
+$lime-5: #CFEC92;
+$lime-6: #DCF2AF;
+$lime-7: #E7F5C9;
+$lime-8: #F3FAE5;
+
+$gray-1: #2C3656;
+$gray-2: #47506C;
+$gray-3: #616981;
+$gray-4: #7C8296;
+$gray-5: #959AAA;
+$gray-6: #B1B5C1;
+$gray-7: #CACDD5;
+$gray-8: #E5E6EA;
+
+$blue-1: #157CFF;
+$blue-2: #338DFF;
+$blue-3: #509DFF;
+$blue-4: #6EAEFF;
+$blue-5: #8ABDFF;
+$blue-6: #A9CFFF;
+$blue-7: #C4DEFF;
+$blue-8: #E3EFFF;
+
+$cyan-1: #08CEC5;
+$cyan-2: #28D4CC;
+$cyan-3: #46DBD4;
+$cyan-4: #66E1DB;
+$cyan-5: #83E6E2;
+$cyan-6: #A4EDEA;
+$cyan-7: #C1F3F0;
+$cyan-8: #E1F9F8;
+
+$silver-1: #566A78;
+$silver-2: #6C7D89;
+$silver-3: #81909A;
+$silver-4: #96A3AB;
+$silver-5: #AAB4BB;
+$silver-6: #C1C8CD;
+$silver-7: #D5DADD;
+$silver-8: #EAEDEE;
+
+@mixin tiltBackground($from: $green-1, $to: $cyan-1, $fade: false) {
+  @if $fade {
+    background: linear-gradient(135deg, $from 0%, rgba($to, 0) 100%);
+  }
+  @else {
+    background: linear-gradient(135deg, $from 0%, $to 100%);
+  }
+}
+
+@mixin verticalBackground($from: $green-1, $to: #ffffff, $fade: false) {
+  @if $fade {
+    background: linear-gradient(180deg, $from 0%, rgba($to, 0) 100%);
+  }
+  @else {
+    background: linear-gradient(180deg, $from 0%, $to 100%);
+  }
+}
+
+@mixin cutOff($gray: false) {
+  &:after {
+    @if $gray == true {
+      background-image: url("../images/skew-gray.svg");
+    }
+    @else {
+      background-image: url("../images/skew.svg");
+    }
+    background-position: bottom center;
+  }
+}
+
+%stripe-base {
+  position: absolute;
+  content: "";
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform-origin: 50% 100%;
+}
+
+%stripe-1 {
+  @extend %stripe-base;
+  transform: skewY(-10deg);
+  z-index: -1;
+}
+
+%stripe-2 {
+  @extend %stripe-base;
+  height: $lineheight*25;
+  transform: skewY(10deg);
+  z-index: -2;
+}
+
+@mixin stripes($first: $teal-1 $secondColor 1, $second: $blue-1 $secondColor 1) {
+  position: relative;
+  z-index: 0;
+  &:before {
+    @include tiltBackground(nth($first, 1), rgba(nth($first, 2), .5));
+    @if length($first) == 3 {
+      opacity: nth($first, 3);
+    }
+    @extend %stripe-1;
+  }
+  &:after {
+    @include tiltBackground(rgba(nth($second, 1), .5), nth($second, 2));
+    @if length($second) == 3 {
+      opacity: nth($second, 3);
+    }
+    @extend %stripe-2;
+  }
+}

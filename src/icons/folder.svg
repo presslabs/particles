@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>folder</title>
+  <path d="M53,22H34L23.25,11H11a5,5,0,0,0-5,5V48a5,5,0,0,0,5,5H53a5,5,0,0,0,5-5V27A5,5,0,0,0,53,22Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M58,27V19a5,5,0,0,0-5-5H26.17" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

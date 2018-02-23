@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>users</title>
+  <path d="M46,60V50A10,10,0,0,0,36,40H14A10,10,0,0,0,4,50V60Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M25,33c7.36,0,13-6.08,13-16A12.87,12.87,0,0,0,25,4,12.87,12.87,0,0,0,12,17C12,26.85,17.64,33,25,33Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M52,60h8V50A10,10,0,0,0,50,40H48.48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M38.44,33H39c7.36,0,13-6.08,13-16A12.87,12.87,0,0,0,39,4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

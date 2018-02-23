@@ -1,4 +1,56 @@
+clone:
+  default:
+    image: plugins/git
+    recursive: true
+    group: clone
+
+  presslabs-org:
+    image: alpine/git
+    group: clone
+    commands:
+      # write the ssh key to disk
+      - mkdir /root/.ssh
+      - echo -n "$GIT_PUSH_SSH_KEY" > /root/.ssh/id_rsa
+      - chmod 600 /root/.ssh/id_rsa
+
+      # add github to known hosts
+      - touch /root/.ssh/known_hosts
+      - chmod 600 /root/.ssh/known_hosts
+      - ssh-keyscan -H github.com > /etc/ssh/ssh_known_hosts 2> /dev/null
+
+      # clone presslabs-org
+      - git clone -b prod git@github.com:/PressLabs/presslabs-org.git /drone/src/presslabs-org
+    secrets:
+      - GIT_PUSH_SSH_KEY
+    when:
+      branch: master
 pipeline:
+  build:
+    image: presslabs/particles-build
+    commands:
+      - make build
+
+  build-docs:
+    image: alpine:3.7
+    commands:
+      - mkdir -p /drone/src/presslabs-org/wp-content/root/particles/
+      - rm -rf /drone/src/presslabs-org/wp-content/root/particles/*
+      - mv demo/* /drone/src/presslabs-org/wp-content/root/particles
+    when:
+      branch: master
+
+  update-presslabs-org:
+    image: appleboy/drone-git-push
+    branch: prod
+    commit: true
+    path: /drone/src/presslabs-org
+    commit_message: "[particles] Update particles demo"
+    remote: git@github.com:/Presslabs/presslabs-org.git
+    secrets:
+      - GIT_PUSH_SSH_KEY
+    when:
+      branch: master
+
   npm:
     image: plugins/npm
     username: $NPM_USERNAME

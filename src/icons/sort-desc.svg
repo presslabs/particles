@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>sort-desc</title>
+  <rect x="48" y="44" width="8" height="12" transform="translate(104 100) rotate(-180)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <rect x="28" y="32" width="8" height="24" transform="translate(64 88) rotate(-180)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <rect x="8" y="8" width="8" height="48" transform="translate(24 64) rotate(-180)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

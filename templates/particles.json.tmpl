@@ -1,0 +1,6 @@
+[<% _.forEach(glyphs, function(glyph, index) { %>
+	{
+		"codepoint": "<%= codepoints[index] %>",
+		"liga": "${ glyphs[index] }"
+	}<% if (index < glyphs.length - 1) { %>,<% } %><% }); %>
+]

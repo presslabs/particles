@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>bucket</title>
+  <path d="M14,51.63,7.93,46.14A10,10,0,0,1,7.93,32L27.27,12,53.13,37.28H41.82L28.13,51.63A10,10,0,0,1,14,51.63Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M59,53a6,6,0,0,1-12,0c0-3.31,6-9,6-9S59,49.69,59,53Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="35" y1="26" x2="35" y2="5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

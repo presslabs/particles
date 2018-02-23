@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>thumbs</title>
+  <path d="M10,28a2,2,0,0,1-2-2V10a2,2,0,0,1,2-2H26a2,2,0,0,1,2,2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M10,56a2,2,0,0,1-2-2V38a2,2,0,0,1,2-2H26a2,2,0,0,1,2,2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M38,28a2,2,0,0,1-2-2V10a2,2,0,0,1,2-2H54a2,2,0,0,1,2,2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M38,56a2,2,0,0,1-2-2V38a2,2,0,0,1,2-2H54a2,2,0,0,1,2,2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M28,10V26a2,2,0,0,1-2,2H10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M56,10V26a2,2,0,0,1-2,2H38" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M28,38V54a2,2,0,0,1-2,2H10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M56,38V54a2,2,0,0,1-2,2H38" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

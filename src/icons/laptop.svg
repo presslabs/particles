@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>laptop</title>
+  <path d="M14,10H50a5,5,0,0,1,5,5V41a0,0,0,0,1,0,0H9a0,0,0,0,1,0,0V15A5,5,0,0,1,14,10Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="55 41 60 49 4 49 9 41" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="4 49 9 54 55 54 60 49" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

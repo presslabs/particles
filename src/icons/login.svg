@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>login</title>
+  <line x1="13" y1="32" x2="41" y2="32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="29 20 41 32 29 44" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path d="M19,40v9a5,5,0,0,0,5,5H45a5,5,0,0,0,5-5V15a5,5,0,0,0-5-5H24a5,5,0,0,0-5,5v9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>
