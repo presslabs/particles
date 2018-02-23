@@ -38,7 +38,7 @@ pipeline:
       - mkdir -p /drone/src/presslabs-org/wp-content/root/particles/
       - rm -rf /drone/src/presslabs-org/wp-content/root/particles/*
       - ls -la .
-      - mv docs/* /drone/src/presslabs-org/wp-content/root/particles
+      - mv demo/* /drone/src/presslabs-org/wp-content/root/particles
       - cp -R fonts /drone/src/presslabs-org/wp-content/root/particles
     # when:
     #   branch: master
@@ -48,7 +48,7 @@ pipeline:
     branch: prod
     commit: true
     path: /drone/src/presslabs-org
-    commit_message: "[docs] Update particles docs"
+    commit_message: "[particles] Update particles demo"
     remote: git@github.com:/Presslabs/presslabs-org.git
     secrets:
       - GIT_PUSH_SSH_KEY

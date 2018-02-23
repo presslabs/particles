@@ -41,7 +41,7 @@ import ParticleCard from './components/ParticleCard'
 import ParticleIcon from './components/ParticleIcon'
 import Particle from './components/Particle'
 import AppFooter from './components/Footer'
-import particlesData from './resources/particles.json'
+import particlesData from './icons/particles.json'
 
 export default {
   data: function () {
@@ -97,6 +97,8 @@ export default {
 <style lang="scss">
 @import "./components/variables";
 @import "./components/colors";
+
+$particles-font-path: "../dist/fonts/" !default;
 @import "../dist/css/particles";
 
 #app {

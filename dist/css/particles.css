@@ -1,12 +1,12 @@
 
 @font-face {
 	font-family: "Presslabs Particles";
-	src:url("../fonts/particles.eot?1a36a3b1a6e675470f94458c10f7fdeb");
-	src: url("../fonts/particles.eot?1a36a3b1a6e675470f94458c10f7fdeb#iefix") format("embedded-opentype"),
-		url("../fonts/particles.woff2?1a36a3b1a6e675470f94458c10f7fdeb") format("woff2"),
-		url("../fonts/particles.woff?1a36a3b1a6e675470f94458c10f7fdeb") format("woff"),
-		url("../fonts/particles.ttf?1a36a3b1a6e675470f94458c10f7fdeb") format("truetype"),
-		url("../fonts/particles.svg?1a36a3b1a6e675470f94458c10f7fdeb#particles") format("svg");
+	src:url("../fonts/particles.eot?4dc1645a511fda8b8b8fc28c56362578");
+	src: url("../fonts/particles.eot?4dc1645a511fda8b8b8fc28c56362578#iefix") format("embedded-opentype"),
+		url("../fonts/particles.woff2?4dc1645a511fda8b8b8fc28c56362578") format("woff2"),
+		url("../fonts/particles.woff?4dc1645a511fda8b8b8fc28c56362578") format("woff"),
+		url("../fonts/particles.ttf?4dc1645a511fda8b8b8fc28c56362578") format("truetype"),
+		url("../fonts/particles.svg?4dc1645a511fda8b8b8fc28c56362578#particles") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }

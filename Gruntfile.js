@@ -31,20 +31,20 @@ module.exports = function task(grunt) {
           customOutputs: [
             {
               template: 'templates/particles.json.tmpl',
-              dest: 'files/resources/particles.json',
+              dest: 'app/icons/particles.json',
             },
           ],
         },
       },
     },
     clean: {
-      demo: ['files/resources'],
+      demo: ['app/icons'],
       fonts: ['dist'],
     },
     'extract-svg-paths': {
       files: {
         src: 'svg/**/*.svg',
-        dest: 'files/resources/icons.json',
+        dest: 'app/icons/particles-data.json',
       },
     },
   })

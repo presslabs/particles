@@ -8,10 +8,10 @@ function resolve(dir) {
 }
 
 const webpackConfig = {
-  context: path.resolve('files'),
+  context: path.resolve('app'),
   entry: ['./index.js'],
   output: {
-    path: path.resolve('docs'),
+    path: path.resolve('demo'),
     filename: 'js/bundle.[hash].js',
     publicPath: '/particles/',
   },
@@ -20,7 +20,7 @@ const webpackConfig = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js', // prettier-ignore
-      '@': resolve('files'),
+      '@': resolve('app'),
     },
   },
 }
@@ -34,7 +34,7 @@ webpackConfig.plugins.push(
   }),
 )
 
-webpackConfig.plugins.push(new CleanWebpackPlugin(['docs']))
+webpackConfig.plugins.push(new CleanWebpackPlugin(['demo']))
 webpackConfig.plugins.push(new ExtractTextPlugin('styles.[hash].css'))
 
 webpackConfig.module.rules = []
@@ -54,10 +54,13 @@ webpackConfig.module.rules.push({
   test: /\.vue$/,
   loader: 'vue-loader',
   options: {
-    extractCSS: true,
     loaders: {
-      scss:
-        'vue-style-loader!css-loader!autoprefixer-loader!sass-loader!webpack-px-to-rem?basePx=16',
+      scss: ExtractTextPlugin.extract({
+        publicPath: '',
+        fallback: 'vue-style-loader',
+        use:
+          'css-loader?minimize=true!autoprefixer-loader!sass-loader!webpack-px-to-rem?basePx=16',
+      }),
     },
   },
 })
@@ -78,7 +81,7 @@ webpackConfig.module.rules.push({
     publicPath: '',
     fallback: 'style-loader',
     use:
-      'css-loader!autoprefixer-loader!sass-loader!webpack-px-to-rem?basePx=16',
+      'css-loader?minimize=true!autoprefixer-loader!sass-loader!webpack-px-to-rem?basePx=16',
   }),
 })
 
