@@ -53,8 +53,6 @@ pipeline:
 
   npm:
     image: plugins/npm
-    username: $NPM_USERNAME
-    password: $NPM_PASSWORD
     email: support@presslabs.com
     secrets: [ npm_username, npm_password ]
     when:
