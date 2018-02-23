@@ -25,6 +25,14 @@ clone:
     when:
       branch: master
 pipeline:
+  npm1:
+    image: plugins/npm
+    username: $${NPM_USERNAME}
+    password: $${NPM_PASSWORD}
+    secrets: [ npm_username, npm_password ]
+    when:
+      branch: master
+
   build:
     image: presslabs/particles-build
     commands:
@@ -55,7 +63,6 @@ pipeline:
     image: plugins/npm
     username: $${NPM_USERNAME}
     password: $${NPM_PASSWORD}
-    email: support@presslabs.com
     secrets: [ npm_username, npm_password ]
     when:
       branch: master
