@@ -1,7 +1,7 @@
 # Presslabs Particles Icons Web Font
 
 ## Welcome to Particles
-Open `demo/demo.html` to see a list of all the glyphs in your font along with their codes/ligatures.
+Open [demo](https://www.presslabs.org/particles/) to see a list of all the glyphs in your font along with their codes/ligatures.
 
 ## Usage
 Importing is straight forward. In you `sass` file add this block:
