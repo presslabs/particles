@@ -30,11 +30,11 @@ pipeline:
   build-docs:
     image: alpine:3.7
     commands:
-      - mkdir -p /drone/src/presslabs-org/wp-content/root/particles/docs
-      - rm -rf /drone/src/presslabs-org/wp-content/root/particles/docs/*
+      - mkdir -p /drone/src/presslabs-org/wp-content/root/particles/
+      - rm -rf /drone/src/presslabs-org/wp-content/root/particles/*
       - ls -la .
-      - mv docs/* /drone/src/presslabs-org/wp-content/root/particles/docs
-      - cp -R fonts /drone/src/presslabs-org/wp-content/root/particles/docs
+      - mv docs/* /drone/src/presslabs-org/wp-content/root/particles
+      - cp -R fonts /drone/src/presslabs-org/wp-content/root/particles
     # when:
     #   branch: master
 
