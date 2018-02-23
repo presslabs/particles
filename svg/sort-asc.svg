@@ -1,0 +1,10 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="64"
+  height="64"
+  viewBox="0 0 64 64"
+  fill="black"
+  fill-rule="nonzero"
+>
+  <path d="M6 56V44c0-1.1.9-2 2-2h8c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2zm8-2v-8h-4v8zm12 2V32c0-1.1.9-2 2-2h8c1.1 0 2 .9 2 2v24c0 1.1-.9 2-2 2h-8c-1.1 0-2-.9-2-2zm8-2V34h-4v20zm12 2V8c0-1.1.9-2 2-2h8c1.1 0 2 .9 2 2v48c0 1.1-.9 2-2 2h-8c-1.1 0-2-.9-2-2zm8-2V10h-4v44z" />
+</svg>
