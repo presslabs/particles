@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import icons from '../icons/particles-data.json'
+import icons from '../../dist/icons/particles-data.json'
 
 export default {
   props: ['particle', 'size', 'dark'],

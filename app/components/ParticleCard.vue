@@ -14,7 +14,7 @@
     <a href="#" @click.prevent="closeCard" class="action close">
       <particle>delete</particle>
     </a>
-    <h2><small>Particle name:</small>{{ particle.liga }}</h2>
+    <h2><small>Particle name:</small>{{ camelCase(particle.liga) }}</h2>
     <table>
       <tr class="icons">
         <td>
@@ -61,9 +61,15 @@
 <script>
 import Particle from './Particle'
 import ParticleSvg from './ParticleSvg'
+import { camelCase } from 'lodash'
 
 export default {
   props: ['particle', 'dark'],
+  data () {
+    return {
+      camelCase,
+    }
+  },
   methods: {
     toggleDark: function() {
       this.$emit('dark');

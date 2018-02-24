@@ -41,7 +41,7 @@ import ParticleCard from './components/ParticleCard'
 import ParticleIcon from './components/ParticleIcon'
 import Particle from './components/Particle'
 import AppFooter from './components/Footer'
-import particlesData from './icons/particles.json'
+import particlesData from '../dist/icons/particles.json'
 
 export default {
   data: function () {
