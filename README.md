@@ -69,5 +69,7 @@ To view the demo in browser window, run:
 ```
 yarn dev
 ```
-Have fun using these icons, or building your custom icons!
+In case you wish to create custom icons, please fork this project. 
+
+Have fun using these icons, or building your custom ones!
 
