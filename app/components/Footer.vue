@@ -12,8 +12,8 @@
       <div class="col">
         <h6>PRESSLABS</h6>
         <ul class="footer-nav">
-          <li><a href="https://presslabs.com/">WordPress Hosting</a></li>
-          <li><a href="https://presslabs.com/about">About Presslabs</a></li>
+          <li><a href="https://www.presslabs.com/">WordPress Hosting</a></li>
+          <li><a href="https://www.presslabs.com/about">About Presslabs</a></li>
         </ul>
       </div>
       <div class="col">
