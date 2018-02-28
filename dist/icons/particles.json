@@ -1821,26 +1821,30 @@
 	},
 	{
 		"codepoint": "f2c8",
-		"liga": "zinc"
+		"liga": "xing"
 	},
 	{
 		"codepoint": "f2c9",
-		"liga": "zipa"
+		"liga": "zinc"
 	},
 	{
 		"codepoint": "f2ca",
-		"liga": "zoom_in"
+		"liga": "zipa"
 	},
 	{
 		"codepoint": "f2cb",
-		"liga": "zoom_out"
+		"liga": "zoom_in"
 	},
 	{
 		"codepoint": "f2cc",
-		"liga": "zsync"
+		"liga": "zoom_out"
 	},
 	{
 		"codepoint": "f2cd",
+		"liga": "zsync"
+	},
+	{
+		"codepoint": "f2ce",
 		"liga": "zthree"
 	}
 ]

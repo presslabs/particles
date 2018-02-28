@@ -1,12 +1,12 @@
 
 @font-face {
 	font-family: "Presslabs Particles";
-	src:url("../fonts/particles.eot?8f121952557f044347fef22a35a01a76");
-	src: url("../fonts/particles.eot?8f121952557f044347fef22a35a01a76#iefix") format("embedded-opentype"),
-		url("../fonts/particles.woff2?8f121952557f044347fef22a35a01a76") format("woff2"),
-		url("../fonts/particles.woff?8f121952557f044347fef22a35a01a76") format("woff"),
-		url("../fonts/particles.ttf?8f121952557f044347fef22a35a01a76") format("truetype"),
-		url("../fonts/particles.svg?8f121952557f044347fef22a35a01a76#particles") format("svg");
+	src:url("../fonts/particles.eot?923b15d68015d02563b38c67be07d75b");
+	src: url("../fonts/particles.eot?923b15d68015d02563b38c67be07d75b#iefix") format("embedded-opentype"),
+		url("../fonts/particles.woff2?923b15d68015d02563b38c67be07d75b") format("woff2"),
+		url("../fonts/particles.woff?923b15d68015d02563b38c67be07d75b") format("woff"),
+		url("../fonts/particles.ttf?923b15d68015d02563b38c67be07d75b") format("truetype"),
+		url("../fonts/particles.svg?923b15d68015d02563b38c67be07d75b#particles") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -1391,6 +1391,9 @@
 }
 .particle.write:before {
 	content: "write";
+}
+.particle.xing:before {
+	content: "xing";
 }
 .particle.zinc:before {
 	content: "zinc";

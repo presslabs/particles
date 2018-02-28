@@ -63,6 +63,18 @@ $particles: (<% _.forEach(glyphs, function(glyph, index) { %>
 	}); %>
 );
 
+<% if (stylesheet === 'scss') { %>
+.particle {
+	@extend %particle-base;
+}
+
+@each $particle in $particles {
+.particle.#{$particle}:before {
+	content: "#{$particle}";
+}
+}
+<% } %>
+
 <% } %><% if (stylesheet === 'css') { %>
 @font-face {
 	font-family: "<%= fontFamilyName %>";

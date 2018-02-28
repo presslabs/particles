@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20170925 at Tue Feb 27 11:19:15 2018
+Created by FontForge 20170925 at Wed Feb 28 13:32:03 2018
  By Mihai Grescenko
 </metadata>
 <defs>
@@ -18,7 +18,7 @@ Created by FontForge 20170925 at Tue Feb 27 11:19:15 2018
     bbox="0 -64.2961 512 451"
     underline-thickness="25"
     underline-position="-76"
-    unicode-range="U+005F-F2CD"
+    unicode-range="U+005F-F2CE"
   />
 <missing-glyph 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -1941,6 +1941,8 @@ q2 -6 0.5 -13t-6 -11.5t-11.5 -6t-13.5 0.5t-10.5 7q-6 7 -5.5 16.5z" />
 d="M464 -24q0 -7 -4.5 -11.5t-11.5 -4.5h-384q-7 0 -11.5 4.5t-4.5 11.5t4.5 11.5t11.5 4.5h384q7 0 11.5 -4.5t4.5 -11.5zM176 184q0 20 14 34t34 14t34 -14t14 -34t-14 -34t-34 -14q-11 0 -21 4l-80 -79l177 58q1 24 5 50q4 25 10 51l-54 55q-42 -10 -78 -14l-24 -2
 l-58 -176l79 80q-4 10 -4 21zM224 168q7 0 11.5 4.5t4.5 11.5t-4.5 11.5t-11.5 4.5t-11.5 -4.5t-4.5 -11.5q0 -6 4 -11v-1h1q5 -4 11 -4zM337 165q-4 -29 -6 -57q0 -12 -11 -16l-251 -83q-2 -1 -3 -1h-3q-6 0 -10.5 4.5t-4.5 10.5v3t1 3l83 250q1 1 2 4t4 5t7 2q1 1 3 1
 q14 0 31 2q25 2 55 9h-1q-4 5 -4 11t3 10l73 94q0 1 1 1q1 2 4 4q3 1 7 2q3 0 7 -2l4 -2l1 -1l130 -130l1 -1q2 -1 3 -4q1 -4 1 -7.5t-2 -6.5q-1 -2 -3 -4q-1 0 -1 -1l-94 -73q-5 -4 -10 -4q-7 0 -11 5h-1q-3 -14 -5 -29v1zM266 315l89 -89l69 53l-105 105z" />
+    <glyph glyph-name="xing" unicode="xing" 
+d="M309 -40l-103 182l161 282h108l-161 -282l103 -182h-108zM140 101h-100l79 131l-60 107h100l60 -107z" />
     <glyph glyph-name="zinc" unicode="zinc" 
 d="M459 96q-1 3 -3 6l-86 85q-4 4 -11 4t-12 -5t-5 -12q0 -6 4 -11l56 -56h-216l184 184q5 5 5 12t-5 12t-12 5h-257l56 56q7 5 7 14q0 7 -5 12t-13 5t-13 -7l-85 -85q0 -1 -1 -1q-2 -2 -3 -5t-1 -6t1 -7q1 -2 3 -4l1 -1l85 -85q5 -4 10 -4q7 0 12 5t5 12q0 6 -3 11l-56 56
 h216l-184 -184q-5 -5 -5 -13q0 -3 1.5 -6t3.5 -5.5t5.5 -4t6.5 -1.5h257l-56 -56q-5 -5 -5 -12t5 -12t12 -5h1q6 0 11 5l86 86q2 2 3.5 5t1.5 6.5t-1 6.5h-1z" />

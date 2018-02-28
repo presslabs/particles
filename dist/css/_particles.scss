@@ -1,12 +1,12 @@
 $particles-font-path : "../fonts/" !default;
 @font-face {
 	font-family: "Presslabs Particles";
-	src: url($particles-font-path + "particles.eot?8f121952557f044347fef22a35a01a76");
-	src: url($particles-font-path + "particles.eot?8f121952557f044347fef22a35a01a76#iefix") format("embedded-opentype"),
-		url($particles-font-path + "particles.woff2?8f121952557f044347fef22a35a01a76") format("woff2"),
-		url($particles-font-path + "particles.woff?8f121952557f044347fef22a35a01a76") format("woff"),
-		url($particles-font-path + "particles.ttf?8f121952557f044347fef22a35a01a76") format("truetype"),
-		url($particles-font-path + "particles.svg?8f121952557f044347fef22a35a01a76#particles") format("svg");
+	src: url($particles-font-path + "particles.eot?923b15d68015d02563b38c67be07d75b");
+	src: url($particles-font-path + "particles.eot?923b15d68015d02563b38c67be07d75b#iefix") format("embedded-opentype"),
+		url($particles-font-path + "particles.woff2?923b15d68015d02563b38c67be07d75b") format("woff2"),
+		url($particles-font-path + "particles.woff?923b15d68015d02563b38c67be07d75b") format("woff"),
+		url($particles-font-path + "particles.ttf?923b15d68015d02563b38c67be07d75b") format("truetype"),
+		url($particles-font-path + "particles.svg?923b15d68015d02563b38c67be07d75b#particles") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -518,6 +518,7 @@ $particles: (
 	wordpress: "wordpress",
 	wrench: "wrench",
 	write: "write",
+	xing: "xing",
 	zinc: "zinc",
 	zipa: "zipa",
 	zoom_in: "zoom_in",
@@ -525,5 +526,17 @@ $particles: (
 	zsync: "zsync",
 	zthree: "zthree",
 );
+
+
+.particle {
+	@extend %particle-base;
+}
+
+@each $particle in $particles {
+.particle.#{$particle}:before {
+	content: "#{$particle}";
+}
+}
+
 
 
