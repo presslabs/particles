@@ -30,7 +30,7 @@ pipeline:
     commands:
       - make build
 
-  build-docs:
+  copy-demo:
     image: alpine:3.7
     commands:
       - mkdir -p /drone/src/presslabs-org/wp-content/root/particles/

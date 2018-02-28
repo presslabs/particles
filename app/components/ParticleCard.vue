@@ -6,8 +6,6 @@
     <a href="#" @click.prevent="next" class="nav next">
       <particle>arrow_e</particle>
     </a>
-
-
     <a href="#" @click.prevent="toggleDark" class="action dark">
       <particle :particle="dark ? 'lightbulb_on' : 'lightbulb_off'"></particle>
     </a>
@@ -45,7 +43,6 @@
         </td>
       </tr>
     </table>
-
     <particle-svg :size="256" :dark="dark" :particle="particle"></particle-svg>
     <p>
       <small>HTML Markup for ligature</small>
