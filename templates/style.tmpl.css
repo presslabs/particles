@@ -68,7 +68,7 @@ $particles: (<% _.forEach(glyphs, function(glyph, index) { %>
 	@extend %particle-base;
 }
 
-@each $particle in $particles {
+@each $particle, $name in $particles {
 .particle.#{$particle}:before {
 	content: "#{$particle}";
 }
