@@ -1,12 +1,12 @@
 $particles-font-path : "../fonts/" !default;
 @font-face {
 	font-family: "Presslabs Particles";
-	src: url($particles-font-path + "particles.eot?923b15d68015d02563b38c67be07d75b");
-	src: url($particles-font-path + "particles.eot?923b15d68015d02563b38c67be07d75b#iefix") format("embedded-opentype"),
-		url($particles-font-path + "particles.woff2?923b15d68015d02563b38c67be07d75b") format("woff2"),
-		url($particles-font-path + "particles.woff?923b15d68015d02563b38c67be07d75b") format("woff"),
-		url($particles-font-path + "particles.ttf?923b15d68015d02563b38c67be07d75b") format("truetype"),
-		url($particles-font-path + "particles.svg?923b15d68015d02563b38c67be07d75b#particles") format("svg");
+	src: url($particles-font-path + "particles.eot?ca31427dd96173c16208f5771b189627");
+	src: url($particles-font-path + "particles.eot?ca31427dd96173c16208f5771b189627#iefix") format("embedded-opentype"),
+		url($particles-font-path + "particles.woff2?ca31427dd96173c16208f5771b189627") format("woff2"),
+		url($particles-font-path + "particles.woff?ca31427dd96173c16208f5771b189627") format("woff"),
+		url($particles-font-path + "particles.ttf?ca31427dd96173c16208f5771b189627") format("truetype"),
+		url($particles-font-path + "particles.svg?ca31427dd96173c16208f5771b189627#particles") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -532,7 +532,7 @@ $particles: (
 	@extend %particle-base;
 }
 
-@each $particle in $particles {
+@each $particle, $name in $particles {
 .particle.#{$particle}:before {
 	content: "#{$particle}";
 }
