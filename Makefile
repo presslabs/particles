@@ -2,7 +2,6 @@ dependencies:
   yarn
 
 build: dependencies
-  # ./bin/start
   yarn build
 
 github-pages: dependencies
