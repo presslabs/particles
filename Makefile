@@ -2,8 +2,7 @@ dependencies:
 	yarn
 
 build: dependencies
-	yarn convert
-	yarn generate
+	./bin/start
 	yarn build
 
 github-pages: dependencies

@@ -1,0 +1,34 @@
+#!/usr/bin/python
+"""
+Creates a JSON containing particles path data such as:
+{
+    "add": [
+        "M48 256c0 9 ..."
+    ],
+    ...
+}
+"""
+
+import json
+import sys
+import xml.etree.ElementTree as ET
+
+def main(src):
+    """
+    Get the src, generate the object and print it in JSON format
+    """
+    tree = ET.parse(src)
+    root = tree.getroot()
+
+    print json.dumps({
+        child.attrib['unicode']: [child.attrib['d']]
+        for child in root[1][0]
+        if 'd' in child.attrib and child.attrib['d'] != 'M0 0z'
+    }, indent=4, sort_keys=True)
+
+
+if __name__ == '__main__':
+    if len(sys.argv) > 1:
+        main(sys.argv[1])
+    else:
+        sys.stderr.write("\nUsage: %s svg_font_file\n" % sys.argv[0])

@@ -99,7 +99,7 @@ export default {
 @import "./components/colors";
 
 $particles-font-path: "../dist/fonts/" !default;
-@import "../dist/css/particles";
+@import "../dist/style/particles";
 
 #app {
   font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;

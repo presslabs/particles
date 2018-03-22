@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>truck</title>
+  <circle cx="120" cy="376" r="48" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <circle cx="368" cy="376" r="48" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="168" y1="376" x2="320" y2="376" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M416,376h24a40,40,0,0,0,40-40V248a16,16,0,0,0-6.4-12.8l-53.33-40a16,16,0,0,0-9.6-3.2H352" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M352,330.75V136a40,40,0,0,0-40-40H72a40,40,0,0,0-40,40V376H64" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <title>folder-symlink-alt</title>
-  <path d="M58,24a5,5,0,0,0-5-5H34L23.25,8H11a5,5,0,0,0-5,5V45a5,5,0,0,0,5,5H23.24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M58,24V16a5,5,0,0,0-5-5H26.17" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <circle cx="44" cy="41" r="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M37.24,46V45a5,5,0,0,1,5-5h9" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <polyline points="45.24 34 51.24 40 45.24 46" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-</svg>

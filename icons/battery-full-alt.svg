@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>battery-full-alt</title>
+  <path d="M448,304h16c8.84,0,16-7.81,16-17.45v-61.1c0-9.64-7.16-17.45-16-17.45H448" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <rect x="88" y="208" width="256" height="96" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M357.33,360H74.67C51.11,360,32,341.36,32,318.4V193.6c0-23,19.11-41.6,42.67-41.6H357.33c23.56,0,42.67,18.64,42.67,41.6V318.4C400,341.36,380.89,360,357.33,360Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

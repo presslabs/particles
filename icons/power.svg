@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>power</title>
+  <line x1="256" y1="40" x2="256" y2="256" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M328,78A192.07,192.07,0,0,1,448,256c0,106-86,192-192,192S64,362,64,256A192.06,192.06,0,0,1,184,78" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

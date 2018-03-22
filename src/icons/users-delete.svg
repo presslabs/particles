@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <title>users-delete</title>
-  <path d="M22.36,40H14A10,10,0,0,0,4,50V60H28.91" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M37.19,23.08A21.71,21.71,0,0,0,38,17,12.87,12.87,0,0,0,25,4,12.87,12.87,0,0,0,12,17c0,9.85,5.64,16,13,16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M51.16,23.19A22,22,0,0,0,52,17,12.87,12.87,0,0,0,39,4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <circle cx="44" cy="44" r="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <line x1="38" y1="38" x2="50" y2="50" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <line x1="50" y1="38" x2="38" y2="50" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-</svg>

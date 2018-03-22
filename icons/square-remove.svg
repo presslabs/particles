@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>square-remove</title>
+  <path d="M405.33,64A42.68,42.68,0,0,1,448,106.67V405.33A42.68,42.68,0,0,1,405.33,448H106.67A42.68,42.68,0,0,1,64,405.33V106.67A42.68,42.68,0,0,1,106.67,64" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="152" y1="256" x2="360" y2="256" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="106.67" y1="64" x2="405.33" y2="64" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

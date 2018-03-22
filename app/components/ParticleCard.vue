@@ -50,7 +50,7 @@
     </p>
     <p>
       <small>HTML Markup for CSS <code>:before</code> method</small>
-      <code>&lt;i class=&quot;particle {{ particle.liga }}&quot;&gt;&lt;/i&gt;</code>
+      <code>&lt;i class=&quot;particle {{ particle.name }}&quot;&gt;&lt;/i&gt;</code>
     </p>
   </div>
 </template>

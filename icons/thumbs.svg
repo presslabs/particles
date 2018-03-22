@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>thumbs</title>
+  <path d="M80,224a16,16,0,0,1-16-16V80A16,16,0,0,1,80,64H208a16,16,0,0,1,16,16" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M80,448a16,16,0,0,1-16-16V304a16,16,0,0,1,16-16H208a16,16,0,0,1,16,16" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M304,224a16,16,0,0,1-16-16V80a16,16,0,0,1,16-16H432a16,16,0,0,1,16,16" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M304,448a16,16,0,0,1-16-16V304a16,16,0,0,1,16-16H432a16,16,0,0,1,16,16" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M224,80V208a16,16,0,0,1-16,16H80" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M448,80V208a16,16,0,0,1-16,16H304" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M224,304V432a16,16,0,0,1-16,16H80" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M448,304V432a16,16,0,0,1-16,16H304" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

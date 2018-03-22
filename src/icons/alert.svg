@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <title>alert</title>
-  <path d="M51,32V26A19,19,0,0,0,32,7h0A19,19,0,0,0,13,26v6a8,8,0,0,1-8,8H5v7H59V40h0A8,8,0,0,1,51,32Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M36,54a4,4,0,0,1-8,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <line x1="32" y1="54" x2="32" y2="58" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <line x1="28.54" y1="56" x2="35.46" y2="56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-</svg>

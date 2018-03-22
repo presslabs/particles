@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>tshirt</title>
+  <path d="M344,432a40,40,0,0,0,40-40V208h88V112L384,80H317.9a63.91,63.91,0,0,1-123.8,0H128L40,112v96h88V392a40,40,0,0,0,40,40" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="168" y1="432" x2="344" y2="432" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

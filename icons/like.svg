@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>like</title>
+  <path d="M416.32,200H304V112c0-64-69.33-69.33-69.33-69.33L144,232H80a40,40,0,0,0-40,40V432a40,40,0,0,0,40,40H348.88a80,80,0,0,0,78.78-66.1l28-158.95A40,40,0,0,0,416.32,200Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="144" y1="472" x2="144" y2="232" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="304" y1="200" x2="264" y2="200" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>
