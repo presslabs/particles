@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <title>cycle-cw</title>
-  <polyline points="60 10 60 26 44 26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M9,25A24,24,0,0,1,49,15l0,0L60,26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <polyline points="4 54 4 38 20 38" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M55,39A24,24,0,0,1,15,49l0,0L4,38" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-</svg>

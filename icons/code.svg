@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>code</title>
+  <path d="M80,256h32a40,40,0,0,0,40-40V104a40,40,0,0,1,40-40h24" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M112,256a40,40,0,0,1,40,40V408a40,40,0,0,0,40,40h24" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M448,256H416a40,40,0,0,1-40-40V104a40,40,0,0,0-40-40H312" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M416,256a40,40,0,0,0-40,40V408a40,40,0,0,1-40,40H312" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

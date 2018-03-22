@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>non-stop</title>
+  <polyline points="464 120 464 208 376 208" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M424,312A192.45,192.45,0,0,1,240,448C134,448,48,362,48,256S134,64,240,64a191.36,191.36,0,0,1,135.76,56.24L376,120l88,88" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <polyline points="304 168 248 272 320 272 320 320" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <polyline points="352 272 320 272 320 232" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M128,216a48,48,0,0,1,96,0c0,32-96,72-96,104h96" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

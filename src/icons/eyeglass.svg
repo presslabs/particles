@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <title>eyeglass</title>
-  <circle cx="16" cy="42" r="10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <circle cx="48" cy="42" r="10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M26,42a6,6,0,0,1,12,0" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M6.46,39,12,19.42A10,10,0,0,1,21.68,12H24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M57.77,39,52.21,19.42A10,10,0,0,0,42.55,12H40.23" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-</svg>

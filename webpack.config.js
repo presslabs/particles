@@ -29,7 +29,7 @@ webpackConfig.plugins = []
 
 webpackConfig.plugins.push(
   new HtmlWebpackPlugin({
-    template: '../templates/index.template.ejs',
+    template: './index.html',
     inject: 'body',
   }),
 )

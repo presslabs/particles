@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>key-shift</title>
+  <path d="M256,80,40,296H160v96a40,40,0,0,0,40,40H312a40,40,0,0,0,40-40V296H472Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

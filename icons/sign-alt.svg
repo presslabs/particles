@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>sign-alt</title>
+  <path d="M96,128V72a40,40,0,0,1,40-40H304L432,160V440a40,40,0,0,1-40,40H136a40,40,0,0,1-40-40V336" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <circle cx="222.76" cy="302.45" r="22.76" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="156.39" y1="144" x2="64" y2="235.84" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M158.27,368c-.63-35.88-12.52-95-12.52-95" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M288,238c-35.88,0-94.69-12.52-94.69-12.52" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <polyline points="288 237.96 336 415.69 158.26 368" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <polyline points="156.39 144 208.18 210.58 130.88 287.87 64 235.84" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="238.85" y1="318.54" x2="336" y2="415.69" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <polyline points="304 32 304 160 432 160" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

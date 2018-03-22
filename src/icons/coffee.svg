@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <title>coffee</title>
-  <path d="M16,24H48a0,0,0,0,1,0,0V34A16,16,0,0,1,32,50h0A16,16,0,0,1,16,34V24A0,0,0,0,1,16,24Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M48,24h8v2a8,8,0,0,1-8,8v2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <line x1="8" y1="58" x2="56" y2="58" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M24,16s-2-2-2-4,2-4,2-4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M32,16s-2-2-2-4,2-4,2-4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M40,16s-2-2-2-4,2-4,2-4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-</svg>

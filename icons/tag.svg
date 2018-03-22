@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>tag</title>
+  <path d="M446.39,246.63v-181h-181l-198,198a40,40,0,0,0,0,56.57L191.83,444.62a40,40,0,0,0,56.57,0Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M344.57,167.43A16,16,0,0,1,367.2,144.8" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M367.2,144.8a16,16,0,0,1-22.63,22.63" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="367.2" y1="144.8" x2="344.57" y2="167.43" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="344.57" y1="144.8" x2="367.2" y2="167.43" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

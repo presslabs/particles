@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>build</title>
+  <rect x="40" y="320" width="280" height="120" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M128,320V288a16,16,0,0,0-16-16H80a16,16,0,0,0-16,16v32" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <rect x="165.61" y="146.39" width="280" height="120" transform="translate(235.45 -155.65) rotate(45)" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <rect x="273.61" y="63.6" width="64" height="48" transform="translate(151.45 -190.44) rotate(45)" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <rect x="392.4" y="182.39" width="64" height="48" transform="translate(270.25 -239.65) rotate(45)" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="296" y1="320" x2="296" y2="281.64" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M286.36,272H248a16,16,0,0,0-16,16v32" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

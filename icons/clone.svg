@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>clone</title>
+  <path d="M216,448a40,40,0,0,1-40-40V216a40,40,0,0,1,40-40H408a40,40,0,0,1,40,40V408a40,40,0,0,1-40,40" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M112.89,344H104a40,40,0,0,1-40-40V104a40,40,0,0,1,40-40H304a40,40,0,0,1,40,40v8.89" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="408" y1="448" x2="216" y2="448" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

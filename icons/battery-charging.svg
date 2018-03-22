@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>battery-charging</title>
+  <path d="M448,304h16c8.84,0,16-7.81,16-17.45v-61.1c0-9.64-7.16-17.45-16-17.45H448" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <polyline points="272 112 176 256 272 256 176 400" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <polyline points="316.92 304 344 304 344 208 314.31 208" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <polyline points="131.08 208 88 208 88 304 133.68 304" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M125.75,360H74.67C51.11,360,32,341.36,32,318.4V193.6c0-23,19.11-41.6,42.67-41.6h93.75" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M322.25,152h35.08c23.56,0,42.67,18.64,42.67,41.6V318.4c0,23-19.11,41.6-42.67,41.6H279.58" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

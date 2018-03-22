@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>edit</title>
+  <path d="M272,64H104a40,40,0,0,0-40,40V408a40,40,0,0,0,40,40H408a40,40,0,0,0,40-40V240" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <polygon points="384 40 472 128 256 344 168 344 168 256 384 40" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

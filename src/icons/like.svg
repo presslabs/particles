@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <title>like</title>
-  <path d="M52,25H38V14c0-8-8.67-8.67-8.67-8.67L18,29H10a5,5,0,0,0-5,5V54a5,5,0,0,0,5,5H43.61a10,10,0,0,0,9.85-8.26L57,30.87A5,5,0,0,0,52,25Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <line x1="18" y1="59" x2="18" y2="29" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <line x1="38" y1="25" x2="33" y2="25" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-</svg>

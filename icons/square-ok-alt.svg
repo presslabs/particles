@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>square-ok-alt</title>
+  <polyline points="144 232 232 320 448 104" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M448,232V405.33A42.68,42.68,0,0,1,405.33,448H106.67A42.68,42.68,0,0,1,64,405.33V106.67A42.68,42.68,0,0,1,106.67,64H360" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

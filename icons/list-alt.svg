@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>list-alt</title>
+  <line x1="272" y1="112" x2="432" y2="112" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="272" y1="336" x2="432" y2="336" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="272" y1="176" x2="352" y2="176" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="272" y1="400" x2="352" y2="400" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M80,224a16,16,0,0,1-16-16V80A16,16,0,0,1,80,64H208a16,16,0,0,1,16,16" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M80,448a16,16,0,0,1-16-16V304a16,16,0,0,1,16-16H208a16,16,0,0,1,16,16" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M224,80V208a16,16,0,0,1-16,16H80" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M224,304V432a16,16,0,0,1-16,16H80" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

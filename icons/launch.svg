@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>launch</title>
+  <path d="M424.17,223.6c45.25-90.51,17-152.74,17-152.74s-62.23-28.28-152.74,17S130,291.48,130,291.48L220.52,382S378.91,314.1,424.17,223.6Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M220.52,382l67.88,67.88c38.5-38.49,38-90,32.07-123.64" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M130,291.48,62.13,223.6c38.23-38.24,89.27-38,123-32.19" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M373.26,150.06a8,8,0,0,1-11.32-11.32" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <path d="M361.94,138.74a8,8,0,1,1,11.32,11.32" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <polygon points="118.7 359.36 152.64 393.3 90.42 421.58 118.7 359.36" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="135.67" y1="376.33" x2="90.41" y2="421.59" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

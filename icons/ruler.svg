@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>ruler</title>
+  <path d="M159.42,464.89a40,40,0,0,1-56.57,0L18,380,380,18l84.85,84.85a40,40,0,0,1,0,56.57" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="63.25" y1="334.78" x2="131.14" y2="402.67" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="108.51" y1="289.53" x2="153.76" y2="334.78" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="153.76" y1="244.27" x2="199.02" y2="289.53" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="244.27" y1="153.76" x2="289.53" y2="199.02" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="289.53" y1="108.51" x2="334.78" y2="153.76" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="199.02" y1="199.02" x2="266.9" y2="266.9" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="334.78" y1="63.25" x2="402.67" y2="131.14" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="464.89" y1="159.42" x2="159.42" y2="464.89" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

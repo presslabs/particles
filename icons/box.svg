@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>box</title>
+  <path d="M256,472l188.65-62.88A40,40,0,0,0,472,371.17V140.83a40,40,0,0,0-27.35-38L256,40,67.35,102.88a40,40,0,0,0-27.35,38V371.17a40,40,0,0,0,27.35,37.95Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="51.18" y1="113.1" x2="256" y2="184" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="460.83" y1="113.1" x2="256" y2="184" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <polyline points="352 72 144 144 144 240" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="256" y1="472" x2="256" y2="184" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

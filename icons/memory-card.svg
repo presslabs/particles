@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>memory-card</title>
+  <path d="M400,32H176a16,16,0,0,0-16,16V192L96,256V440a40,40,0,0,0,40,40H376a40,40,0,0,0,40-40V48A16,16,0,0,0,400,32Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="224" y1="32" x2="224" y2="104" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="288" y1="32" x2="288" y2="104" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="352" y1="32" x2="352" y2="104" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <polyline points="352 480 352 352 168 352 168 480" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>mail</title>
+  <path d="M440,112a40,40,0,0,1,40,40V360a40,40,0,0,1-40,40H72a40,40,0,0,1-40-40V152a40,40,0,0,1,40-40" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <polyline points="32 192 256 312 480 192" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+  <line x1="72" y1="112" x2="440" y2="112" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
+</svg>
