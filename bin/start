@@ -5,10 +5,19 @@ rm -rf ./dist
 mkdir -p ./dist/fonts ./dist/style ./dist/icons
 
 # generate
+echo "Start dumping to dist"
 ./bin/dump ./config.json > ./dist/icons/particles.json
+echo "Finished dumping to dist"
+
+echo "Start replacing"
 ./bin/replace ./config.json stroke-linecap=\"round\" stroke-linecap=\"butt\"
 ./bin/replace ./config.json stroke-linejoin=\"round\" stroke-linejoin=\"miter\"
-fontforge -s /bin/generate ./config.json ./dist/icons/particles.json
+echo "Finished replacing"
+
+echo "Start generate fonts"
+fontforge -script ./bin/generate ./config.json ./dist/icons/particles.json
+echo "Finished generate fonts"
+
 woff2_compress ./dist/fonts/particles.ttf
 ./bin/create_css ./config.json > ./dist/style/particles.css
 ./bin/create_scss ./config.json > ./dist/style/particles.scss

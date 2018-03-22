@@ -27,8 +27,9 @@ clone:
 pipeline:
   build:
     image: presslabs/particles-build
+    pull: true
     commands:
-      - DISPLAY=:1.0 Xvfb :1 -screen 0 800x600x16 &
+      - Xvfb :1 -screen 0 800x600x16 &
       - make build
 
   copy-demo:
