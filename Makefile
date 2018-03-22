@@ -1,7 +1,7 @@
 dependencies:
 	yarn
 
-build:
+build: dependencies
 	./bin/start
 	yarn build
 
