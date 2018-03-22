@@ -13,3 +13,5 @@ RUN echo "deb http://http.us.debian.org/debian unstable main non-free contrib" >
     && apt-get install -y fontforge=1:20170731~dfsg-1 ttfautohint=1.8.1-1 libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev xvfb \
     && apt-get -y autoremove \
     && npm install -g yarn
+
+ENV DISPLAY=:1.0
