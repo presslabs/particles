@@ -1,9 +1,10 @@
 {
   "name": "presslabs-particles-icons",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Presslabs particles icons collection as SVG and web fonts",
-  "main": "index.js",
+  "main": "dist/style/particles.scss",
   "scripts": {
+    "prepublish": "del-cli dist && ./bin/start",
     "dev": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint ."
@@ -11,6 +12,10 @@
   "author": "Presslabs",
   "license": "MIT",
   "config": {},
+  "files": [
+    "LICENSE-MIT",
+    "dist"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.39",
     "@babel/core": "^7.0.0-beta.39",
@@ -24,6 +29,7 @@
     "clean-webpack-plugin": "^0.1.18",
     "css-loader": "^0.28.9",
     "del": "^3.0.0",
+    "del-cli": "^1.1.0",
     "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.9.0",
