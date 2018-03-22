@@ -4,8 +4,6 @@
   "description": "Presslabs particles icons collection as SVG and web fonts",
   "main": "index.js",
   "scripts": {
-    "generate": "grunt",
-    "convert": "gulp convert",
     "dev": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint ."
