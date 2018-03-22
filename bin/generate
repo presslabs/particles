@@ -1,9 +1,3 @@
-#!/usr/local/bin/fontforge -script
-"""
-Generates webfont form a set of SVG files. SVGs with autlines are automatically
-expanded and unified.
-"""
-
 import sys
 import os.path
 import json
