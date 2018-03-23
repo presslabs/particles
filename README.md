@@ -64,7 +64,7 @@ or
 ./bin/dump ./config.json > ./dist/icons/particles.json
 ```
 
-2. Replace stroke `linecap` and `linejoin` methods. It's a bug with FontForge
+2. Replace stroke `linecap` and `linejoin` methods. It's a [bug](https://github.com/fontforge/fontforge/issues/2007) with FontForge
 ```
 ./bin/replace ./config.json stroke-linecap=\"round\" stroke-linecap=\"butt\"
 ./bin/replace ./config.json stroke-linejoin=\"round\" stroke-linejoin=\"miter\"
