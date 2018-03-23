@@ -97,7 +97,7 @@ yarn
 yarn dev
 ```
 
-You're set! 
+You're set! Enjoy using our font, or making amazing custom ones!
 
 ## License
 
