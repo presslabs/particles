@@ -2,8 +2,8 @@
   <div id="app">
     <div class="topbar">
       <div class="bar-section branding">
-        <a href="#">
-          <particle :class="[ 'logo' ]">particles_alt</particle> Presslabs Particles
+        <a href="/particles/">
+          <particle :class="[ 'logo' ]">particles_alt</particle> <span>Presslabs Particles</span>
         </a>
       </div>
       <div class="bar-section input-wrapper search">
@@ -11,6 +11,11 @@
       </div>
       <div class="bar-section input-wrapper size">
         <input type="range" v-model="size" min="16" max="96" name="size" /> Size: {{ size }}px
+      </div>
+      <div class="bar-section github">
+        <a href="https://github.com/PressLabs/particles" target="_blank">
+          <particle :class="[ 'github' ]" name="github"></particle> <span>Github Project</span>
+        </a>
       </div>
     </div>
     <div class="particles-show">
@@ -115,10 +120,10 @@ $particles-font-path: "../dist/fonts/" !default;
 .topbar {
   background: $gray-1;
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
   position: absolute;
   @media screen and (min-width: 768px) {
-    flex-direction: row;
+    // flex-direction: row;
     position: fixed;
   }
   padding: 0 20px;
@@ -139,7 +144,7 @@ $particles-font-path: "../dist/fonts/" !default;
 }
 .bar-section.branding {
   text-align: left;
-  flex: 1;
+  flex: 0 0 30px;
   @media screen and (min-width: 768px) {
     flex: 0 0 200px;
   }
@@ -148,19 +153,64 @@ $particles-font-path: "../dist/fonts/" !default;
     padding: 10px 0;
     color: #fff;
     text-decoration: none;
+  }
+  span {
     font-weight: bold;
-    line-height: 36px;
+    line-height: 40px;
+    display: none;
+    @media screen and (min-width: 768px) {
+      display: inline;
+    }
   }
   i.logo {
     font-size: 40px;
-    margin: 0 10px 0 0;
+    margin: 0;
     color: $gray-8;
     float: left;
     vertical-align: middle;
+    @media screen and (min-width: 768px) {
+      margin: 0 10px 0 0;
+    }
+  }
+}
+.bar-section.github {
+  text-align: right;
+  flex: 0 0 30px;
+  @media screen and (min-width: 768px) {
+    flex: 0 0 200px;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 18px;
+    display: flex;
+
+    span {
+      line-height: 24px;
+      display: none;
+      @media screen and (min-width: 768px) {
+        display: inline;
+      }
+    }
+
+    i {
+      width: 24px;
+      margin: 0;
+      display: block;
+      font-size: 24px;
+      @media screen and (min-width: 768px) {
+        margin-right: 10px;
+      }
+    }
+
+    &:hover {
+      color: $blue-3;
+    }
   }
 }
 .input-wrapper {
-  max-width: 500px;
+  // max-width: 500px;
   color: #fff;
   &.size {
     @media screen and (max-width: 768px) {
