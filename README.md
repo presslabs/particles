@@ -1,12 +1,19 @@
 # Particles
 
-A collection of fully editable line icons using [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) and [FontForge Scripting](https://fontforge.github.io/scripting.html).
+Particles is a collection of fully editable line icons — using [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) and [FontForge Scripting](https://fontforge.github.io/scripting.html).
+
+Particles was developed by the awesome engineering team at [Presslabs](https://www.presslabs.com/), 
+a Managed WordPress Hosting provider.
+
+For more open-source projects, check [Presslabs Code](https://www.presslabs.org/). 
 
 ## Usage
-There are two ways of using the particles. With [Webpack](https://webpack.js.org/) or other bundle system or goold old CSS way.
+There are two ways of using Particles — with [Webpack](https://webpack.js.org/) or other bundle system, or with the good old CSS.
 
-### Usage with Webpack
-First install using your package manager. Webpack will automatically copy the fonts to your output folder.
+For a full list of particles and usage, see [project demo](https://www.presslabs.org/particles/)
+
+### Webpack
+First, you have to install Particles with your package manager — using one of the commands below. Webpack will automatically copy the fonts to your output folder. 
 
 ```
 yarn install presslabs-particles-icons
@@ -16,39 +23,39 @@ or
 npm install presslabs-particles-icons
 ```
 
-Then in your `sass` file import the fonts and style
+Second, import the fonts and style in your `sass` file. 
 ```scss
 $particles-font-path: "~presslabs-particles-icons/dist/fonts/";
 @import "~presslabs-particles-icons";
 ```
 
-then where you want to use them in your SCSS file:
+Additionally, import the fonts and style where you wish to use them in your style file.  
+
 ```scss
 .icon {
   @import particle('add');
 }
 ```
-or in HTML markup:
+Or use them directly in HTML markup.
 ```html
 <i class="particle">add</i>
 ```
-For a full list of particles and usage see [project demo](https://www.presslabs.org/particles/)
 
-### Basic usage with css and fonts
-You to copy the fonts to your working directory in `fonts` folder and  `particles.css` in your `css` folder, then import the style in html:
+### CSS and Fonts
+You can copy the fonts to your working directory, in the `fonts` folder, and  `particles.css` in your `css` folder. Then, import the style in the `header` of the HTML file:
 ```html
 <link rel="stylesheet" href="css/particles.css" />
 ```
 
-then where you want to use them:
+Additionally, add the icons where you wish to use them in your file.
 ```html
 <i class="particle">add</i>
 ```
-For a full list of particles and usage see [project demo](https://www.presslabs.org/particles/)
 
-## Developing
+## Develop Custom Fonts
 
-Prerequisites: [FontForge](http://fontforge.github.io) and [WOFF2 Compressor by Google](https://github.com/google/woff2)
+To develop custom fonts, you need to install the following: [FontForge](http://fontforge.github.io) and [WOFF2 Compressor by Google](https://github.com/google/woff2). Next, follow the instructions below. 
+
 
 ### Start the script
 ```
@@ -64,7 +71,7 @@ or
 ./bin/dump ./config.json > ./dist/icons/particles.json
 ```
 
-2. Replace stroke `linecap` and `linejoin` methods. It's a [bug](https://github.com/fontforge/fontforge/issues/2007) with FontForge
+2. Replace stroke `linecap` and `linejoin` methods (it's a [bug](https://github.com/fontforge/fontforge/issues/2007) with FontForge)
 ```
 ./bin/replace ./config.json stroke-linecap=\"round\" stroke-linecap=\"butt\"
 ./bin/replace ./config.json stroke-linejoin=\"round\" stroke-linejoin=\"miter\"
@@ -89,3 +96,10 @@ woff2_compress ./dist/fonts/particles.ttf
 yarn
 yarn dev
 ```
+
+You're set! 
+
+## License
+
+This project is licensed under the MIT License. For more information, read the [LICENSE file](LICENSE-MIT) in the
+top distribution directory.
