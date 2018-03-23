@@ -120,10 +120,8 @@ $particles-font-path: "../dist/fonts/" !default;
 .topbar {
   background: $gray-1;
   display: flex;
-  // flex-direction: column;
   position: absolute;
   @media screen and (min-width: 768px) {
-    // flex-direction: row;
     position: fixed;
   }
   padding: 0 20px;
