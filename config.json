@@ -24,6 +24,7 @@
   ],
   "input": "./icons",
   "outdir": "./dist",
+  "exportdir": "./dist/export",
   "fonts_outdir": "fonts",
   "outfile": "particles",
   "format": ["svg", "ttf", "eot", "woff"]

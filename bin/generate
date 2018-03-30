@@ -65,6 +65,7 @@ def add_glyphs(font, data, config):
 
         src = '%s%s%s' % (config['input'], os.path.sep, value.pop('src'))
         glyph.importOutlines(src)
+
         glyph.removeOverlap()
         glyph.correctDirection()
         glyph.canonicalStart()
@@ -72,6 +73,10 @@ def add_glyphs(font, data, config):
         glyph.width = 512
         glyph.vwidth = 512
         glyph.round()
+
+        tmp_glyph = glyph
+        tmp_glyph.transform([1, 0, 0, -1, 0, 512])
+        tmp_glyph.export('%s/%s.svg' % (config['exportdir'], name))
 
 def main(config_file, data_file):
     """
