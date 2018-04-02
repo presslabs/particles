@@ -1,6 +1,6 @@
 {
   "name": "presslabs-particles-icons",
-  "version": "3.1.1",
+  "version": "3.2.0",
   "description": "Presslabs particles icons collection as SVG and web fonts",
   "main": "dist/style/particles.scss",
   "scripts": {
