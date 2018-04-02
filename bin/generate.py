@@ -74,9 +74,19 @@ def add_glyphs(font, data, config):
         glyph.vwidth = 512
         glyph.round()
 
-        tmp_glyph = glyph
+        # Crate and export temporary glyph without fontforge flipping it
+        tmp_glyph = font.createMappedChar(key + 47344)
+        tmp_glyph.importOutlines(src)
+        tmp_glyph.removeOverlap()
+        tmp_glyph.correctDirection()
+        tmp_glyph.canonicalStart()
+        tmp_glyph.canonicalContours()
+        tmp_glyph.width = 512
+        tmp_glyph.vwidth = 512
         tmp_glyph.transform([1, 0, 0, -1, 0, 512])
+        tmp_glyph.round()
         tmp_glyph.export('%s/%s.svg' % (config['exportdir'], name))
+        font.removeGlyph(tmp_glyph)
 
 def main(config_file, data_file):
     """

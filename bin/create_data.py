@@ -33,7 +33,7 @@ def main(src):
     files.sort()
 
     start = 0xe000
-    glyps = []
+    glyps = {}
 
     for filename in files:
         if not filename.endswith('.svg'):
@@ -45,9 +45,7 @@ def main(src):
         liga = name.replace('-', '_')
         definition = tree.getroot()[0][0].attrib['d']
 
-        glyps.append({
-            liga: definition
-        })
+        glyps[str(liga)] = definition
 
     print json.dumps(glyps, indent=4, sort_keys=True)
 
