@@ -24,6 +24,8 @@ clone:
       - GIT_PUSH_SSH_KEY
     when:
       branch: master
+      event: push
+
 pipeline:
   build:
     image: presslabs/particles-build
@@ -40,6 +42,7 @@ pipeline:
       - mv demo/* /drone/src/presslabs-org/wp-content/root/particles
     when:
       branch: master
+      event: push
 
   update-presslabs-org:
     image: appleboy/drone-git-push
@@ -52,6 +55,7 @@ pipeline:
       - GIT_PUSH_SSH_KEY
     when:
       branch: master
+      event: push
 
   npm:
     image: plugins/npm
@@ -59,3 +63,4 @@ pipeline:
     secrets: [ npm_username, npm_password ]
     when:
       branch: master
+      event: push
