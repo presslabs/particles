@@ -5,7 +5,7 @@ Particles is a collection of fully editable line icons — using [Adobe Illustra
 Particles was developed by the awesome engineering team at [Presslabs](https://www.presslabs.com/), 
 a Managed WordPress Hosting provider.
 
-For more open-source projects, check [Presslabs Code](https://www.presslabs.org/). 
+For more open-source projects, check [Presslabs Code](https://www.presslabs.com/code/). 
 
 ## Usage
 There are two ways of using Particles — with [Webpack](https://webpack.js.org/) or other bundle system, or with the good old CSS.
