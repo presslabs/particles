@@ -1,57 +1,19 @@
 <template>
   <div class="particle-card" :class="{ dark }">
-    <a href="#" @click.prevent="prev" class="nav prev">
-      <particle>arrow_w</particle>
-    </a>
-    <a href="#" @click.prevent="next" class="nav next">
-      <particle>arrow_e</particle>
-    </a>
-    <a href="#" @click.prevent="toggleDark" class="action dark">
-      <particle :particle="dark ? 'lightbulb_on' : 'lightbulb_off'"></particle>
-    </a>
     <a href="#" @click.prevent="closeCard" class="action close">
-      <particle>delete</particle>
+      Close
     </a>
-    <h2><small>Particle name:</small>{{ camelCase(particle.liga) }}</h2>
-    <table>
-      <tr class="icons">
-        <td>
-          <particle class="zoom-1x">{{ particle.liga }}</particle>
-        </td>
-        <td>
-          <particle class="zoom-2x">{{ particle.liga }}</particle>
-        </td>
-        <td>
-          <particle class="zoom-4x">{{ particle.liga }}</particle>
-        </td>
-        <td>
-          <particle class="zoom-8x">{{ particle.liga }}</particle>
-        </td>
-      </tr>
-      <tr class="sizes">
-        <td>
-          <small>16px</small>
-        </td>
-        <td>
-          <small>32px</small>
-        </td>
-        <td>
-          <small>64px</small>
-        </td>
-        <td>
-          <small>128px</small>
-        </td>
-      </tr>
-    </table>
+    <p>
+      <small>Icon name</small>
+      <code class="icon-name">{{ particle.properties.name }}</code>
+    </p>
+
+    <div class="sizes">
+      <particle :size="16" :paths="particle.icon.paths" />
+      <particle :size="32" :paths="particle.icon.paths" />
+    </div>
+
     <particle-svg :size="256" :dark="dark" :particle="particle"></particle-svg>
-    <p>
-      <small>HTML Markup for ligature</small>
-      <code>&lt;i class=&quot;particle&quot;&gt;{{ particle.liga }}&lt;/i&gt;</code>
-    </p>
-    <p>
-      <small>HTML Markup for CSS <code>:before</code> method</small>
-      <code>&lt;i class=&quot;particle {{ particle.name }}&quot;&gt;&lt;/i&gt;</code>
-    </p>
   </div>
 </template>
 
@@ -109,7 +71,7 @@ export default {
     }
   }
   .action, .nav {
-    font-size: 24px;
+    font-size: 14px;
   }
   .icons td {
     vertical-align: bottom;
@@ -118,9 +80,9 @@ export default {
     }
   }
   .sizes {
-    small {
-      color: $gray-4;
-      font-size: 12px;
+    display: flex;
+    svg {
+      margin: 10px;
     }
   }
   small {
@@ -128,7 +90,7 @@ export default {
   }
   code {
     font-family: "Roboto Mono", monospace;
-    font-size: 12px;
+    font-size: 24px;
     color: $red-1;
   }
   &.dark {
@@ -158,18 +120,6 @@ export default {
   .next {
     right: auto;
     left: 50px;
-  }
-  .zoom-1x {
-    font-size: 16px;
-  }
-  .zoom-2x {
-    font-size: 32px;
-  }
-  .zoom-4x {
-    font-size: 64px;
-  }
-  .zoom-8x {
-    font-size: 128px;
   }
 }
 </style>

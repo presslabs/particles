@@ -3,7 +3,7 @@
     <div class="topbar">
       <div class="bar-section branding">
         <a href="/particles/">
-          <particle :class="[ 'logo' ]">particles_alt</particle> <span>Presslabs Particles</span>
+          <span>Presslabs Particles</span>
         </a>
       </div>
       <div class="bar-section input-wrapper search">
@@ -11,11 +11,6 @@
       </div>
       <div class="bar-section input-wrapper size">
         <input type="range" v-model="size" min="16" max="96" name="size" /> Size: {{ size }}px
-      </div>
-      <div class="bar-section github">
-        <a href="https://github.com/PressLabs/particles" target="_blank">
-          <particle :class="[ 'github' ]" name="github"></particle> <span>Github Project</span>
-        </a>
       </div>
     </div>
     <div class="particles-show">
@@ -36,17 +31,13 @@
         ></particleCard>
       </div>
     </div>
-    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
 import Particles from './components/Particles'
 import ParticleCard from './components/ParticleCard'
-import ParticleIcon from './components/ParticleIcon'
-import Particle from './components/Particle'
-import AppFooter from './components/Footer'
-import particlesData from '../dist/icons/particles.json'
+import particlesData from './selection.json'
 
 export default {
   data: function () {
@@ -57,7 +48,7 @@ export default {
       showCard: false,
       particlesData,
       zoomedParticle: null,
-      currentIndex: null,
+      currentIndex: null
     }
   },
   methods: {
@@ -90,12 +81,12 @@ export default {
   },
   computed: {
     filteredList() {
-      return this.particlesData.filter(particle => {
-        return particle.liga.toLowerCase().includes(this.search.toLowerCase())
+      return this.particlesData.icons.filter(particle => {
+        return particle.properties.name.toLowerCase().includes(this.search.toLowerCase())
       })
     },
   },
-  components: { Particle, ParticleIcon, Particles, ParticleCard, AppFooter }
+  components: { Particles, ParticleCard }
 }
 </script>
 
@@ -103,18 +94,15 @@ export default {
 @import "./components/variables";
 @import "./components/colors";
 
-$particles-font-path: "../dist/fonts/" !default;
-@import "../dist/style/particles";
-
 #app {
   font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: $gray-1;
-  padding: 140px 20px 0;
+  padding: 140px 20px 80px;
   @media screen and (min-width: 768px) {
-    padding: 100px 20px 0;
+    padding: 100px 20px 80px;
   }
 }
 .topbar {
@@ -208,7 +196,6 @@ $particles-font-path: "../dist/fonts/" !default;
   }
 }
 .input-wrapper {
-  // max-width: 500px;
   color: #fff;
   &.size {
     @media screen and (max-width: 768px) {
@@ -219,9 +206,6 @@ $particles-font-path: "../dist/fonts/" !default;
     text-align: left;
   }
   &.search {
-    @include particle('search');
-    @include absolute(20px, 20px);
-    @include particle-size(20px);
     &:before {
       color: $gray-3;
     }

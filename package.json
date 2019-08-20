@@ -1,61 +1,50 @@
 {
   "name": "presslabs-particles-icons",
-  "version": "3.4.0",
+  "version": "4.0.0",
   "description": "Presslabs particles icons collection as SVG and web fonts",
-  "main": "dist/style/particles.scss",
+  "private": true,
+  "licence": "MIT",
   "scripts": {
-    "prepublish": "del-cli dist && ./bin/start",
-    "dev": "webpack-dev-server --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js",
-    "lint": "eslint ."
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "author": "Presslabs",
-  "license": "MIT",
-  "config": {},
-  "files": [
-    "LICENSE-MIT",
-    "dist"
-  ],
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10"
+  },
   "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.39",
-    "@babel/core": "^7.0.0-beta.39",
-    "@babel/node": "^7.0.0-beta.39",
-    "@babel/plugin-syntax-object-rest-spread": "^7.0.0-beta.39",
-    "@babel/preset-env": "^7.0.0-beta.39",
-    "@babel/register": "^7.0.0-beta.39",
-    "autoprefixer-loader": "^3.2.0",
-    "babel-loader": "8.0.0-beta.0",
-    "classnames": "^2.2.5",
-    "clean-webpack-plugin": "^0.1.18",
-    "css-loader": "^0.28.9",
-    "del": "^3.0.0",
-    "del-cli": "^1.1.0",
-    "eslint": "^4.16.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-vue": "^4.2.2",
-    "event-stream": "^3.3.4",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "file-loader": "^1.1.6",
-    "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^2.30.1",
-    "json-loader": "^0.5.7",
-    "lodash": "^4.17.4",
-    "node-sass": "^4.7.2",
-    "path": "^0.12.7",
-    "prettier": "^1.10.2",
-    "sass-loader": "^6.0.6",
-    "style-loader": "^0.20.1",
-    "uglifyjs-webpack-plugin": "^1.1.8",
-    "vue": "^2.5.13",
-    "vue-loader": "^14.1.1",
-    "vue-template-compiler": "^2.5.13",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.11.1",
-    "webpack-merge": "^4.1.1",
-    "webpack-px-to-rem": "^0.1.1"
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.2.0",
+    "vue-template-compiler": "^2.6.10"
   },
-  "dependencies": {}
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }

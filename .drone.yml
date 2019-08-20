@@ -25,29 +25,6 @@ pipeline:
       - Xvfb :1 -screen 0 800x600x16 &
       - make build
 
-  # copy-demo:
-  #   image: alpine:3.7
-  #   commands:
-  #     - mkdir -p /drone/src/presslabs-org/wp-content/root/particles/
-  #     - rm -rf /drone/src/presslabs-org/wp-content/root/particles/*
-  #     - mv demo/* /drone/src/presslabs-org/wp-content/root/particles
-  #   when:
-  #     branch: master
-  #     event: push
-  #
-  # update-presslabs-org:
-  #   image: appleboy/drone-git-push
-  #   branch: prod
-  #   commit: true
-  #   path: /drone/src/presslabs-org
-  #   commit_message: "[particles] Update particles demo"
-  #   remote: git@github.com:/Presslabs/presslabs-org.git
-  #   secrets:
-  #     - GIT_PUSH_SSH_KEY
-  #   when:
-  #     branch: master
-  #     event: push
-
   rebuild-cache:
     image: drillster/drone-volume-cache
     rebuild: true

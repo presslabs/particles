@@ -1,0 +1,62 @@
+<template>
+  <div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      :width="size"
+      :height="size"
+      viewBox="0 0 512 512"
+      fill-rule="evenodd"
+      class="grid"
+    >
+      <rect width="512" height="512" fill="none" stroke="#888888" stroke-width="1.6" :stroke-opacity="dark ? .4 : .5" />
+      <path stroke-width=".8" fill="none" stroke="#888888" :stroke-opacity="dark ? .4 : .5" d="M64,0V512M128,0V512M192,0V512M256,0V512M320,0V512M384,0V512M448,0V512M0,448H512M0,384H512M0,320H512M0,256H512M0,192H512M0,128H512M0,64H512"/>
+      <path
+        :stroke-opacity="dark ? .2 : .3"
+        fill="none"
+        stroke-width=".8"
+        stroke="#888888" d="M8,0V512M16,0V512M24,0V512M32,0V512M40,0V512M48,0V512M56,0V512M72,0V512M80,0V512M88,0V512M96,0V512M104,0V512M112,0V512M120,0V512M136,0V512M144,0V512M152,0V512M160,0V512M168,0V512M176,0V512M184,0V512M200,0V512M208,0V512M216,0V512M224,0V512M232,0V512M240,0V512M248,0V512M264,0V512M272,0V512M280,0V512M288,0V512M296,0V512M304,0V512M312,0V512M328,0V512M336,0V512M344,0V512M352,0V512M360,0V512M368,0V512M376,0V512M392,0V512M400,0V512M408,0V512M416,0V512M424,0V512M432,0V512M440,0V512M456,0V512M464,0V512M472,0V512M480,0V512M488,0V512M496,0V512M504,0V512M0,504H512M0,496H512M0,488H512M0,480H512M0,472H512M0,464H512M0,456H512M0,440H512M0,432H512M0,424H512M0,416H512M0,408H512M0,400H512M0,392H512M0,376H512M0,368H512M0,360H512M0,352H512M0,344H512M0,336H512M0,328H512M0,312H512M0,304H512M0,296H512M0,288H512M0,280H512M0,272H512M0,264H512M0,248H512M0,240H512M0,232H512M0,224H512M0,216H512M0,208H512M0,200H512M0,184H512M0,176H512M0,168H512M0,160H512M0,152H512M0,144H512M0,136H512M0,120H512M0,112H512M0,104H512M0,96H512M0,88H512M0,80H512M0,72H512M0,56H512M0,48H512M0,40H512M0,32H512M0,24H512M0,16H512M0,8H512" />
+    </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      :width="size"
+      :height="size"
+      viewBox="0 0 1024 1024"
+      fill-rule="evenodd"
+      class="icon"
+    >
+      <path
+        v-for="(path, i) in particle.icon.paths"
+        :key="i"
+        fill-rule="evenodd"
+        :d="path"
+        fill="#454B51"
+        fill-opacity=".1"
+        stroke="#454B51"
+        stroke-width="2px"
+      />
+    </svg>
+  </div>
+</template>
+
+<script>
+import icons from '../../src/icons.json'
+
+export default {
+  props: ['particle', 'size', 'dark'],
+  data () {
+    return {
+      icons: icons,
+    }
+  }
+}
+</script>
+
+<style lang="scss">
+.grid {
+  display: block;
+  position: absolute;
+}
+.icon {
+  display: block;
+}
+</style>

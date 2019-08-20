@@ -1,0 +1,10 @@
+// $particles-font-path: "../dist/fonts/" !default;
+// @import "../dist/style/particles";
+@import "./components/variables";
+@import "./components/colors";
+
+body {
+  background: #FAFAFB;
+  margin: 0;
+  position: relative;
+}
