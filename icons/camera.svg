@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>camera</title>
-  <path d="M440,448H72a40,40,0,0,1-40-40V168a40,40,0,0,1,40-40h88l32-64H320l32,64h88a40,40,0,0,1,40,40V408A40,40,0,0,1,440,448Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <circle cx="256" cy="288" r="96" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

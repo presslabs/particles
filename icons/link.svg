@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>link</title>
-  <path d="M208,368H152A112,112,0,0,1,40,256h0A112,112,0,0,1,152,144h56" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M304,368h56A112,112,0,0,0,472,256h0A112,112,0,0,0,360,144H304" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="156" y1="256" x2="356" y2="256" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

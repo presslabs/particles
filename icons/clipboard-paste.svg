@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>clipboard-paste</title>
-  <path d="M360,152V112a24,24,0,0,0-24-24H320V72a40,40,0,0,0-40-40H232a40,40,0,0,0-40,40V88H176a24,24,0,0,0-24,24v40Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M209,480H104a40,40,0,0,1-40-40V104a40,40,0,0,1,40-40h88.8" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M319.2,64H408a40,40,0,0,1,40,40v81.8" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <circle cx="352" cy="352" r="128" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="352" y1="416" x2="352" y2="288" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <polyline points="288 352 352 416 416 352" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

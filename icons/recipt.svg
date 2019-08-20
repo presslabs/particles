@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>recipt</title>
-  <line x1="152" y1="368" x2="232" y2="368" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="152" y1="304" x2="360" y2="304" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="152" y1="240" x2="360" y2="240" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="152" y1="152" x2="360" y2="152" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <polygon points="424 448 383.68 480 344 448 295.62 480 256 448 216.75 480 168 448 128.69 480 88 448 88 64 128.69 32 168 64 216.75 32 256 64 295.62 32 344 64 383.68 32 424 64 424 448" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

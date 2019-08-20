@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>user-remove</title>
-  <circle cx="352" cy="352" r="128" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="288" y1="352" x2="416" y2="352" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M178.91,320H168a80,80,0,0,0-80,80v80H231.21" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M355.73,176A180.51,180.51,0,0,0,360,136c0-57.6-45.09-104-104-104S152,78.4,152,136c0,55.23,22.13,95.9,55.64,115.3" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

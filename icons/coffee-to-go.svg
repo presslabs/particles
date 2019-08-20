@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>coffee-to-go</title>
-  <path d="M384,88H352L320,48H192L160,88H128a40,40,0,0,0-40,40v40H424V128A40,40,0,0,0,384,88Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M120,168l21,259.23A40,40,0,0,0,180.89,464H331.11A40,40,0,0,0,371,427.23L392,168" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="127.14" y1="256" x2="384.86" y2="256" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="134.27" y1="344" x2="377.73" y2="344" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

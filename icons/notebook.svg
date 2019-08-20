@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>notebook</title>
-  <path d="M104,88H408a40,40,0,0,1,40,40V344a0,0,0,0,1,0,0H64a0,0,0,0,1,0,0V128A40,40,0,0,1,104,88Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M320,344v24H192V344H32v40a40,40,0,0,0,40,40H440a40,40,0,0,0,40-40V344Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

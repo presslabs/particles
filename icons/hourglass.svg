@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>hourglass</title>
-  <path d="M392,408v72H120V408c0-59.27,47.17-93.13,78-108.93A48.29,48.29,0,0,0,224,256h0a48.29,48.29,0,0,0-26-43.07c-30.81-15.8-78-49.66-78-108.93V32H392v72c0,59.27-47.17,93.13-78,108.93A48.29,48.29,0,0,0,288,256h0a48.29,48.29,0,0,0,26,43.07C344.83,314.87,392,348.73,392,408Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="120" y1="416" x2="392" y2="416" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="120" y1="96" x2="392" y2="96" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

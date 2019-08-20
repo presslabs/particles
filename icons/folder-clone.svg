@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>folder-clone</title>
-  <path d="M464,184a40,40,0,0,0-40-40H272L186,56H88A40,40,0,0,0,48,96V352a40,40,0,0,0,40,40h25.93" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M209.33,80H424a40,40,0,0,1,40,40v96" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M450.48,273H338.29L274.81,208H202.48A29.53,29.53,0,0,0,173,237.52v189A29.53,29.53,0,0,0,202.48,456h248A29.52,29.52,0,0,0,480,426.48v-124A29.53,29.53,0,0,0,450.48,273Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

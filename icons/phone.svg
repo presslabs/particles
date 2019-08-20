@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>phone</title>
-  <path d="M168,472a40,40,0,0,1-40-40V80a40,40,0,0,1,40-40H344a40,40,0,0,1,40,40V432a40,40,0,0,1-40,40" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <polyline points="304 40 304 64 208 64 208 40" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="344" y1="472" x2="168" y2="472" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

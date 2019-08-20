@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>sort-desc-alt</title>
-  <rect x="80" y="368" width="64" height="96" transform="translate(-304 528) rotate(-90)" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <rect x="128" y="160" width="64" height="192" transform="translate(-96 416) rotate(-90)" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <rect x="224" y="-96" width="64" height="384" transform="translate(160 352) rotate(-90)" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

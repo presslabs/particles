@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>clipboard</title>
-  <path d="M360,152V112a24,24,0,0,0-24-24H320V72a40,40,0,0,0-40-40H232a40,40,0,0,0-40,40V88H176a24,24,0,0,0-24,24v40Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M319.2,64H408a40,40,0,0,1,40,40V440a40,40,0,0,1-40,40H104a40,40,0,0,1-40-40V104a40,40,0,0,1,40-40h88.8" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

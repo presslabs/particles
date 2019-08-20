@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>inbox</title>
-  <path d="M150.17,80a40,40,0,0,0-33.92,18.8L48,248" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M464,248,395.75,98.8A40,40,0,0,0,361.83,80" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <polyline points="48 248 158.5 248 207 312 303.5 312 352 248 464 248" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M48,248V392a40,40,0,0,0,40,40H424a40,40,0,0,0,40-40V248" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="361.83" y1="80" x2="150.17" y2="80" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

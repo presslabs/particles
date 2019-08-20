@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>point</title>
-  <path d="M438.3,200H296V112c0-64-69.33-69.33-69.33-69.33L136,232H72a40,40,0,0,0-40,40V432a40,40,0,0,0,40,40H256.19a80,80,0,0,0,78-62.21L360.66,304l87.72-21.84A41.7,41.7,0,0,0,480,241.7h0A41.7,41.7,0,0,0,438.3,200Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="136" y1="472" x2="136" y2="232" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="296" y1="200" x2="264" y2="200" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

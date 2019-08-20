@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>sync-rtl</title>
-  <line x1="400" y1="256" x2="88" y2="256" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <polyline points="168 176 88 256 168 336" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M288,320v72a40,40,0,0,0,40,40H440a40,40,0,0,0,40-40V120a40,40,0,0,0-40-40H328a40,40,0,0,0-40,40v72" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M224,320v72a40,40,0,0,1-40,40H72a40,40,0,0,1-40-40V120A40,40,0,0,1,72,80H184a40,40,0,0,1,40,40v72" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

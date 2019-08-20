@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>key-command</title>
-  <path d="M328,256V112a72,72,0,1,1,72,72H112a72,72,0,1,1,72-72V256" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M184,256V400a72,72,0,1,1-72-72H400a72,72,0,1,1-72,72V256" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

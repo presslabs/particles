@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>mail-read</title>
-  <polyline points="32 232 256 352 480 232" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M480,216V400a40,40,0,0,1-40,40H72a40,40,0,0,1-40-40V216a40,40,0,0,1,21.11-35.26L256,72,458.89,180.69A40,40,0,0,1,480,216Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

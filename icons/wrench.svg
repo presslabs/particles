@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>wrench</title>
-  <path d="M427.7,265.32a127.27,127.27,0,0,0,37.38-88.78c.18-14.47-17.13-22-27.36-11.75l-57.43,57.43-71.38-19.13-19.13-71.38,57.43-57.43c10.23-10.23,2.72-27.54-11.75-27.36A127.86,127.86,0,0,0,213.77,208.77a24.32,24.32,0,0,1-7.25,25L65.66,355.83a64,64,0,0,0,90.51,90.51L278.25,305.48a24.32,24.32,0,0,1,25-7.25A127.94,127.94,0,0,0,427.7,265.32Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M105.26,406.74a8,8,0,0,1,11.31-11.31" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M116.57,395.43a8,8,0,1,1-11.31,11.31" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

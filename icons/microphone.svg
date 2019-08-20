@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>microphone</title>
-  <path d="M320,288a64,64,0,0,1-64,64h0a64,64,0,0,1-64-64V96a64,64,0,0,1,64-64h0a64,64,0,0,1,64,64" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M128,224v64A128,128,0,0,0,256,416h0A128,128,0,0,0,384,288V224" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="256" y1="416" x2="256" y2="480" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="192" y1="480" x2="320" y2="480" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="320" y1="96" x2="320" y2="288" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

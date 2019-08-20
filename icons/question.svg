@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>question</title>
-  <circle cx="256" cy="256" r="208" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M264,384a8,8,0,0,1-16,0" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M182.4,201.6A73.61,73.61,0,0,1,258.09,128c38.4,1.06,72.73,33.08,71.48,71.48C328,248,256,278.26,256,320" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M248,384a8,8,0,0,1,16,0" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

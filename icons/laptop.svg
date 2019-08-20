@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>laptop</title>
-  <path d="M400,48a40,40,0,0,1,40,40V312H72V88a40,40,0,0,1,40-40" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="112" y1="48" x2="400" y2="48" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M32,400l20.25,45.2A40,40,0,0,0,86.17,464H425.83a40,40,0,0,0,33.92-18.8L480,400" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M320,400h0a16,16,0,0,1-16,16H208a16,16,0,0,1-16-16h0" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <polyline points="192 400 32 400 72 312" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <polyline points="440 312 480 400 320 400" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

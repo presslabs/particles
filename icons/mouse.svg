@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>mouse</title>
-  <path d="M256,128V80a40,40,0,0,1,40-40h56" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M384,344A128,128,0,0,1,256,472h0A128,128,0,0,1,128,344V256A128,128,0,0,1,256,128h0A128,128,0,0,1,384,256" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="256" y1="208" x2="256" y2="240" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="384" y1="256" x2="384" y2="344" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

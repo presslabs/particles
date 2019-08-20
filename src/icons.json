@@ -1,0 +1,2674 @@
+[
+  {
+    "iconName": "account-circle",
+    "content": "\\e900"
+  },
+  {
+    "iconName": "account-female-add",
+    "content": "\\e901"
+  },
+  {
+    "iconName": "account-female-delete",
+    "content": "\\e902"
+  },
+  {
+    "iconName": "account-female-down",
+    "content": "\\e903"
+  },
+  {
+    "iconName": "account-female-ok",
+    "content": "\\e904"
+  },
+  {
+    "iconName": "account-female-pending",
+    "content": "\\e905"
+  },
+  {
+    "iconName": "account-female-remove",
+    "content": "\\e906"
+  },
+  {
+    "iconName": "account-female-time",
+    "content": "\\e907"
+  },
+  {
+    "iconName": "account-female-up",
+    "content": "\\e908"
+  },
+  {
+    "iconName": "account-female",
+    "content": "\\e909"
+  },
+  {
+    "iconName": "account-male-add",
+    "content": "\\e90a"
+  },
+  {
+    "iconName": "account-male-delete",
+    "content": "\\e90b"
+  },
+  {
+    "iconName": "account-male-down",
+    "content": "\\e90c"
+  },
+  {
+    "iconName": "account-male-ok",
+    "content": "\\e90d"
+  },
+  {
+    "iconName": "account-male-pending",
+    "content": "\\e90e"
+  },
+  {
+    "iconName": "account-male-remove",
+    "content": "\\e90f"
+  },
+  {
+    "iconName": "account-male-time",
+    "content": "\\e910"
+  },
+  {
+    "iconName": "account-male-up",
+    "content": "\\e911"
+  },
+  {
+    "iconName": "account-male",
+    "content": "\\e912"
+  },
+  {
+    "iconName": "account-square",
+    "content": "\\e913"
+  },
+  {
+    "iconName": "accounts-add",
+    "content": "\\e914"
+  },
+  {
+    "iconName": "accounts-delete",
+    "content": "\\e915"
+  },
+  {
+    "iconName": "accounts-down",
+    "content": "\\e916"
+  },
+  {
+    "iconName": "accounts-ok",
+    "content": "\\e917"
+  },
+  {
+    "iconName": "accounts-pending",
+    "content": "\\e918"
+  },
+  {
+    "iconName": "accounts-remove",
+    "content": "\\e919"
+  },
+  {
+    "iconName": "accounts-time",
+    "content": "\\e91a"
+  },
+  {
+    "iconName": "accounts-up",
+    "content": "\\e91b"
+  },
+  {
+    "iconName": "accounts",
+    "content": "\\e91c"
+  },
+  {
+    "iconName": "add-circle",
+    "content": "\\e91d"
+  },
+  {
+    "iconName": "add-square",
+    "content": "\\e91e"
+  },
+  {
+    "iconName": "add",
+    "content": "\\e91f"
+  },
+  {
+    "iconName": "agenda",
+    "content": "\\e920"
+  },
+  {
+    "iconName": "aid-kit",
+    "content": "\\e921"
+  },
+  {
+    "iconName": "algolia",
+    "content": "\\e922"
+  },
+  {
+    "iconName": "alpine",
+    "content": "\\e923"
+  },
+  {
+    "iconName": "anchor",
+    "content": "\\e924"
+  },
+  {
+    "iconName": "android",
+    "content": "\\e925"
+  },
+  {
+    "iconName": "ansible",
+    "content": "\\e926"
+  },
+  {
+    "iconName": "app",
+    "content": "\\e927"
+  },
+  {
+    "iconName": "apple",
+    "content": "\\e928"
+  },
+  {
+    "iconName": "area-rectangle",
+    "content": "\\e929"
+  },
+  {
+    "iconName": "area",
+    "content": "\\e92a"
+  },
+  {
+    "iconName": "array-alt",
+    "content": "\\e92b"
+  },
+  {
+    "iconName": "array",
+    "content": "\\e92c"
+  },
+  {
+    "iconName": "arrow-alt-se",
+    "content": "\\e92d"
+  },
+  {
+    "iconName": "arrow-alt-sw",
+    "content": "\\e92e"
+  },
+  {
+    "iconName": "arrow-e-nw",
+    "content": "\\e92f"
+  },
+  {
+    "iconName": "arrow-e-sw",
+    "content": "\\e930"
+  },
+  {
+    "iconName": "arrow-e",
+    "content": "\\e931"
+  },
+  {
+    "iconName": "arrow-n-se",
+    "content": "\\e932"
+  },
+  {
+    "iconName": "arrow-n-sw",
+    "content": "\\e933"
+  },
+  {
+    "iconName": "arrow-n",
+    "content": "\\e934"
+  },
+  {
+    "iconName": "arrow-ne",
+    "content": "\\e935"
+  },
+  {
+    "iconName": "arrow-nw",
+    "content": "\\e936"
+  },
+  {
+    "iconName": "arrow-s-ne",
+    "content": "\\e937"
+  },
+  {
+    "iconName": "arrow-s-nw",
+    "content": "\\e938"
+  },
+  {
+    "iconName": "arrow-s",
+    "content": "\\e939"
+  },
+  {
+    "iconName": "arrow-se",
+    "content": "\\e93a"
+  },
+  {
+    "iconName": "arrow-sw",
+    "content": "\\e93b"
+  },
+  {
+    "iconName": "arrow-w-ne",
+    "content": "\\e93c"
+  },
+  {
+    "iconName": "arrow-w-se",
+    "content": "\\e93d"
+  },
+  {
+    "iconName": "arrow-w",
+    "content": "\\e93e"
+  },
+  {
+    "iconName": "arrows-away",
+    "content": "\\e93f"
+  },
+  {
+    "iconName": "arrows-in",
+    "content": "\\e940"
+  },
+  {
+    "iconName": "at",
+    "content": "\\e941"
+  },
+  {
+    "iconName": "attachment",
+    "content": "\\e942"
+  },
+  {
+    "iconName": "autover",
+    "content": "\\e943"
+  },
+  {
+    "iconName": "award-alt",
+    "content": "\\e944"
+  },
+  {
+    "iconName": "award",
+    "content": "\\e945"
+  },
+  {
+    "iconName": "aws",
+    "content": "\\e946"
+  },
+  {
+    "iconName": "ayk",
+    "content": "\\e947"
+  },
+  {
+    "iconName": "badge-delete",
+    "content": "\\e948"
+  },
+  {
+    "iconName": "badge-ok",
+    "content": "\\e949"
+  },
+  {
+    "iconName": "bag",
+    "content": "\\e94a"
+  },
+  {
+    "iconName": "balance",
+    "content": "\\e94b"
+  },
+  {
+    "iconName": "bank",
+    "content": "\\e94c"
+  },
+  {
+    "iconName": "barrier-down",
+    "content": "\\e94d"
+  },
+  {
+    "iconName": "barrier-up",
+    "content": "\\e94e"
+  },
+  {
+    "iconName": "bathroom",
+    "content": "\\e94f"
+  },
+  {
+    "iconName": "battery-charging",
+    "content": "\\e950"
+  },
+  {
+    "iconName": "battery-empty",
+    "content": "\\e951"
+  },
+  {
+    "iconName": "battery-full",
+    "content": "\\e952"
+  },
+  {
+    "iconName": "battery-low",
+    "content": "\\e953"
+  },
+  {
+    "iconName": "bed-double",
+    "content": "\\e954"
+  },
+  {
+    "iconName": "bed-single",
+    "content": "\\e955"
+  },
+  {
+    "iconName": "bed",
+    "content": "\\e956"
+  },
+  {
+    "iconName": "beer",
+    "content": "\\e957"
+  },
+  {
+    "iconName": "bell-alt",
+    "content": "\\e958"
+  },
+  {
+    "iconName": "bell",
+    "content": "\\e959"
+  },
+  {
+    "iconName": "bicycle",
+    "content": "\\e95a"
+  },
+  {
+    "iconName": "bill",
+    "content": "\\e95b"
+  },
+  {
+    "iconName": "bills",
+    "content": "\\e95c"
+  },
+  {
+    "iconName": "bin-full",
+    "content": "\\e95d"
+  },
+  {
+    "iconName": "bin",
+    "content": "\\e95e"
+  },
+  {
+    "iconName": "bitbucket",
+    "content": "\\e95f"
+  },
+  {
+    "iconName": "bitpoke",
+    "content": "\\e960"
+  },
+  {
+    "iconName": "book-open-text",
+    "content": "\\e961"
+  },
+  {
+    "iconName": "book-open",
+    "content": "\\e962"
+  },
+  {
+    "iconName": "book",
+    "content": "\\e963"
+  },
+  {
+    "iconName": "bookmark",
+    "content": "\\e964"
+  },
+  {
+    "iconName": "bricks",
+    "content": "\\e965"
+  },
+  {
+    "iconName": "bucket",
+    "content": "\\e966"
+  },
+  {
+    "iconName": "bug",
+    "content": "\\e967"
+  },
+  {
+    "iconName": "bus-mini",
+    "content": "\\e968"
+  },
+  {
+    "iconName": "bus-small",
+    "content": "\\e969"
+  },
+  {
+    "iconName": "bus",
+    "content": "\\e96a"
+  },
+  {
+    "iconName": "cache",
+    "content": "\\e96b"
+  },
+  {
+    "iconName": "calculator",
+    "content": "\\e96c"
+  },
+  {
+    "iconName": "calendar-day",
+    "content": "\\e96d"
+  },
+  {
+    "iconName": "calendar-from",
+    "content": "\\e96e"
+  },
+  {
+    "iconName": "calendar-key",
+    "content": "\\e96f"
+  },
+  {
+    "iconName": "calendar-month",
+    "content": "\\e970"
+  },
+  {
+    "iconName": "calendar-period",
+    "content": "\\e971"
+  },
+  {
+    "iconName": "calendar-to",
+    "content": "\\e972"
+  },
+  {
+    "iconName": "calendar-week",
+    "content": "\\e973"
+  },
+  {
+    "iconName": "camera",
+    "content": "\\e974"
+  },
+  {
+    "iconName": "car-alt",
+    "content": "\\e975"
+  },
+  {
+    "iconName": "car-arrow-e",
+    "content": "\\e976"
+  },
+  {
+    "iconName": "car-charging",
+    "content": "\\e977"
+  },
+  {
+    "iconName": "car-error",
+    "content": "\\e978"
+  },
+  {
+    "iconName": "car-ok",
+    "content": "\\e979"
+  },
+  {
+    "iconName": "car-pending",
+    "content": "\\e97a"
+  },
+  {
+    "iconName": "car-warning",
+    "content": "\\e97b"
+  },
+  {
+    "iconName": "car",
+    "content": "\\e97c"
+  },
+  {
+    "iconName": "card-up",
+    "content": "\\e97d"
+  },
+  {
+    "iconName": "card",
+    "content": "\\e97e"
+  },
+  {
+    "iconName": "care-n",
+    "content": "\\e97f"
+  },
+  {
+    "iconName": "caret-e",
+    "content": "\\e980"
+  },
+  {
+    "iconName": "caret-ns",
+    "content": "\\e981"
+  },
+  {
+    "iconName": "caret-s",
+    "content": "\\e982"
+  },
+  {
+    "iconName": "caret-w",
+    "content": "\\e983"
+  },
+  {
+    "iconName": "carrot",
+    "content": "\\e984"
+  },
+  {
+    "iconName": "carry",
+    "content": "\\e985"
+  },
+  {
+    "iconName": "cart-add",
+    "content": "\\e986"
+  },
+  {
+    "iconName": "cart-delete",
+    "content": "\\e987"
+  },
+  {
+    "iconName": "cart-down",
+    "content": "\\e988"
+  },
+  {
+    "iconName": "cart-ok",
+    "content": "\\e989"
+  },
+  {
+    "iconName": "cart-pending",
+    "content": "\\e98a"
+  },
+  {
+    "iconName": "cart-remove",
+    "content": "\\e98b"
+  },
+  {
+    "iconName": "cart-time",
+    "content": "\\e98c"
+  },
+  {
+    "iconName": "cart-up",
+    "content": "\\e98d"
+  },
+  {
+    "iconName": "cart",
+    "content": "\\e98e"
+  },
+  {
+    "iconName": "celery",
+    "content": "\\e98f"
+  },
+  {
+    "iconName": "center",
+    "content": "\\e990"
+  },
+  {
+    "iconName": "certificate",
+    "content": "\\e991"
+  },
+  {
+    "iconName": "charging-fast",
+    "content": "\\e992"
+  },
+  {
+    "iconName": "charging-off",
+    "content": "\\e993"
+  },
+  {
+    "iconName": "charging-on",
+    "content": "\\e994"
+  },
+  {
+    "iconName": "charging",
+    "content": "\\e995"
+  },
+  {
+    "iconName": "chart-area-stack",
+    "content": "\\e996"
+  },
+  {
+    "iconName": "chart-area",
+    "content": "\\e997"
+  },
+  {
+    "iconName": "chart-bars-axis",
+    "content": "\\e998"
+  },
+  {
+    "iconName": "chart-bars-stack",
+    "content": "\\e999"
+  },
+  {
+    "iconName": "chart-bars",
+    "content": "\\e99a"
+  },
+  {
+    "iconName": "chart-line-dots",
+    "content": "\\e99b"
+  },
+  {
+    "iconName": "chart-line",
+    "content": "\\e99c"
+  },
+  {
+    "iconName": "chart-lines",
+    "content": "\\e99d"
+  },
+  {
+    "iconName": "chart-pie-alt",
+    "content": "\\e99e"
+  },
+  {
+    "iconName": "chart-pie",
+    "content": "\\e99f"
+  },
+  {
+    "iconName": "chip",
+    "content": "\\e9a0"
+  },
+  {
+    "iconName": "circle",
+    "content": "\\e9a1"
+  },
+  {
+    "iconName": "clipboard-add",
+    "content": "\\e9a2"
+  },
+  {
+    "iconName": "clipboard-paste",
+    "content": "\\e9a3"
+  },
+  {
+    "iconName": "clipboard",
+    "content": "\\e9a4"
+  },
+  {
+    "iconName": "clock",
+    "content": "\\e9a5"
+  },
+  {
+    "iconName": "clone-e-w",
+    "content": "\\e9a6"
+  },
+  {
+    "iconName": "clone-nw-se",
+    "content": "\\e9a7"
+  },
+  {
+    "iconName": "clone-se-nw",
+    "content": "\\e9a8"
+  },
+  {
+    "iconName": "clone-w-e",
+    "content": "\\e9a9"
+  },
+  {
+    "iconName": "cloud-download",
+    "content": "\\e9aa"
+  },
+  {
+    "iconName": "cloud-ok",
+    "content": "\\e9ab"
+  },
+  {
+    "iconName": "cloud-upload",
+    "content": "\\e9ac"
+  },
+  {
+    "iconName": "cloud",
+    "content": "\\e9ad"
+  },
+  {
+    "iconName": "code-add",
+    "content": "\\e9ae"
+  },
+  {
+    "iconName": "code-delete",
+    "content": "\\e9af"
+  },
+  {
+    "iconName": "code-down",
+    "content": "\\e9b0"
+  },
+  {
+    "iconName": "code-ok",
+    "content": "\\e9b1"
+  },
+  {
+    "iconName": "code-pending",
+    "content": "\\e9b2"
+  },
+  {
+    "iconName": "code-remove",
+    "content": "\\e9b3"
+  },
+  {
+    "iconName": "code-time",
+    "content": "\\e9b4"
+  },
+  {
+    "iconName": "code-up",
+    "content": "\\e9b5"
+  },
+  {
+    "iconName": "code",
+    "content": "\\e9b6"
+  },
+  {
+    "iconName": "coffee-togo",
+    "content": "\\e9b7"
+  },
+  {
+    "iconName": "coffee",
+    "content": "\\e9b8"
+  },
+  {
+    "iconName": "coins-alt",
+    "content": "\\e9b9"
+  },
+  {
+    "iconName": "coins-stash",
+    "content": "\\e9ba"
+  },
+  {
+    "iconName": "coins",
+    "content": "\\e9bb"
+  },
+  {
+    "iconName": "comment-pending",
+    "content": "\\e9bc"
+  },
+  {
+    "iconName": "comment-text",
+    "content": "\\e9bd"
+  },
+  {
+    "iconName": "comment",
+    "content": "\\e9be"
+  },
+  {
+    "iconName": "comments",
+    "content": "\\e9bf"
+  },
+  {
+    "iconName": "compass-alt",
+    "content": "\\e9c0"
+  },
+  {
+    "iconName": "compass",
+    "content": "\\e9c1"
+  },
+  {
+    "iconName": "controller",
+    "content": "\\e9c2"
+  },
+  {
+    "iconName": "cube",
+    "content": "\\e9c3"
+  },
+  {
+    "iconName": "currency-bitcoin",
+    "content": "\\e9c4"
+  },
+  {
+    "iconName": "currency-euro",
+    "content": "\\e9c5"
+  },
+  {
+    "iconName": "currency-litecoin",
+    "content": "\\e9c6"
+  },
+  {
+    "iconName": "currency-pound",
+    "content": "\\e9c7"
+  },
+  {
+    "iconName": "currency-usd",
+    "content": "\\e9c8"
+  },
+  {
+    "iconName": "currency-xrp",
+    "content": "\\e9c9"
+  },
+  {
+    "iconName": "currency-yen",
+    "content": "\\e9ca"
+  },
+  {
+    "iconName": "cursor",
+    "content": "\\e9cb"
+  },
+  {
+    "iconName": "cycle-ccw",
+    "content": "\\e9cc"
+  },
+  {
+    "iconName": "cycle-cw",
+    "content": "\\e9cd"
+  },
+  {
+    "iconName": "cycle-square-cw",
+    "content": "\\e9ce"
+  },
+  {
+    "iconName": "database-add",
+    "content": "\\e9cf"
+  },
+  {
+    "iconName": "database-delete",
+    "content": "\\e9d0"
+  },
+  {
+    "iconName": "database-down",
+    "content": "\\e9d1"
+  },
+  {
+    "iconName": "database-ok",
+    "content": "\\e9d2"
+  },
+  {
+    "iconName": "database-pending",
+    "content": "\\e9d3"
+  },
+  {
+    "iconName": "database-remove",
+    "content": "\\e9d4"
+  },
+  {
+    "iconName": "database-time",
+    "content": "\\e9d5"
+  },
+  {
+    "iconName": "database-up",
+    "content": "\\e9d6"
+  },
+  {
+    "iconName": "database",
+    "content": "\\e9d7"
+  },
+  {
+    "iconName": "delete-circle",
+    "content": "\\e9d8"
+  },
+  {
+    "iconName": "delete-square",
+    "content": "\\e9d9"
+  },
+  {
+    "iconName": "delete",
+    "content": "\\e9da"
+  },
+  {
+    "iconName": "deny",
+    "content": "\\e9db"
+  },
+  {
+    "iconName": "desktop",
+    "content": "\\e9dc"
+  },
+  {
+    "iconName": "device-landscape",
+    "content": "\\e9dd"
+  },
+  {
+    "iconName": "device-portrait",
+    "content": "\\e9de"
+  },
+  {
+    "iconName": "diamond",
+    "content": "\\e9df"
+  },
+  {
+    "iconName": "digitalocean",
+    "content": "\\e9e0"
+  },
+  {
+    "iconName": "direction-both",
+    "content": "\\e9e1"
+  },
+  {
+    "iconName": "direction",
+    "content": "\\e9e2"
+  },
+  {
+    "iconName": "disability",
+    "content": "\\e9e3"
+  },
+  {
+    "iconName": "discount-badge",
+    "content": "\\e9e4"
+  },
+  {
+    "iconName": "discount-ticket",
+    "content": "\\e9e5"
+  },
+  {
+    "iconName": "divide",
+    "content": "\\e9e6"
+  },
+  {
+    "iconName": "docker",
+    "content": "\\e9e7"
+  },
+  {
+    "iconName": "down-square",
+    "content": "\\e9e8"
+  },
+  {
+    "iconName": "drinks",
+    "content": "\\e9e9"
+  },
+  {
+    "iconName": "drive-down",
+    "content": "\\e9ea"
+  },
+  {
+    "iconName": "drive-up",
+    "content": "\\e9eb"
+  },
+  {
+    "iconName": "drive",
+    "content": "\\e9ec"
+  },
+  {
+    "iconName": "drone",
+    "content": "\\e9ed"
+  },
+  {
+    "iconName": "drop",
+    "content": "\\e9ee"
+  },
+  {
+    "iconName": "duplicate-add",
+    "content": "\\e9ef"
+  },
+  {
+    "iconName": "duplicate-remove",
+    "content": "\\e9f0"
+  },
+  {
+    "iconName": "duplicate",
+    "content": "\\e9f1"
+  },
+  {
+    "iconName": "eat",
+    "content": "\\e9f2"
+  },
+  {
+    "iconName": "economy",
+    "content": "\\e9f3"
+  },
+  {
+    "iconName": "edit-square",
+    "content": "\\e9f4"
+  },
+  {
+    "iconName": "edit",
+    "content": "\\e9f5"
+  },
+  {
+    "iconName": "electric-car-alt",
+    "content": "\\e9f6"
+  },
+  {
+    "iconName": "electric-car-charging",
+    "content": "\\e9f7"
+  },
+  {
+    "iconName": "electric-car",
+    "content": "\\e9f8"
+  },
+  {
+    "iconName": "ellipsis-square",
+    "content": "\\e9f9"
+  },
+  {
+    "iconName": "ellipsis-vertical",
+    "content": "\\e9fa"
+  },
+  {
+    "iconName": "ellipsis",
+    "content": "\\e9fb"
+  },
+  {
+    "iconName": "emission-off",
+    "content": "\\e9fc"
+  },
+  {
+    "iconName": "emissions",
+    "content": "\\e9fd"
+  },
+  {
+    "iconName": "eu-flag-dark",
+    "content": "\\e9fe"
+  },
+  {
+    "iconName": "eu-flag-light",
+    "content": "\\e9ff"
+  },
+  {
+    "iconName": "export-alt",
+    "content": "\\ea00"
+  },
+  {
+    "iconName": "export",
+    "content": "\\ea01"
+  },
+  {
+    "iconName": "eye-off",
+    "content": "\\ea02"
+  },
+  {
+    "iconName": "eye",
+    "content": "\\ea03"
+  },
+  {
+    "iconName": "facebook",
+    "content": "\\ea04"
+  },
+  {
+    "iconName": "fence",
+    "content": "\\ea05"
+  },
+  {
+    "iconName": "file-add",
+    "content": "\\ea06"
+  },
+  {
+    "iconName": "file-archive",
+    "content": "\\ea07"
+  },
+  {
+    "iconName": "file-code",
+    "content": "\\ea08"
+  },
+  {
+    "iconName": "file-delete",
+    "content": "\\ea09"
+  },
+  {
+    "iconName": "file-diff",
+    "content": "\\ea0a"
+  },
+  {
+    "iconName": "file-down",
+    "content": "\\ea0b"
+  },
+  {
+    "iconName": "file-empty",
+    "content": "\\ea0c"
+  },
+  {
+    "iconName": "file-hash",
+    "content": "\\ea0d"
+  },
+  {
+    "iconName": "file-image",
+    "content": "\\ea0e"
+  },
+  {
+    "iconName": "file-markup",
+    "content": "\\ea0f"
+  },
+  {
+    "iconName": "file-ok",
+    "content": "\\ea10"
+  },
+  {
+    "iconName": "file-pdf",
+    "content": "\\ea11"
+  },
+  {
+    "iconName": "file-pending",
+    "content": "\\ea12"
+  },
+  {
+    "iconName": "file-remove",
+    "content": "\\ea13"
+  },
+  {
+    "iconName": "file-signed",
+    "content": "\\ea14"
+  },
+  {
+    "iconName": "file-sql",
+    "content": "\\ea15"
+  },
+  {
+    "iconName": "file-text",
+    "content": "\\ea16"
+  },
+  {
+    "iconName": "file-time",
+    "content": "\\ea17"
+  },
+  {
+    "iconName": "file-up",
+    "content": "\\ea18"
+  },
+  {
+    "iconName": "file",
+    "content": "\\ea19"
+  },
+  {
+    "iconName": "files-add",
+    "content": "\\ea1a"
+  },
+  {
+    "iconName": "files-delete",
+    "content": "\\ea1b"
+  },
+  {
+    "iconName": "files-down",
+    "content": "\\ea1c"
+  },
+  {
+    "iconName": "files-ok",
+    "content": "\\ea1d"
+  },
+  {
+    "iconName": "files-pending",
+    "content": "\\ea1e"
+  },
+  {
+    "iconName": "files-remove",
+    "content": "\\ea1f"
+  },
+  {
+    "iconName": "files-time",
+    "content": "\\ea20"
+  },
+  {
+    "iconName": "files-up",
+    "content": "\\ea21"
+  },
+  {
+    "iconName": "files",
+    "content": "\\ea22"
+  },
+  {
+    "iconName": "filter",
+    "content": "\\ea23"
+  },
+  {
+    "iconName": "flag",
+    "content": "\\ea24"
+  },
+  {
+    "iconName": "flame",
+    "content": "\\ea25"
+  },
+  {
+    "iconName": "floppy",
+    "content": "\\ea26"
+  },
+  {
+    "iconName": "focus",
+    "content": "\\ea27"
+  },
+  {
+    "iconName": "folder-add",
+    "content": "\\ea28"
+  },
+  {
+    "iconName": "folder-share",
+    "content": "\\ea29"
+  },
+  {
+    "iconName": "folder-symlink",
+    "content": "\\ea2a"
+  },
+  {
+    "iconName": "folder",
+    "content": "\\ea2b"
+  },
+  {
+    "iconName": "frame",
+    "content": "\\ea2c"
+  },
+  {
+    "iconName": "frontapp",
+    "content": "\\ea2d"
+  },
+  {
+    "iconName": "gauge",
+    "content": "\\ea2e"
+  },
+  {
+    "iconName": "gears",
+    "content": "\\ea2f"
+  },
+  {
+    "iconName": "genders",
+    "content": "\\ea30"
+  },
+  {
+    "iconName": "git-branch",
+    "content": "\\ea31"
+  },
+  {
+    "iconName": "git-compare",
+    "content": "\\ea32"
+  },
+  {
+    "iconName": "git-fetch",
+    "content": "\\ea33"
+  },
+  {
+    "iconName": "git-fork",
+    "content": "\\ea34"
+  },
+  {
+    "iconName": "git-merge",
+    "content": "\\ea35"
+  },
+  {
+    "iconName": "git-merged-alt",
+    "content": "\\ea36"
+  },
+  {
+    "iconName": "git-merged",
+    "content": "\\ea37"
+  },
+  {
+    "iconName": "git-pull",
+    "content": "\\ea38"
+  },
+  {
+    "iconName": "git-push",
+    "content": "\\ea39"
+  },
+  {
+    "iconName": "git-rebase",
+    "content": "\\ea3a"
+  },
+  {
+    "iconName": "git-tree",
+    "content": "\\ea3b"
+  },
+  {
+    "iconName": "git",
+    "content": "\\ea3c"
+  },
+  {
+    "iconName": "gitea",
+    "content": "\\ea3d"
+  },
+  {
+    "iconName": "gitfs",
+    "content": "\\ea3e"
+  },
+  {
+    "iconName": "github",
+    "content": "\\ea3f"
+  },
+  {
+    "iconName": "gitium",
+    "content": "\\ea40"
+  },
+  {
+    "iconName": "gitolite",
+    "content": "\\ea41"
+  },
+  {
+    "iconName": "give-euro",
+    "content": "\\ea42"
+  },
+  {
+    "iconName": "give-usd",
+    "content": "\\ea43"
+  },
+  {
+    "iconName": "glasses",
+    "content": "\\ea44"
+  },
+  {
+    "iconName": "globe-alt",
+    "content": "\\ea45"
+  },
+  {
+    "iconName": "globe",
+    "content": "\\ea46"
+  },
+  {
+    "iconName": "golang",
+    "content": "\\ea47"
+  },
+  {
+    "iconName": "google-cloud-platform",
+    "content": "\\ea48"
+  },
+  {
+    "iconName": "google-plus",
+    "content": "\\ea49"
+  },
+  {
+    "iconName": "grafana",
+    "content": "\\ea4a"
+  },
+  {
+    "iconName": "graphite",
+    "content": "\\ea4b"
+  },
+  {
+    "iconName": "green",
+    "content": "\\ea4c"
+  },
+  {
+    "iconName": "growth-alt",
+    "content": "\\ea4d"
+  },
+  {
+    "iconName": "growth",
+    "content": "\\ea4e"
+  },
+  {
+    "iconName": "gunicorn",
+    "content": "\\ea4f"
+  },
+  {
+    "iconName": "handshake",
+    "content": "\\ea50"
+  },
+  {
+    "iconName": "headphones-alt",
+    "content": "\\ea51"
+  },
+  {
+    "iconName": "headphones",
+    "content": "\\ea52"
+  },
+  {
+    "iconName": "heart",
+    "content": "\\ea53"
+  },
+  {
+    "iconName": "helm",
+    "content": "\\ea54"
+  },
+  {
+    "iconName": "help-alt",
+    "content": "\\ea55"
+  },
+  {
+    "iconName": "help",
+    "content": "\\ea56"
+  },
+  {
+    "iconName": "hetzner",
+    "content": "\\ea57"
+  },
+  {
+    "iconName": "highway-alt",
+    "content": "\\ea58"
+  },
+  {
+    "iconName": "highway",
+    "content": "\\ea59"
+  },
+  {
+    "iconName": "history-back",
+    "content": "\\ea5a"
+  },
+  {
+    "iconName": "history-forward",
+    "content": "\\ea5b"
+  },
+  {
+    "iconName": "home",
+    "content": "\\ea5c"
+  },
+  {
+    "iconName": "hourglass-alt",
+    "content": "\\ea5d"
+  },
+  {
+    "iconName": "hourglass",
+    "content": "\\ea5e"
+  },
+  {
+    "iconName": "hugo",
+    "content": "\\ea5f"
+  },
+  {
+    "iconName": "human",
+    "content": "\\ea60"
+  },
+  {
+    "iconName": "hyperdb",
+    "content": "\\ea61"
+  },
+  {
+    "iconName": "image-mapping",
+    "content": "\\ea62"
+  },
+  {
+    "iconName": "image",
+    "content": "\\ea63"
+  },
+  {
+    "iconName": "images",
+    "content": "\\ea64"
+  },
+  {
+    "iconName": "import-alt",
+    "content": "\\ea65"
+  },
+  {
+    "iconName": "import",
+    "content": "\\ea66"
+  },
+  {
+    "iconName": "inbox-full",
+    "content": "\\ea67"
+  },
+  {
+    "iconName": "inbox",
+    "content": "\\ea68"
+  },
+  {
+    "iconName": "industrial",
+    "content": "\\ea69"
+  },
+  {
+    "iconName": "info",
+    "content": "\\ea6a"
+  },
+  {
+    "iconName": "instagram",
+    "content": "\\ea6b"
+  },
+  {
+    "iconName": "internet",
+    "content": "\\ea6c"
+  },
+  {
+    "iconName": "issue-cycle-ccw",
+    "content": "\\ea6d"
+  },
+  {
+    "iconName": "issue-delete",
+    "content": "\\ea6e"
+  },
+  {
+    "iconName": "issue-ok",
+    "content": "\\ea6f"
+  },
+  {
+    "iconName": "issue-recycle-ccw",
+    "content": "\\ea70"
+  },
+  {
+    "iconName": "issue",
+    "content": "\\ea71"
+  },
+  {
+    "iconName": "javascript",
+    "content": "\\ea72"
+  },
+  {
+    "iconName": "key-alt",
+    "content": "\\ea73"
+  },
+  {
+    "iconName": "key-capslock",
+    "content": "\\ea74"
+  },
+  {
+    "iconName": "key-command",
+    "content": "\\ea75"
+  },
+  {
+    "iconName": "key-option",
+    "content": "\\ea76"
+  },
+  {
+    "iconName": "key-shift",
+    "content": "\\ea77"
+  },
+  {
+    "iconName": "key-windows",
+    "content": "\\ea78"
+  },
+  {
+    "iconName": "key",
+    "content": "\\ea79"
+  },
+  {
+    "iconName": "keyboard-alt",
+    "content": "\\ea7a"
+  },
+  {
+    "iconName": "keyboard",
+    "content": "\\ea7b"
+  },
+  {
+    "iconName": "keynote",
+    "content": "\\ea7c"
+  },
+  {
+    "iconName": "kibana",
+    "content": "\\ea7d"
+  },
+  {
+    "iconName": "kubernetes",
+    "content": "\\ea7e"
+  },
+  {
+    "iconName": "lab",
+    "content": "\\ea7f"
+  },
+  {
+    "iconName": "laptop",
+    "content": "\\ea80"
+  },
+  {
+    "iconName": "large-van",
+    "content": "\\ea81"
+  },
+  {
+    "iconName": "launch",
+    "content": "\\ea82"
+  },
+  {
+    "iconName": "layout-alt",
+    "content": "\\ea83"
+  },
+  {
+    "iconName": "layout-simple",
+    "content": "\\ea84"
+  },
+  {
+    "iconName": "layout",
+    "content": "\\ea85"
+  },
+  {
+    "iconName": "leaf",
+    "content": "\\ea86"
+  },
+  {
+    "iconName": "leaseweb",
+    "content": "\\ea87"
+  },
+  {
+    "iconName": "leaves",
+    "content": "\\ea88"
+  },
+  {
+    "iconName": "letsencrypt",
+    "content": "\\ea89"
+  },
+  {
+    "iconName": "letter",
+    "content": "\\ea8a"
+  },
+  {
+    "iconName": "lightbulb-off",
+    "content": "\\ea8b"
+  },
+  {
+    "iconName": "lightbulb-on",
+    "content": "\\ea8c"
+  },
+  {
+    "iconName": "lightbulb",
+    "content": "\\ea8d"
+  },
+  {
+    "iconName": "lighthouse",
+    "content": "\\ea8e"
+  },
+  {
+    "iconName": "limit-alt",
+    "content": "\\ea8f"
+  },
+  {
+    "iconName": "limit",
+    "content": "\\ea90"
+  },
+  {
+    "iconName": "link-alt",
+    "content": "\\ea91"
+  },
+  {
+    "iconName": "link",
+    "content": "\\ea92"
+  },
+  {
+    "iconName": "linkedin",
+    "content": "\\ea93"
+  },
+  {
+    "iconName": "linux",
+    "content": "\\ea94"
+  },
+  {
+    "iconName": "list",
+    "content": "\\ea95"
+  },
+  {
+    "iconName": "location-area",
+    "content": "\\ea96"
+  },
+  {
+    "iconName": "location-spot",
+    "content": "\\ea97"
+  },
+  {
+    "iconName": "location",
+    "content": "\\ea98"
+  },
+  {
+    "iconName": "lock",
+    "content": "\\ea99"
+  },
+  {
+    "iconName": "login",
+    "content": "\\ea9a"
+  },
+  {
+    "iconName": "logout",
+    "content": "\\ea9b"
+  },
+  {
+    "iconName": "loop",
+    "content": "\\ea9c"
+  },
+  {
+    "iconName": "magnet",
+    "content": "\\ea9d"
+  },
+  {
+    "iconName": "mail-read-alt",
+    "content": "\\ea9e"
+  },
+  {
+    "iconName": "mail-read",
+    "content": "\\ea9f"
+  },
+  {
+    "iconName": "mail-send",
+    "content": "\\eaa0"
+  },
+  {
+    "iconName": "mail",
+    "content": "\\eaa1"
+  },
+  {
+    "iconName": "mailgun",
+    "content": "\\eaa2"
+  },
+  {
+    "iconName": "map-off",
+    "content": "\\eaa3"
+  },
+  {
+    "iconName": "map",
+    "content": "\\eaa4"
+  },
+  {
+    "iconName": "markup",
+    "content": "\\eaa5"
+  },
+  {
+    "iconName": "memcache",
+    "content": "\\eaa6"
+  },
+  {
+    "iconName": "memory-card",
+    "content": "\\eaa7"
+  },
+  {
+    "iconName": "memory",
+    "content": "\\eaa8"
+  },
+  {
+    "iconName": "menu-alt",
+    "content": "\\eaa9"
+  },
+  {
+    "iconName": "menu",
+    "content": "\\eaaa"
+  },
+  {
+    "iconName": "mesh-alt",
+    "content": "\\eaab"
+  },
+  {
+    "iconName": "mesh-globe",
+    "content": "\\eaac"
+  },
+  {
+    "iconName": "mesh",
+    "content": "\\eaad"
+  },
+  {
+    "iconName": "microphone",
+    "content": "\\eaae"
+  },
+  {
+    "iconName": "mobile-theme",
+    "content": "\\eaaf"
+  },
+  {
+    "iconName": "moon",
+    "content": "\\eab0"
+  },
+  {
+    "iconName": "moped",
+    "content": "\\eab1"
+  },
+  {
+    "iconName": "motobike",
+    "content": "\\eab2"
+  },
+  {
+    "iconName": "mouse",
+    "content": "\\eab3"
+  },
+  {
+    "iconName": "music",
+    "content": "\\eab4"
+  },
+  {
+    "iconName": "mysql-operator",
+    "content": "\\eab5"
+  },
+  {
+    "iconName": "newspaper",
+    "content": "\\eab6"
+  },
+  {
+    "iconName": "nginx-ingress_1",
+    "content": "\\eab7"
+  },
+  {
+    "iconName": "nginx-ingress",
+    "content": "\\eab8"
+  },
+  {
+    "iconName": "nginx",
+    "content": "\\eab9"
+  },
+  {
+    "iconName": "non-stop",
+    "content": "\\eaba"
+  },
+  {
+    "iconName": "north",
+    "content": "\\eabb"
+  },
+  {
+    "iconName": "notebook",
+    "content": "\\eabc"
+  },
+  {
+    "iconName": "office",
+    "content": "\\eabd"
+  },
+  {
+    "iconName": "ok-circle",
+    "content": "\\eabe"
+  },
+  {
+    "iconName": "ok-square",
+    "content": "\\eabf"
+  },
+  {
+    "iconName": "ok",
+    "content": "\\eac0"
+  },
+  {
+    "iconName": "opsgenie",
+    "content": "\\eac1"
+  },
+  {
+    "iconName": "orchestrator",
+    "content": "\\eac2"
+  },
+  {
+    "iconName": "paint-roller",
+    "content": "\\eac3"
+  },
+  {
+    "iconName": "palette",
+    "content": "\\eac4"
+  },
+  {
+    "iconName": "paper-plane",
+    "content": "\\eac5"
+  },
+  {
+    "iconName": "papertrail",
+    "content": "\\eac6"
+  },
+  {
+    "iconName": "paragraph",
+    "content": "\\eac7"
+  },
+  {
+    "iconName": "parcel-down",
+    "content": "\\eac8"
+  },
+  {
+    "iconName": "parcel-up",
+    "content": "\\eac9"
+  },
+  {
+    "iconName": "parcel",
+    "content": "\\eaca"
+  },
+  {
+    "iconName": "parking-off",
+    "content": "\\eacb"
+  },
+  {
+    "iconName": "parking",
+    "content": "\\eacc"
+  },
+  {
+    "iconName": "particles-alt",
+    "content": "\\eacd"
+  },
+  {
+    "iconName": "particles",
+    "content": "\\eace"
+  },
+  {
+    "iconName": "patch-double",
+    "content": "\\eacf"
+  },
+  {
+    "iconName": "patch-simple",
+    "content": "\\ead0"
+  },
+  {
+    "iconName": "pay-phone-small",
+    "content": "\\ead1"
+  },
+  {
+    "iconName": "pay-phone",
+    "content": "\\ead2"
+  },
+  {
+    "iconName": "paypal",
+    "content": "\\ead3"
+  },
+  {
+    "iconName": "payu",
+    "content": "\\ead4"
+  },
+  {
+    "iconName": "pen-line",
+    "content": "\\ead5"
+  },
+  {
+    "iconName": "pen",
+    "content": "\\ead6"
+  },
+  {
+    "iconName": "pencil",
+    "content": "\\ead7"
+  },
+  {
+    "iconName": "percent",
+    "content": "\\ead8"
+  },
+  {
+    "iconName": "percona",
+    "content": "\\ead9"
+  },
+  {
+    "iconName": "phone-mobile",
+    "content": "\\eada"
+  },
+  {
+    "iconName": "phone-pay-alt",
+    "content": "\\eadb"
+  },
+  {
+    "iconName": "phone-ring",
+    "content": "\\eadc"
+  },
+  {
+    "iconName": "phone-wave",
+    "content": "\\eadd"
+  },
+  {
+    "iconName": "phone",
+    "content": "\\eade"
+  },
+  {
+    "iconName": "php",
+    "content": "\\eadf"
+  },
+  {
+    "iconName": "piggy",
+    "content": "\\eae0"
+  },
+  {
+    "iconName": "pill",
+    "content": "\\eae1"
+  },
+  {
+    "iconName": "ping-download",
+    "content": "\\eae2"
+  },
+  {
+    "iconName": "plane",
+    "content": "\\eae3"
+  },
+  {
+    "iconName": "plug-type-two",
+    "content": "\\eae4"
+  },
+  {
+    "iconName": "plug",
+    "content": "\\eae5"
+  },
+  {
+    "iconName": "plugin-tag",
+    "content": "\\eae6"
+  },
+  {
+    "iconName": "plugin",
+    "content": "\\eae7"
+  },
+  {
+    "iconName": "point-e",
+    "content": "\\eae8"
+  },
+  {
+    "iconName": "point-w",
+    "content": "\\eae9"
+  },
+  {
+    "iconName": "police",
+    "content": "\\eaea"
+  },
+  {
+    "iconName": "power-plug",
+    "content": "\\eaeb"
+  },
+  {
+    "iconName": "power",
+    "content": "\\eaec"
+  },
+  {
+    "iconName": "present",
+    "content": "\\eaed"
+  },
+  {
+    "iconName": "presslabs",
+    "content": "\\eaee"
+  },
+  {
+    "iconName": "printer",
+    "content": "\\eaef"
+  },
+  {
+    "iconName": "process-between",
+    "content": "\\eaf0"
+  },
+  {
+    "iconName": "process-loop",
+    "content": "\\eaf1"
+  },
+  {
+    "iconName": "projector",
+    "content": "\\eaf2"
+  },
+  {
+    "iconName": "prometheus",
+    "content": "\\eaf3"
+  },
+  {
+    "iconName": "pulse",
+    "content": "\\eaf4"
+  },
+  {
+    "iconName": "puzzle-alt",
+    "content": "\\eaf5"
+  },
+  {
+    "iconName": "puzzle",
+    "content": "\\eaf6"
+  },
+  {
+    "iconName": "pyolite",
+    "content": "\\eaf7"
+  },
+  {
+    "iconName": "python",
+    "content": "\\eaf8"
+  },
+  {
+    "iconName": "react",
+    "content": "\\eaf9"
+  },
+  {
+    "iconName": "read-alt",
+    "content": "\\eafa"
+  },
+  {
+    "iconName": "read",
+    "content": "\\eafb"
+  },
+  {
+    "iconName": "receipt-end",
+    "content": "\\eafc"
+  },
+  {
+    "iconName": "receipt",
+    "content": "\\eafd"
+  },
+  {
+    "iconName": "recycle-ccw",
+    "content": "\\eafe"
+  },
+  {
+    "iconName": "recycle-cw",
+    "content": "\\eaff"
+  },
+  {
+    "iconName": "redis",
+    "content": "\\eb00"
+  },
+  {
+    "iconName": "redux",
+    "content": "\\eb01"
+  },
+  {
+    "iconName": "remove-circle",
+    "content": "\\eb02"
+  },
+  {
+    "iconName": "remove-square",
+    "content": "\\eb03"
+  },
+  {
+    "iconName": "remove",
+    "content": "\\eb04"
+  },
+  {
+    "iconName": "repo-add",
+    "content": "\\eb05"
+  },
+  {
+    "iconName": "repo-down",
+    "content": "\\eb06"
+  },
+  {
+    "iconName": "repo",
+    "content": "\\eb07"
+  },
+  {
+    "iconName": "role-admin",
+    "content": "\\eb08"
+  },
+  {
+    "iconName": "role-super-admin",
+    "content": "\\eb09"
+  },
+  {
+    "iconName": "role-user",
+    "content": "\\eb0a"
+  },
+  {
+    "iconName": "room",
+    "content": "\\eb0b"
+  },
+  {
+    "iconName": "route-fiftythree",
+    "content": "\\eb0c"
+  },
+  {
+    "iconName": "router",
+    "content": "\\eb0d"
+  },
+  {
+    "iconName": "routing-away",
+    "content": "\\eb0e"
+  },
+  {
+    "iconName": "routing-in",
+    "content": "\\eb0f"
+  },
+  {
+    "iconName": "routing",
+    "content": "\\eb10"
+  },
+  {
+    "iconName": "ruler",
+    "content": "\\eb11"
+  },
+  {
+    "iconName": "safe-alt",
+    "content": "\\eb12"
+  },
+  {
+    "iconName": "safe-simple",
+    "content": "\\eb13"
+  },
+  {
+    "iconName": "safe",
+    "content": "\\eb14"
+  },
+  {
+    "iconName": "search",
+    "content": "\\eb15"
+  },
+  {
+    "iconName": "section-alt",
+    "content": "\\eb16"
+  },
+  {
+    "iconName": "section",
+    "content": "\\eb17"
+  },
+  {
+    "iconName": "security-add",
+    "content": "\\eb18"
+  },
+  {
+    "iconName": "security-delete",
+    "content": "\\eb19"
+  },
+  {
+    "iconName": "security-ok",
+    "content": "\\eb1a"
+  },
+  {
+    "iconName": "security-remove",
+    "content": "\\eb1b"
+  },
+  {
+    "iconName": "security",
+    "content": "\\eb1c"
+  },
+  {
+    "iconName": "semaphore",
+    "content": "\\eb1d"
+  },
+  {
+    "iconName": "sendgrid",
+    "content": "\\eb1e"
+  },
+  {
+    "iconName": "sentry",
+    "content": "\\eb1f"
+  },
+  {
+    "iconName": "server-link",
+    "content": "\\eb20"
+  },
+  {
+    "iconName": "server",
+    "content": "\\eb21"
+  },
+  {
+    "iconName": "settings-add",
+    "content": "\\eb22"
+  },
+  {
+    "iconName": "settings-delete",
+    "content": "\\eb23"
+  },
+  {
+    "iconName": "settings-down",
+    "content": "\\eb24"
+  },
+  {
+    "iconName": "settings-ok",
+    "content": "\\eb25"
+  },
+  {
+    "iconName": "settings-pending",
+    "content": "\\eb26"
+  },
+  {
+    "iconName": "settings-remove",
+    "content": "\\eb27"
+  },
+  {
+    "iconName": "settings-time",
+    "content": "\\eb28"
+  },
+  {
+    "iconName": "settings-up",
+    "content": "\\eb29"
+  },
+  {
+    "iconName": "settings",
+    "content": "\\eb2a"
+  },
+  {
+    "iconName": "sex-female",
+    "content": "\\eb2b"
+  },
+  {
+    "iconName": "sex-male",
+    "content": "\\eb2c"
+  },
+  {
+    "iconName": "share-alt",
+    "content": "\\eb2d"
+  },
+  {
+    "iconName": "share",
+    "content": "\\eb2e"
+  },
+  {
+    "iconName": "shop",
+    "content": "\\eb2f"
+  },
+  {
+    "iconName": "sign-document",
+    "content": "\\eb30"
+  },
+  {
+    "iconName": "sign",
+    "content": "\\eb31"
+  },
+  {
+    "iconName": "signal",
+    "content": "\\eb32"
+  },
+  {
+    "iconName": "silver",
+    "content": "\\eb33"
+  },
+  {
+    "iconName": "site-protection",
+    "content": "\\eb34"
+  },
+  {
+    "iconName": "slack",
+    "content": "\\eb35"
+  },
+  {
+    "iconName": "snowflake",
+    "content": "\\eb36"
+  },
+  {
+    "iconName": "softlayer",
+    "content": "\\eb37"
+  },
+  {
+    "iconName": "sort-asc-horizontal-alt",
+    "content": "\\eb38"
+  },
+  {
+    "iconName": "sort-asc-horizontal",
+    "content": "\\eb39"
+  },
+  {
+    "iconName": "sort-asc-vertical-alt",
+    "content": "\\eb3a"
+  },
+  {
+    "iconName": "sort-asc-vertical",
+    "content": "\\eb3b"
+  },
+  {
+    "iconName": "sort-desc-horizontal-alt",
+    "content": "\\eb3c"
+  },
+  {
+    "iconName": "sort-desc-horizontal",
+    "content": "\\eb3d"
+  },
+  {
+    "iconName": "sort-desc-vertical-alt",
+    "content": "\\eb3e"
+  },
+  {
+    "iconName": "sort-desc-vertical",
+    "content": "\\eb3f"
+  },
+  {
+    "iconName": "speaker",
+    "content": "\\eb40"
+  },
+  {
+    "iconName": "square",
+    "content": "\\eb41"
+  },
+  {
+    "iconName": "ssd",
+    "content": "\\eb42"
+  },
+  {
+    "iconName": "stack-1",
+    "content": "\\eb43"
+  },
+  {
+    "iconName": "stack-add",
+    "content": "\\eb44"
+  },
+  {
+    "iconName": "stack-delete",
+    "content": "\\eb45"
+  },
+  {
+    "iconName": "stack-down",
+    "content": "\\eb46"
+  },
+  {
+    "iconName": "stack-ok",
+    "content": "\\eb47"
+  },
+  {
+    "iconName": "stack-pending",
+    "content": "\\eb48"
+  },
+  {
+    "iconName": "stack-remove",
+    "content": "\\eb49"
+  },
+  {
+    "iconName": "stack-time",
+    "content": "\\eb4a"
+  },
+  {
+    "iconName": "stack-up",
+    "content": "\\eb4b"
+  },
+  {
+    "iconName": "stack",
+    "content": "\\eb4c"
+  },
+  {
+    "iconName": "star-half",
+    "content": "\\eb4d"
+  },
+  {
+    "iconName": "star-off",
+    "content": "\\eb4e"
+  },
+  {
+    "iconName": "star",
+    "content": "\\eb4f"
+  },
+  {
+    "iconName": "statuscake",
+    "content": "\\eb50"
+  },
+  {
+    "iconName": "statuspage",
+    "content": "\\eb51"
+  },
+  {
+    "iconName": "stopwatch",
+    "content": "\\eb52"
+  },
+  {
+    "iconName": "storage",
+    "content": "\\eb53"
+  },
+  {
+    "iconName": "street",
+    "content": "\\eb54"
+  },
+  {
+    "iconName": "suitcase",
+    "content": "\\eb55"
+  },
+  {
+    "iconName": "sun",
+    "content": "\\eb56"
+  },
+  {
+    "iconName": "switch",
+    "content": "\\eb57"
+  },
+  {
+    "iconName": "sync-square",
+    "content": "\\eb58"
+  },
+  {
+    "iconName": "sync",
+    "content": "\\eb59"
+  },
+  {
+    "iconName": "tag",
+    "content": "\\eb5a"
+  },
+  {
+    "iconName": "target-alt",
+    "content": "\\eb5b"
+  },
+  {
+    "iconName": "target",
+    "content": "\\eb5c"
+  },
+  {
+    "iconName": "temperature-hi",
+    "content": "\\eb5d"
+  },
+  {
+    "iconName": "temperature-low",
+    "content": "\\eb5e"
+  },
+  {
+    "iconName": "temperature",
+    "content": "\\eb5f"
+  },
+  {
+    "iconName": "terminal",
+    "content": "\\eb60"
+  },
+  {
+    "iconName": "theme-per-user",
+    "content": "\\eb61"
+  },
+  {
+    "iconName": "thumb-down",
+    "content": "\\eb62"
+  },
+  {
+    "iconName": "thumb-up",
+    "content": "\\eb63"
+  },
+  {
+    "iconName": "thunder-alt",
+    "content": "\\eb64"
+  },
+  {
+    "iconName": "tir-alt",
+    "content": "\\eb65"
+  },
+  {
+    "iconName": "toll-stop",
+    "content": "\\eb66"
+  },
+  {
+    "iconName": "tolls",
+    "content": "\\eb67"
+  },
+  {
+    "iconName": "tooth",
+    "content": "\\eb68"
+  },
+  {
+    "iconName": "toplytics",
+    "content": "\\eb69"
+  },
+  {
+    "iconName": "tor",
+    "content": "\\eb6a"
+  },
+  {
+    "iconName": "touch",
+    "content": "\\eb6b"
+  },
+  {
+    "iconName": "trailer",
+    "content": "\\eb6c"
+  },
+  {
+    "iconName": "transport-away",
+    "content": "\\eb6d"
+  },
+  {
+    "iconName": "transport",
+    "content": "\\eb6e"
+  },
+  {
+    "iconName": "tree",
+    "content": "\\eb6f"
+  },
+  {
+    "iconName": "triangle",
+    "content": "\\eb70"
+  },
+  {
+    "iconName": "trophy",
+    "content": "\\eb71"
+  },
+  {
+    "iconName": "truck-cab",
+    "content": "\\eb72"
+  },
+  {
+    "iconName": "truck-small",
+    "content": "\\eb73"
+  },
+  {
+    "iconName": "tshirt",
+    "content": "\\eb74"
+  },
+  {
+    "iconName": "tune",
+    "content": "\\eb75"
+  },
+  {
+    "iconName": "twitter",
+    "content": "\\eb76"
+  },
+  {
+    "iconName": "umbrella",
+    "content": "\\eb77"
+  },
+  {
+    "iconName": "unlock",
+    "content": "\\eb78"
+  },
+  {
+    "iconName": "up-square",
+    "content": "\\eb79"
+  },
+  {
+    "iconName": "utf",
+    "content": "\\eb7a"
+  },
+  {
+    "iconName": "van",
+    "content": "\\eb7b"
+  },
+  {
+    "iconName": "vector",
+    "content": "\\eb7c"
+  },
+  {
+    "iconName": "vehicle",
+    "content": "\\eb7d"
+  },
+  {
+    "iconName": "view-cards",
+    "content": "\\eb7e"
+  },
+  {
+    "iconName": "view-full",
+    "content": "\\eb7f"
+  },
+  {
+    "iconName": "view-list",
+    "content": "\\eb80"
+  },
+  {
+    "iconName": "view-single",
+    "content": "\\eb81"
+  },
+  {
+    "iconName": "view-stack",
+    "content": "\\eb82"
+  },
+  {
+    "iconName": "view-table",
+    "content": "\\eb83"
+  },
+  {
+    "iconName": "view-thumbs",
+    "content": "\\eb84"
+  },
+  {
+    "iconName": "volume-high",
+    "content": "\\eb85"
+  },
+  {
+    "iconName": "volume-low",
+    "content": "\\eb86"
+  },
+  {
+    "iconName": "volume-mute",
+    "content": "\\eb87"
+  },
+  {
+    "iconName": "volume",
+    "content": "\\eb88"
+  },
+  {
+    "iconName": "wallet",
+    "content": "\\eb89"
+  },
+  {
+    "iconName": "warm-food",
+    "content": "\\eb8a"
+  },
+  {
+    "iconName": "warning",
+    "content": "\\eb8b"
+  },
+  {
+    "iconName": "watch",
+    "content": "\\eb8c"
+  },
+  {
+    "iconName": "wave",
+    "content": "\\eb8d"
+  },
+  {
+    "iconName": "way",
+    "content": "\\eb8e"
+  },
+  {
+    "iconName": "window",
+    "content": "\\eb8f"
+  },
+  {
+    "iconName": "windows",
+    "content": "\\eb90"
+  },
+  {
+    "iconName": "wireless",
+    "content": "\\eb91"
+  },
+  {
+    "iconName": "wordpress-operator",
+    "content": "\\eb92"
+  },
+  {
+    "iconName": "wordpress",
+    "content": "\\eb93"
+  },
+  {
+    "iconName": "wrench",
+    "content": "\\eb94"
+  },
+  {
+    "iconName": "xing",
+    "content": "\\eb95"
+  },
+  {
+    "iconName": "zinc",
+    "content": "\\eb96"
+  },
+  {
+    "iconName": "zipa",
+    "content": "\\eb97"
+  },
+  {
+    "iconName": "zoom-in",
+    "content": "\\eb98"
+  },
+  {
+    "iconName": "zoom-out",
+    "content": "\\eb99"
+  },
+  {
+    "iconName": "zsync",
+    "content": "\\eb9a"
+  },
+  {
+    "iconName": "zthree",
+    "content": "\\eb9b"
+  }
+]

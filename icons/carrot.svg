@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>carrot</title>
-  <path d="M270.34,120.3C303,87.63,422.45,207.07,389.78,239.74,210.12,419.38,36.08,474,36.08,474S90.68,300,270.34,120.3Z" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="217.12" y1="177.31" x2="255.04" y2="215.24" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="163.82" y1="243.44" x2="195.32" y2="274.94" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <polyline points="354.56 36.08 354.56 155.52 474 155.52" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <line x1="374.47" y1="135.61" x2="414.28" y2="95.81" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

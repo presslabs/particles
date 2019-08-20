@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>wire-transfer</title>
-  <line x1="112" y1="272" x2="424" y2="272" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <polyline points="344 192 424 272 344 352" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M224,336v56a40,40,0,0,1-40,40H72a40,40,0,0,1-40-40V152l96-72,96,72v56" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M288,336v56a40,40,0,0,0,40,40H440a40,40,0,0,0,40-40V152L384,80l-96,72v56" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>

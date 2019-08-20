@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <title>chart-pie</title>
-  <polyline points="256 48 256 256 464 256" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M256,48c114.88,0,208,93.12,208,208" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-  <path d="M454.65,317.85C428.31,402.52,349.34,464,256,464,141.12,464,48,370.88,48,256c0-92.54,60.44-171,144-198" fill="none" stroke="#000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="32"/>
-</svg>
